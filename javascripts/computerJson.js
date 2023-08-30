@@ -272,10 +272,10 @@ var computer = {
             "EN": "Yuheng Cup Database - Characters"
         },
         "Avatar_Table_Header": [
-            {
-                "CH": "头像",
-                "EN": "Icon"
-            },
+            // {
+            //     "CH": "头像",
+            //     "EN": "Icon"
+            // },
             {
                 "CH": "名字",
                 "EN": "Name"
@@ -316,10 +316,10 @@ var computer = {
                 "CH": "突破",
                 "EN": "Ascension Stat"
             },
-            {
-                "CH": "培养材料",
-                "EN": "Materials"
-            },
+            // {
+            //     "CH": "培养材料",
+            //     "EN": "Materials"
+            // },
             {
                 "CH": "天赋材料",
                 "EN": "Talent"
