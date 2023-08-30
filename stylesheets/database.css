@@ -35,7 +35,7 @@ h3 .subtitle {
     background: rgba(0,0,0,0.6);
     padding:10px;
     display: block;
-    width: 400px;
+    width: 70%;
     margin: 0 auto;
     font-style: normal;
     margin-top:10px;
@@ -43,6 +43,16 @@ h3 .subtitle {
 
 h3 .subtitle a {
     color: #df903b;
+}
+
+h3 .tlsub {
+    font-style: normal;
+}
+
+container {
+    display: block;
+    max-width: 2000px;
+    margin: 60px 0px;
 }
 
 .content {
@@ -98,7 +108,7 @@ h3 .subtitle a {
     text-align: center;
     margin: 1%;
     border: 1px solid #333;
-    padding: 10px;
+    padding: 10px 0;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -315,4 +325,10 @@ h3 .subtitle a {
 .need_header popbody {
     background: #555;
     color: #fff;
+    line-height: 27px;
+}
+
+@font-face {
+    font-family: Custom;
+    src: url("../fonts/Xianzhou.otf") format("opentype");
 }

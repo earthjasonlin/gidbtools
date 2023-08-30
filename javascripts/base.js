@@ -39,13 +39,14 @@ $(function() {
                     var en = $(item).attr('data-lang');
                     $(item).find('span').text(en)  
                 });
-                if($('.kingdom').length || $('.schedule schedule').length) {
+                if($('.kingdom').length || $('.schedule schedule').length || $('.tlsub').length) {
                     window.location.reload();
                 }
             }else {
                 translate.changeLanguage('chinese_simplified');
             }
             $.session.set('lang',lang);
+            console.log(lang)
         })
 
     },

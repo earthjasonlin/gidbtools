@@ -1,5 +1,6 @@
 $(function () {
     var lang = $.session.get('lang') === 'EN' ? 'EN' : 'CH';
+    $('.tls' + lang).css("color", "#df903b");
     var currentSpiralAbyss = computer.SpiralAbyssSchedule[0].Name;
     var non_break = 1;
     var name;
@@ -11,21 +12,15 @@ $(function () {
         }
     }
     var V_OPTIONS = {
-        'CH': [ '正式服', '测试服v1', '测试服v2', '测试服v3', '测试服v4', '测试服v5', '测试服v6' ],
-        'EN': [ 'Live', 'Beta v1', 'Beta v2', 'Beta v3', 'Beta v4', 'Beta v5', 'Beta v6' ]
+        'CH': [ '正式服', '测试服v1', '测试服v2', '测试服v3', '测试服v4', '测试服v5', '测试服v6', 'test' ],
+        'EN': [ 'Live', 'Beta v1', 'Beta v2', 'Beta v3', 'Beta v4', 'Beta v5', 'Beta v6', 'test' ]
     }
     //var qwq = { 0: 0, 1: 6, 2: 5, 3: 4, 4: 3, 5: 2, 6: 1 }
-    
+    $('h3 .title').text(computer.MiscText.AbyssTitle[lang])
+    $('h3 .subtitle').html(computer.MiscText.Abyss_Subtitle[lang])
+    $('h3 .tlsub').html(computer.MiscText.Translate[lang])
     $('container').render({
         template: [{
-            h3: [{
-                span: computer.MiscText.AbyssTitle[lang],
-                class: 'title'
-            }, {
-                em: computer.MiscText.Abyss_Subtitle[lang],
-                class: 'subtitle'
-            }]
-        }, {
             div: [{
                 section: function (d) {
                     $(d.container).render({
@@ -110,10 +105,15 @@ $(function () {
                             data: Download,
                             template: {
                                 button: function (d) {
-                                    return computer.MiscText.Abyss_Button_Download[lang] + " " + d.data
+                                    return "<b>" + computer.MiscText.Abyss_Button_Download[lang] + " " + d.data + "</b>"
                                 },
                                 click: function (d) {
                                     downloadImage(`/images/Abyss/${d.org_data}.jpg`, `${d.org_data}.jpg`);
+                                },
+                                style: {
+                                    'font-size': '17px',
+                                    'height': '36px',
+                                    'color': '#0066FF'
                                 }
                             }
                         })
@@ -210,7 +210,7 @@ $(function () {
                         data: p_b,
                         template: {
                             div: [{
-                                h5: `[[p_name]] - [[b/Name/${lang}]]`
+                                p: `<b>[[p_name]] - [[b/Name/${lang}]]</p>`
                             }, {
                                 p: `[[b/Desc/${lang}]]`
                             }, {
@@ -288,7 +288,7 @@ $(function () {
                                 'color': '#6f6f6f',
                                 'font-weight': '500',
                                 'font-size': '14px',
-                                'line-height': '20px'
+                                'line-height': '25px'
                             }
                         }],
                         a: {
@@ -332,7 +332,7 @@ $(function () {
                                                 },
                                                 {
                                                     i: function (d) {
-                                                        return computer.SpiralAbyssGadgetDescConfig[d.data.Gadgets[0]].Hover[lang]
+                                                        return computer.MiscText.Abyss_Show[lang] + "<br><br>" + computer.SpiralAbyssGadgetDescConfig[d.data.Gadgets[0]].Hover[lang]
                                                     },
                                                     when: function (d) {
                                                         return computer.SpiralAbyssGadgetDescConfig[d.data.Gadgets[0]].Hover
@@ -354,16 +354,16 @@ $(function () {
                                             return d.data.Gadgets && d.data.Gadgets.length && d.data.Gadgets[0]
                                         },
                                         click: function (d) {
-                                            var hover = computer.SpiralAbyssGadgetDescConfig[d.org_data.Gadgets[0]].Hover[lang]
+                                            var hover =  computer.SpiralAbyssGadgetDescConfig[d.org_data.Gadgets[0]].Hover[lang]
                                             if (!hover) {
                                                 return;
                                             }
                                             poplayer({
                                                 header: computer.SpiralAbyssGadgetDescConfig[d.org_data.Gadgets[0]].Show.Text[lang],
                                                 width: '50%',
-                                                height: '200px',
+                                                height: '400px',
                                                 template: {
-                                                    div: hover
+                                                    div: "<span style='font-size:13px'><b>" + computer.MiscText.Abyss_Show[lang] + "</b></span><br><br>" + hover
                                                 },
                                                 class: 'need_header'
                                             })
@@ -472,29 +472,29 @@ $(function () {
                                                                                                     return computer.SpiralAbyssAffixDescConfig[d.data].Show.Text[lang]
                                                                                                 },
                                                                                                 click: function (d) {
-                                                                                                    var hover = computer.SpiralAbyssAffixDescConfig[d.org_data].Hover && computer.SpiralAbyssAffixDescConfig[d.org_data].Hover[lang];
+                                                                                                    var hover = computer.SpiralAbyssAffixDescConfig[d.org_data].Hover && (computer.SpiralAbyssAffixDescConfig[d.org_data].Hover[lang]);
                                                                                                     if (!hover) {
                                                                                                         return;
                                                                                                     }
                                                                                                     poplayer({
                                                                                                         header: computer.SpiralAbyssAffixDescConfig[d.org_data].Show.Text[lang],
                                                                                                         width: '50%',
-                                                                                                        height: '200px',
+                                                                                                        height: '400px',
                                                                                                         template: {
-                                                                                                            div: hover
+                                                                                                            div: "<span style='font-size:13px;color:#FFCC44;'>" + computer.MiscText.Abyss_Show[lang] + "</span><br><br>" + hover
                                                                                                         },
                                                                                                         class: 'need_header'
                                                                                                     })
                                                                                                 }
                                                                                             }, {
                                                                                                 i: function (d) {
-                                                                                                    var hover = computer.SpiralAbyssAffixDescConfig[d.data].Hover && computer.SpiralAbyssAffixDescConfig[d.data].Hover[lang]
+                                                                                                    var hover = computer.SpiralAbyssAffixDescConfig[d.data].Hover && (computer.MiscText.Abyss_Show[lang] + "<br><br>" + computer.SpiralAbyssAffixDescConfig[d.data].Hover[lang])
                                                                                                     return hover
                                                                                                 },
                                                                                                 when: function (d) {
                                                                                                     return computer.SpiralAbyssAffixDescConfig[d.data].Hover && computer.SpiralAbyssAffixDescConfig[d.data].Hover[lang]
                                                                                                 },
-                                                                                                width: '240px'
+                                                                                                width: '270px'
                                                                                             }],
                                                                                         style: {
                                                                                             color: function (d) {
@@ -568,7 +568,7 @@ $(function () {
                                                 return computer.SpiralAbyssGadgetDescConfig[d.data.Gadgets[1]].Show.Text[lang]
                                             }, {
                                                 i: function (d) {
-                                                    return computer.SpiralAbyssGadgetDescConfig[d.data.Gadgets[1]].Hover[lang]
+                                                    return computer.MiscText.Abyss_Show[lang] + "<br><br>" + computer.SpiralAbyssGadgetDescConfig[d.data.Gadgets[1]].Hover[lang]
                                                 },
                                                 when: function (d) {
                                                     return computer.SpiralAbyssGadgetDescConfig[d.data.Gadgets[1]].Hover
@@ -596,9 +596,9 @@ $(function () {
                                             poplayer({
                                                 header: computer.SpiralAbyssGadgetDescConfig[d.org_data.Gadgets[1]].Show.Text[lang],
                                                 width: '50%',
-                                                height: '200px',
+                                                height: '400px',
                                                 template: {
-                                                    div: hover
+                                                    div: "<span style='font-size:13px'><b>" + computer.MiscText.Abyss_Show[lang] + "</b></span><br><br>" + hover
                                                 },
                                                 class: 'need_header'
                                             })
@@ -714,29 +714,29 @@ $(function () {
                                                                                                 return computer.SpiralAbyssAffixDescConfig[d.data].Show.Text[lang]
                                                                                             },
                                                                                             click: function (d) {
-                                                                                                var hover = computer.SpiralAbyssAffixDescConfig[d.org_data].Hover && computer.SpiralAbyssAffixDescConfig[d.org_data].Hover[lang];
+                                                                                                var hover = computer.SpiralAbyssAffixDescConfig[d.org_data].Hover && (computer.SpiralAbyssAffixDescConfig[d.org_data].Hover[lang]);
                                                                                                 if (!hover) {
                                                                                                     return;
                                                                                                 }
                                                                                                 poplayer({
                                                                                                     header: computer.SpiralAbyssAffixDescConfig[d.org_data].Show.Text[lang],
                                                                                                     width: '50%',
-                                                                                                    height: '200px',
+                                                                                                    height: '400px',
                                                                                                     template: {
-                                                                                                        div: hover
+                                                                                                        div: "<span style='font-size:13px;color:#FFCC44;'>" + computer.MiscText.Abyss_Show[lang] + "</span><br><br>" + hover
                                                                                                     },
                                                                                                     class: 'need_header'
                                                                                                 })
                                                                                             }
                                                                                         }, {
                                                                                             i: function (d) {
-                                                                                                var hover = computer.SpiralAbyssAffixDescConfig[d.data].Hover && computer.SpiralAbyssAffixDescConfig[d.data].Hover[lang]
+                                                                                                var hover = computer.SpiralAbyssAffixDescConfig[d.data].Hover && (computer.MiscText.Abyss_Show[lang] + "<br><br>" + computer.SpiralAbyssAffixDescConfig[d.data].Hover[lang])
                                                                                                 return hover
                                                                                             },
                                                                                             when: function (d) {
                                                                                                 return computer.SpiralAbyssAffixDescConfig[d.data].Hover && computer.SpiralAbyssAffixDescConfig[d.data].Hover[lang]
                                                                                             },
-                                                                                            width: '240px'
+                                                                                            width: '270px'
                                                                                         }],
                                                                                         style: {
                                                                                             color: function (d) {
@@ -820,7 +820,7 @@ $(function () {
                                     data: s_a_b,
                                     template: [
                                         {
-                                            // img: '/images/monster/[[Icon]].png',
+                                            img: '/images/monster/[[Icon]].png',
                                             class: 'b_icon'
                                         },
                                         {
@@ -850,7 +850,7 @@ $(function () {
                                     data: s_a_b,
                                     template: [
                                         {
-                                            // img: '/images/monster/[[Icon]].png',
+                                            img: '/images/monster/[[Icon]].png',
                                             class: 'b_icon'
                                         },
                                         {
@@ -880,7 +880,7 @@ $(function () {
                                     data: s_a_b,
                                     template: [
                                         {
-                                            // img: '/images/monster/[[Icon]].png',
+                                            img: '/images/monster/[[Icon]].png',
                                             class: 'b_icon'
                                         },
                                         {
@@ -955,4 +955,40 @@ $(function () {
         $(this).find("i").hide();
     });
 
+    
+    $('.tlsub').ready(function () {
+        $('.tls').css("color", "#ffffff");
+        $('.tls' + lang).css("color", "#df903b");
+    });
+    $("body").on("click", ".tlsCH", function() {
+        $("a[data-id='CN']").click()
+    });
+    $("body").on("click", ".tlsEN", function() {
+        $("a[data-id='EN']").click()
+    });
+
+    /*
+    $(".tlsub").ready(function() {
+        $('.tls').css("color", "#ffffff");
+        $('.tls' + lang).css("color", "#df903b");
+    });
+
+    $("body").on("click", ".tlsCH", function() {
+        $("a[data-id='CN']").click()
+        $("*").css("font-family", "")
+    });
+    $("body").on("click", ".tlsEN", function() {
+        $("a[data-id='EN']").click()
+        $('.tls').css("color", "#ffffff");
+        $('.tls' + lang).css("color", "#df903b");
+        $("*").css("font-family", "")
+    });
+    $("body").on("click", ".tlsXZ", function() {
+        $("a[data-id='EN']").click().delay(3000);
+        $('.tls').css("color", "#ffffff");
+        $('.tlsXZ').css("color", "#df903b");
+        $("*").css("font-family", "Custom");
+        $(".tls").css("font-family", "");
+    });
+    */
 })

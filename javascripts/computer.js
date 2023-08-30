@@ -6,9 +6,14 @@ $(function () {
     var last_legal_input_2 = "12-3"
     $('h3 .title').text(computer.MiscText.ComputerTitle[lang])
     $('h3 .subtitle').html(computer.MiscText.Computer_Subtitle[lang])
+    $('h3 .tlsub').html(computer.MiscText.Translate[lang])
     $('.calculate').text(computer.MiscText.Computer_Button_Calculate[lang]);
     $('input[name="level"]').attr('placeholder', computer.MiscText.Computer_Input_OverworldPlaceholder[lang]);
     $('input[name="interval"]').attr('placeholder', computer.MiscText.Computer_Input_Placeholder[lang]);
+    $('.download').html(computer.MiscText.Computer_Download[lang])
+    $('.download').click(function () {
+        downloadImage(`/images/Abyss/HP.jpg`, `HP.jpg`);
+    });
     $('.kingdom').render({
         data: computer.Kingdoms,
         template: {
@@ -132,7 +137,13 @@ $(function () {
                                 }
                             }]
                         }]
-                    }],
+                    }, {
+                        span: "<b><color style='color:#0066FF;'>" + computer.MiscText.Computer_Show[lang] + "</color></b>",
+                        class: 'logoshow',
+                        style: {
+                            'font-size': '15px',
+                        }
+                    }, ],
                     style: {
                         padding: '20px'
                     }
@@ -141,11 +152,11 @@ $(function () {
                         {
                             button: computer.MiscText.Computer_Result_Button_Tutorial[lang],
                             when: function (d) {
-                                return d.data.Tutorial
+                                return d.data.Tutorial && !(d.data.DisableTutorial)
                             },
                             click: function (p) {
                                 poplayer({
-                                    header: computer.MiscText.Computer_Result_Button_Tutorial[lang],
+                                    header: computer.MiscText.Computer_Result_Button_Tutorial2[lang],
                                     width: '80%',
                                     template: {
                                         div: function (d) {
@@ -154,6 +165,7 @@ $(function () {
                                         style: {
                                             'white-space': 'pre-wrap',
                                             'padding': '10px',
+                                            'line-height': 2
                                         },
                                         class: 'ignore'
                                     }
@@ -313,7 +325,7 @@ $(function () {
                             },
                             click: function (p) {
                                 poplayer({
-                                    header: computer.MiscText.Computer_Result_Button_SkillData[lang],
+                                    header: computer.MiscText.Computer_Result_Button_SkillData2[lang],
                                     width: '80%',
                                     data: p.org_data,
                                     template: {
@@ -359,6 +371,32 @@ $(function () {
                             },
                             when: function (d) {
                                 return d.data.Drop && d.data.Drop.length
+                            }
+                        },
+                        {
+                            button: computer.MiscText.Computer_Result_Button_Element[lang],
+                            click: function (p) {
+                                poplayer({
+                                    header: computer.MiscText.Computer_Result_Button_Element[lang],
+                                    width: '40%',
+                                    template: {
+                                        div: function (d) {
+                                            var elem_info = computer.ElemNameConfig[p.org_data.Element.Type]
+                                            var content = computer.MiscText.Computer_Result_Element_Type[lang] + "<color style='color:" + computer.TextColorConfig[elem_info.Color] + ";'><b>" + elem_info.Text[lang] + "</b></color><br>" + 
+                                                computer.MiscText.Computer_Result_Element_Value[lang] + "<color style='color:" + computer.TextColorConfig[elem_info.Color] + ";'><b>" + p.org_data.Element.Value.toString() + "</b></color>" +
+                                                (p.org_data.Element.Immutable ? ("<br><br><b>" + computer.MiscText.Computer_Result_Element_Immutable[lang]) + "</b>": "")
+                                            $(d.container).html(content)
+                                        },
+                                        style: {
+                                            'white-space': 'pre-wrap',
+                                            'padding': '10px'
+                                        },
+                                        class: 'ignore'
+                                    }
+                                })
+                            },
+                            when: function (d) {
+                                return d.data.Element
                             }
                         }
                     ]
@@ -406,7 +444,7 @@ $(function () {
                                             } else {
                                                 var ret = resbase * 100 + '%'
                                             }
-                                            return (lang == 'EN' ? '\t\t\t\t\t' : '') + ret
+                                            return (lang == 'EN' ? '\t\t\t' : '') + ret
                                         }],
                                         style: {
                                             color: function (d) {
@@ -420,8 +458,6 @@ $(function () {
                                                 data: p.data.RESState,
                                                 template: {
                                                     td: [function (a) {
-                                                        return '<span class="res' + lang + '">' + d.data.Text[lang] + '</span>'
-                                                    }, function (a) {
                                                         var resbase = p.data.RESBase && p.data.RESBase[d.data._id] * 100 || 0.1 * 100;
                                                         if (a.data['All']) {
                                                             resbase = resbase + a.data['All'] * 100;
@@ -435,7 +471,7 @@ $(function () {
                                                         } else {
                                                             var ret = resbase + '%'
                                                         }
-                                                        return (lang == 'EN' ? '\t\t\t\t\t' : '') + ret
+                                                        return ret
                                                     }],
                                                     style: {
                                                         color: function (a) {
@@ -456,7 +492,7 @@ $(function () {
                                                 template: {
                                                     td: `[[Show/${lang}]]`,
                                                     a: {
-                                                        rowspan: computer.RESShowOrderConfig.length
+                                                        rowspan: computer.RESTypeConfig.length
                                                     },
                                                     style: {
                                                         'text-align': "center"
@@ -491,7 +527,10 @@ $(function () {
                             var rowArr = new Array(row);
                             var endure_extra = d.data.EndureExtra ? d.data.EndureExtra : 1
                             var endure = ((computer.EndureTemplateConfig[d.data.EndureTemplateID] && computer.EndureTemplateConfig[d.data.EndureTemplateID].Endure) * mpcoeff * endure_extra).toFixed(5).toString().replace('.00000', '')
-                            var wane = ((computer.EndureTemplateConfig[d.data.EndureTemplateID] && (computer.EndureTemplateConfig[d.data.EndureTemplateID].Wane1 / computer.EndureTemplateConfig[d.data.EndureTemplateID].Wane2 * endure_extra)) * mpcoeff).toFixed(5).toString().replace('.00000', '')
+                            if (endure.includes(".")) {
+                                endure = endure.replace('000', '')
+                            }
+                            var wane = ((computer.EndureTemplateConfig[d.data.EndureTemplateID] && (computer.EndureTemplateConfig[d.data.EndureTemplateID].Wane1 / computer.EndureTemplateConfig[d.data.EndureTemplateID].Wane2 * endure_extra)) * mpcoeff).toFixed(5).toString().replace('.00000', '').replace('000', '')
                             for (var i = 0; i < rowArr.length; i++) {
                                 rowArr[i] = {
                                     pointDes: computer.BallPointDescConfig[ball && ball.Point] && computer.BallPointDescConfig[ball && ball.Point][i] || { "CH": "", "EN": "" },
@@ -547,8 +586,8 @@ $(function () {
                                             button: computer.MiscText.Computer_Result_Button_BallIntro[lang],
                                             click: function (p) {
                                                 poplayer({
-                                                    header: computer.MiscText.Computer_Result_Button_BallIntro[lang],
-                                                    width: '40%',
+                                                    header: computer.MiscText.Computer_Result_Button_BallIntro2[lang],
+                                                    width: '65%',
                                                     template: {
                                                         div: function (d) {
                                                             $(d.container).html(computer.MiscText.Computer_Result_Window_BallIntro[lang])
@@ -567,7 +606,7 @@ $(function () {
                                             button: computer.MiscText.Computer_Result_Button_WeightEndureIntro[lang],
                                             click: function (p) {
                                                 poplayer({
-                                                    header: computer.MiscText.Computer_Result_Button_WeightEndureIntro[lang],
+                                                    header: computer.MiscText.Computer_Result_Button_WeightEndureIntro2[lang],
                                                     width: '55%',
                                                     template: {
                                                         div: function (d) {
@@ -595,9 +634,12 @@ $(function () {
                 class: 'mon_table'
             }, {
                 p: `[[Desc/${lang}]]`,
-                class: 'mon_intro'
+                class: 'mon_intro',
+                style: {
+                    'line-height': 2
+                }
             }, {
-                // img: "images/Csxylic/[[Csxylic]].png",
+                img: "images/Csxylic/[[Csxylic]].png",
                 data: data,
                 when: function (d) {
                     return d.data.Csxylic && d.data.Csxylic.length;
@@ -608,7 +650,7 @@ $(function () {
                 }
             }]
         })
-        $('.scroller').scrollTop($('.scroller')[0].scrollHeight - $('.com_result').height() - 120)
+        $('.scroller').scrollTop($('.scroller')[0].scrollHeight - $('.com_result').height() - 150)
     })
     if (!MONSTERID) {
         $('.kingdom').find('kingdom').eq(99).addClass('active');
@@ -664,7 +706,7 @@ $(function () {
                                 if (!$('.com_result input[name="interval"]').val()){
                                     $('.com_result input[name="interval"]').val(last_legal_input)
                                 }
-                                $('.com_result button').click();
+                                $('.calculate').click();
                             }
                         }
                     }
@@ -680,6 +722,34 @@ $(function () {
     $("body").on("change", 'select[name="multiplayer"]', function() {
         $('.calculate').click();
     });
+
+    
+    $('.tlsub').ready(function () {
+        $('.tls').css("color", "#ffffff");
+        $('.tls' + lang).css("color", "#df903b");
+    });
+    $("body").on("click", ".tlsCH", function() {
+        $("a[data-id='CN']").click()
+    });
+    $("body").on("click", ".tlsEN", function() {
+        $("a[data-id='EN']").click()
+    });
+
+    function downloadImage(path, imgName) {
+        var _OBJECT_URL;
+        var request = new XMLHttpRequest();
+        request.addEventListener('readystatechange', function (e) {
+            if (request.readyState == 4) {
+                _OBJECT_URL = URL.createObjectURL(request.response);
+                var $a = $("<a></a>").attr("href", _OBJECT_URL).attr("download", imgName);
+                $a[0].click();
+            }
+        });
+        request.responseType = 'blob';
+        request.open('get', path);
+        request.send();
+    }
+    
     /* 不再切换大世界输入框和深渊输入框，只用深渊输入框，CSS也做了相应改动
     $('.com_result select').change(function () {
         $(this).siblings('input').hide();

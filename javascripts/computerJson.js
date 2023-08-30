@@ -1,28 +1,37 @@
+//Auto Generated
 var computer = {
     "MiscText": {
-        // "Computer_Subtitle": {
-        //     "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><a href='/abyss'><color style='color:#ffffff;'>点击这里前往</color><b>【玉衡杯深渊数据库】</b></a></p>",
-        //     "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><a href='/abyss'><color style='color:#ffffff;'>Click here for </color><b>[Abyss Database]</b></a></p>"
-        // },
-        // "Abyss_Subtitle": {
-        //     "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><a href='/computer'><color style='color:#ffffff;'>点击这里前往</color><b>【玉衡杯怪物计算器】</b></a></p>",
-        //     "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><a href='/computer'><color style='color:#ffffff;'>Click here for </color><b>[Monster Computer]</b></a></p>"
-        // },
         "Computer_Subtitle": {
-            "CH": "",
-            "EN": ""
+            "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><color style='color:#ffffff;'>点击这里前往 </color><a href='/computer'><b>【怪物数据库】</b></a><a href='/abyss'><b>【深渊数据库】</b></a><a href='/char'><b>【角色数据库】</b></a></p>",
+            "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><color style='color:#ffffff;'>Click here for </color<a href='/computer'><b>[Enemy Database]</b></a><a href='/abyss'><b> [Abyss Database]</b></a><a href='/char'><b> [Character Database]</b></a></p>"
         },
         "Abyss_Subtitle": {
-            "CH": "",
-            "EN": ""
+            "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><color style='color:#ffffff;'>点击这里前往 </color><a href='/computer'><b>【怪物数据库】</b></a><a href='/abyss'><b>【深渊数据库】</b></a><a href='/char'><b>【角色数据库】</b></a></p>",
+            "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><color style='color:#ffffff;'>Click here for </color><a href='/computer'><b>[Enemy Database]</b></a><a href='/abyss'><b> [Abyss Database]</b></a><a href='/char'><b> [Character Database]</b></a></p>"
+        },
+        "Avatar_Subtitle": {
+            "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><color style='color:#ffffff;'>点击这里前往 </color><a href='/computer'><b>【怪物数据库】</b></a><a href='/abyss'><b>【深渊数据库】</b></a><a href='/char'><b>【角色数据库】</b></a></p>",
+            "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><color style='color:#ffffff;'>Click here for </color><a href='/computer'><b>[Enemy Database]</b></a><a href='/abyss'><b> [Abyss Database]</b></a><a href='/char'><b> [Character Database]</b></a></p>"
+        },
+        "Translate": {
+            "CH": "<p style='font-size:17px;'><b><a href='javascript:void(0);' class='tls tlsCH'>中文</a>  <a href='javascript:void(0);' class='tls tlsEN'>English</a></b></p>",
+            "EN": "<p style='font-size:17px;'><b><a href='javascript:void(0);' class='tls tlsCH'>中文</a>  <a href='javascript:void(0);' class='tls tlsEN'>English</a></b></p>"
         },
         "Abyss_Reminder": {
-            "CH": "点击文字可查看详细解析",
-            "EN": "Click on text for detailed info"
+            "CH": "点击文字可查看详细解析<br><color style='color:#0066FF;'>玉衡杯深渊数据库 www.abyss.wiki</color>",
+            "EN": "Click on text for detailed info<br><color style='color:#0066FF;'>Yuheng Cup Abyss Database - www.abyss.wiki</color>"
+        },
+        "Computer_Show": {
+            "CH": "玉衡杯怪物数据库 www.mons.wiki",
+            "EN": "Yuheng Cup Enemy Database - www.mons.wiki"
+        },
+        "Abyss_Show": {
+            "CH": "玉衡杯深渊数据库 www.abyss.wiki",
+            "EN": "Yuheng Cup Abyss Database www.abyss.wiki"
         },
         "ComputerTitle": {
-            "CH": "玉衡杯怪物计算器",
-            "EN": "Yuheng Cup - Enemy Stat Computer"
+            "CH": "玉衡杯数据库 - 敌人",
+            "EN": "Yuheng Cup Database - Enemies"
         },
         "Computer_Button_Calculate": {
             "CH": "计算",
@@ -35,6 +44,10 @@ var computer = {
         "Computer_Select_Abyss": {
             "CH": "深渊",
             "EN": "Abyss"
+        },
+        "Computer_Download": {
+            "CH": "下载怪物血量大全",
+            "EN": "All Enemy HP Table"
         },
         "Computer_Input_OverworldPlaceholder": {
             "CH": "请输入等级：1~200",
@@ -100,6 +113,14 @@ var computer = {
             "CH": "韧性力学简介",
             "EN": "Weight & Poise Intro"
         },
+        "Computer_Result_Button_BallIntro2": {
+            "CH": "产球能量简介 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Par & Energy Intro | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+        },
+        "Computer_Result_Button_WeightEndureIntro2": {
+            "CH": "韧性力学简介 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Weight & Poise Intro | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+        },
         "Computer_Result_Window_BallIntro": {
             "CH": "无属白微粒：前台角色恢复<color style='color:#FF0000;'>2</color>元素能量\n有属性微粒：前台同属性角色恢复<color style='color:#FF0000;'>3</color>，不同属性恢复<color style='color:#FF0000;'>1</color>\n\n如果角色在后台，恢复的能量会打折扣：\n4人队后台恢复为原本的<color style='color:#FF0000;'>60%</color>\n3人队后台恢复为原本的<color style='color:#FF0000;'>70%</color>\n2人队后台恢复为原本的<color style='color:#FF0000;'>80%</color>",
             "EN": "White Particle: On-field character gains <color style='color:#FF0000;'>2</color> Energy.\nElemental Particle: On-field character of the same element gains <color style='color:#FF0000;'>3</color> Energy, otherwise only gains <color style='color:#FF0000;'>1</color>.\n\nIf the character is off-field, they only gain a fraction of the original amount:\nOff-field characters in a team of 4 gain <color style='color:#FF0000;'>60%</color>\nOff-field characters in a team of 3 gain <color style='color:#FF0000;'>70%</color>\nOff-field characters in a team of 2 gain <color style='color:#FF0000;'>80%</color>"
@@ -124,6 +145,42 @@ var computer = {
             "CH": "材料掉率",
             "EN": "Loot Drop Rate"
         },
+        "Computer_Result_Button_Element": {
+            "CH": "自带附着",
+            "EN": "Innate Element"
+        },
+        "Computer_Result_Button_Tutorial2": {
+            "CH": "机制解析 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Monster Mechanics | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+        },
+        "Computer_Result_Button_SkillDMG2": {
+            "CH": "技能伤害 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Skill DMG | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+        },
+        "Computer_Result_Button_SkillData2": {
+            "CH": "招式信息 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Skill Data | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+        },
+        "Computer_Result_Button_Loot2": {
+            "CH": "材料掉率 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Loot Drop Rate | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+        },
+        "Computer_Result_Button_Element2": {
+            "CH": "自带附着 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Innate Element | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+        },
+        "Computer_Result_Element_Type": {
+            "CH": "自带元素：",
+            "EN": "Innate Element: "
+        },
+        "Computer_Result_Element_Value": {
+            "CH": "自带元素量：",
+            "EN": "Innate Element GU: "
+        },
+        "Computer_Result_Element_Immutable": {
+            "CH": "自带元素量不可被反应消耗，永久不变",
+            "EN": "Innate GU cannot be cost by reactions, is fixed permanently."
+        },
         "Computer_SkillDMG_NameColumnTitle": {
             "CH": "技能",
             "EN": "Skill"
@@ -145,8 +202,8 @@ var computer = {
             "EN": "Chracter DEF "
         },
         "Computer_SkillDMG_Title": {
-            "CH": "怪物伤害计算器",
-            "EN": "Monster DMG Calculator"
+            "CH": "怪物伤害计算器 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
+            "EN": "Monster DMG Calculator | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
         },
         "Computer_SkillDMG_Input_AvatarDEFPlaceholder": {
             "CH": "请输入整数",
@@ -165,8 +222,8 @@ var computer = {
             "EN": "Calculate DMG"
         },
         "AbyssTitle": {
-            "CH": "玉衡杯深渊数据库",
-            "EN": "Yuheng Cup - Abyss Database"
+            "CH": "玉衡杯数据库 - 深境螺旋",
+            "EN": "Yuheng Cup Database - Spiral Abyss"
         },
         "Abyss_Select": [
             {
@@ -210,9 +267,323 @@ var computer = {
             "CH": "下载一图流",
             "EN": "Download Table"
         },
-        "Abyss_Select_V": {
-            "CH": "",
-            "EN": ""
+        "Avatar_Title": {
+            "CH": "玉衡杯数据库 - 角色",
+            "EN": "Yuheng Cup Database - Characters"
+        },
+        "Avatar_Table_Header": [
+            {
+                "CH": "头像",
+                "EN": "Icon"
+            },
+            {
+                "CH": "名字",
+                "EN": "Name"
+            },
+            {
+                "CH": "称号",
+                "EN": "Title"
+            },
+            {
+                "CH": "星级",
+                "EN": "Rarity"
+            },
+            {
+                "CH": "版本",
+                "EN": "Version"
+            },
+            {
+                "CH": "元素",
+                "EN": "Element"
+            },
+            {
+                "CH": "武器",
+                "EN": "Weapon"
+            },
+            {
+                "CH": "生命值",
+                "EN": "HP"
+            },
+            {
+                "CH": "攻击力",
+                "EN": "ATK"
+            },
+            {
+                "CH": "防御力",
+                "EN": "DEF"
+            },
+            {
+                "CH": "突破",
+                "EN": "Ascension Stat"
+            },
+            {
+                "CH": "培养材料",
+                "EN": "Materials"
+            },
+            {
+                "CH": "天赋材料",
+                "EN": "Talent"
+            }
+        ],
+        "Avatar_Table_Title_Extra": {
+            "CH": " | <color style='color:#0066FF;'>玉衡杯角色数据库 www.char.wiki</color>",
+            "EN": " | <color style='color:#0066FF;'>Yuheng Cup Character Database - www.char.wiki</color>"
+        },
+        "Avatar_Info_Select": [
+            {
+                "CH": "基本信息",
+                "EN": "Basic Info"
+            },
+            {
+                "CH": "战斗技能",
+                "EN": "Battle Skills"
+            },
+            {
+                "CH": "被动技能",
+                "EN": "Passive Skills"
+            },
+            {
+                "CH": "命之座",
+                "EN": "Constellations"
+            },
+            {
+                "CH": "伤害信息",
+                "EN": "Damage Data"
+            },
+            {
+                "CH": "其他信息",
+                "EN": "Other Data"
+            },
+            {
+                "CH": "故事",
+                "EN": "Stories"
+            },
+            {
+                "CH": "语音",
+                "EN": "Voicelines"
+            }
+        ],
+        "Avatar_Attack_Header": [
+            {
+                "CH": "技能",
+                "EN": "Skill"
+            },
+            {
+                "CH": "范围",
+                "EN": "AOE"
+            },
+            {
+                "CH": "大小",
+                "EN": "Size"
+            },
+            {
+                "CH": "伤害类型",
+                "EN": "DMG Type"
+            },
+            {
+                "CH": "元素",
+                "EN": "Elem"
+            },
+            {
+                "CH": "元素量",
+                "EN": "GU"
+            },
+            {
+                "CH": "附着组别",
+                "EN": "ICD Group"
+            },
+            {
+                "CH": "附着CD",
+                "EN": "ICD"
+            },
+            {
+                "CH": "钝击",
+                "EN": "Blunt"
+            },
+            {
+                "CH": "削韧",
+                "EN": "Poise DMG"
+            },
+            {
+                "CH": "冲击",
+                "EN": "Hit Type"
+            },
+            {
+                "CH": "冲击力",
+                "EN": "Hit Force"
+            },
+            {
+                "CH": "始基力",
+                "EN": "Arkhe"
+            },
+            {
+                "CH": "卡肉停滞时间",
+                "EN": "Hitlag Time"
+            },
+            {
+                "CH": "停滞时间流速",
+                "EN": "Hitlag Time Scale"
+            },
+            {
+                "CH": "韧性影响停滞",
+                "EN": "Poise Affect Hitlag"
+            },
+            {
+                "CH": "可被附魔",
+                "EN": "Infusable"
+            },
+            {
+                "CH": "击打类型",
+                "EN": "Strike Type"
+            },
+            {
+                "CH": "攻击类型",
+                "EN": "Attack Type"
+            }
+        ],
+        "Avatar_Data_Ball": {
+            "CH": "元素微粒产出",
+            "EN": "Particle Generation"
+        },
+        "Avatar_Data_Endure": {
+            "CH": "技能抗打断",
+            "EN": "Interruption Resistance"
+        },
+        "Avatar_Data_WindZone": {
+            "CH": "技能风场",
+            "EN": "Vacuum Vortex"
+        },
+        "Avatar_Data_Other": {
+            "CH": "其他信息",
+            "EN": "Other Info"
+        },
+        "Avatar_WindZone_Header": [
+            {
+                "CH": "技能",
+                "EN": "Skill"
+            },
+            {
+                "CH": "目标",
+                "EN": "Target"
+            },
+            {
+                "CH": "距离范围 (m)",
+                "EN": "Range (m)"
+            },
+            {
+                "CH": "风强",
+                "EN": "Strength"
+            },
+            {
+                "CH": "衰减",
+                "EN": "Attenuation"
+            },
+            {
+                "CH": "持续时间",
+                "EN": "Duration"
+            },
+            {
+                "CH": "边缘最强",
+                "EN": "BS"
+            }
+        ],
+        "Avatar_BasicInfo_Info": {
+            "CH": "角色信息",
+            "EN": "Character Info"
+        },
+        "Avatar_BasicInfo_Battle": {
+            "CH": "韧性",
+            "EN": "Poise"
+        },
+        "Avatar_BasicInfo_1_1": {
+            "CH": "命之座：",
+            "EN": "Constellation: "
+        },
+        "Avatar_BasicInfo_1_2": {
+            "CH": "生日：",
+            "EN": "Birthday: "
+        },
+        "Avatar_BasicInfo_1_3_0": {
+            "CH": "国家：",
+            "EN": "Nation: "
+        },
+        "Avatar_BasicInfo_1_3": {
+            "CH": "所属：",
+            "EN": "Belong: "
+        },
+        "Avatar_BasicInfo_2_1": {
+            "CH": "中文CV：",
+            "EN": "Chinese CV: "
+        },
+        "Avatar_BasicInfo_2_2": {
+            "CH": "英语CV：",
+            "EN": "English CV: "
+        },
+        "Avatar_BasicInfo_2_3": {
+            "CH": "日语CV：",
+            "EN": "Japanese CV: "
+        },
+        "Avatar_BasicInfo_2_4": {
+            "CH": "韩语CV：",
+            "EN": "Korean CV: "
+        },
+        "Avatar_BasicInfo_Poise_1": {
+            "CH": "韧性类型：",
+            "EN": "Poise Type: "
+        },
+        "Avatar_BasicInfo_Poise_2": {
+            "CH": "总韧性：",
+            "EN": "Total Poise: "
+        },
+        "Avatar_BasicInfo_Poise_3": {
+            "CH": "韧性每秒恢复：",
+            "EN": "Poise Recover Per Sec: "
+        },
+        "Avatar_BasicInfo_Poise_4": {
+            "CH": "韧性重置时间：",
+            "EN": "Poise Recover Time: "
+        },
+        "Avatar_Stats": {
+            "CH": "角色数值",
+            "EN": "Avatar Stats"
+        },
+        "Avatar_Stat_HP": {
+            "CH": "基础生命值：",
+            "EN": "Base HP: "
+        },
+        "Avatar_Stat_ATK": {
+            "CH": "基础攻击力：",
+            "EN": "Base ATK: "
+        },
+        "Avatar_Stat_DEF": {
+            "CH": "基础防御力：",
+            "EN": "Base DEF: "
+        },
+        "Avatar_IsPromote": [
+            {
+                "CH": "已突破",
+                "EN": "Before Ascension"
+            },
+            {
+                "CH": "未突破",
+                "EN": "After Ascension"
+            }
+        ],
+        "Avatar_Battle_Stat": {
+            "CH": "技能数值",
+            "EN": "Skill Stats"
+        },
+        "Avatar_ExtraParamName_Charge": {
+            "CH": "可使用次数",
+            "EN": "Charges"
+        },
+        "Avatar_ExtraParamName_Lock": {
+            "CH": "索敌距离",
+            "EN": "Lock Target Distance"
+        },
+        "Avatar_Reminder": {
+            "CH": "4.1之前的部分角色数据还在加班加点更新中，敬请期待！",
+            "EN": "Data for some characters before 4.1 will be updated soon!"
         }
     },
     "Monsters": {
@@ -241,6 +612,11 @@ var computer = {
             "Immune": [
                 "Grass"
             ],
+            "Element": {
+                "Type": "Grass",
+                "Value": 2,
+                "Immutable": false
+            },
             "Ball": {
                 "Type": 5,
                 "Point": 2,
@@ -289,6 +665,11 @@ var computer = {
             "Immune": [
                 "Grass"
             ],
+            "Element": {
+                "Type": "Grass",
+                "Value": 8,
+                "Immutable": false
+            },
             "Ball": {
                 "Type": 5,
                 "Point": 3,
@@ -433,6 +814,11 @@ var computer = {
             "Immune": [
                 "Elec"
             ],
+            "Element": {
+                "Type": "Elec",
+                "Value": 4,
+                "Immutable": false
+            },
             "Ball": {
                 "Type": 3,
                 "Point": 2,
@@ -481,6 +867,11 @@ var computer = {
             "Immune": [
                 "Elec"
             ],
+            "Element": {
+                "Type": "Elec",
+                "Value": 8,
+                "Immutable": false
+            },
             "Ball": {
                 "Type": 3,
                 "Point": 3,
@@ -529,6 +920,11 @@ var computer = {
             "Immune": [
                 "Elec"
             ],
+            "Element": {
+                "Type": "Elec",
+                "Value": 20,
+                "Immutable": false
+            },
             "Ball": {
                 "Type": 3,
                 "Point": 3,
@@ -577,6 +973,11 @@ var computer = {
             "Immune": [
                 "Ice"
             ],
+            "Element": {
+                "Type": "Frozen",
+                "Value": 2,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 4,
                 "Point": 2,
@@ -625,6 +1026,11 @@ var computer = {
             "Immune": [
                 "Ice"
             ],
+            "Element": {
+                "Type": "Frozen",
+                "Value": 2,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 4,
                 "Point": 3,
@@ -673,6 +1079,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 1,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 2,
@@ -721,6 +1132,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 2,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 3,
@@ -769,6 +1185,11 @@ var computer = {
             "Immune": [
                 "Fire"
             ],
+            "Element": {
+                "Type": "Fire",
+                "Value": 1,
+                "Immutable": false
+            },
             "Ball": {
                 "Type": 1,
                 "Point": 2,
@@ -817,6 +1238,11 @@ var computer = {
             "Immune": [
                 "Fire"
             ],
+            "Element": {
+                "Type": "Fire",
+                "Value": 8,
+                "Immutable": false
+            },
             "Ball": {
                 "Type": 1,
                 "Point": 3,
@@ -998,6 +1424,11 @@ var computer = {
             "Immune": [
                 "Elec"
             ],
+            "Element": {
+                "Type": "Elec",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 3,
                 "Point": 4,
@@ -1035,6 +1466,11 @@ var computer = {
             "Immune": [
                 "Wind"
             ],
+            "Element": {
+                "Type": "Wind",
+                "Value": 1,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 6,
                 "Point": 4,
@@ -1072,6 +1508,11 @@ var computer = {
             "Immune": [
                 "Rock"
             ],
+            "Element": {
+                "Type": "Rock",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 7,
                 "Point": 4,
@@ -1109,6 +1550,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 4,
@@ -1228,6 +1674,11 @@ var computer = {
             "Immune": [
                 "Ice"
             ],
+            "Element": {
+                "Type": "Frozen",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 4,
                 "Point": 4,
@@ -1351,6 +1802,11 @@ var computer = {
             "Immune": [
                 "Fire"
             ],
+            "Element": {
+                "Type": "Fire",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 1,
                 "Point": 4,
@@ -1476,6 +1932,11 @@ var computer = {
             "Immune": [
                 "Grass"
             ],
+            "Element": {
+                "Type": "Grass",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 5,
                 "Point": 4,
@@ -1561,6 +2022,11 @@ var computer = {
                 }
             ]
         },
+        "501": {
+            "Icon": [
+                "oc"
+            ]
+        },
         "5020": {
             "KingdomID": 0,
             "ClassID": 10005,
@@ -1592,6 +2058,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 1,
@@ -1645,6 +2116,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 2,
@@ -1717,6 +2193,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 1,
@@ -1771,6 +2252,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 1,
@@ -1815,6 +2301,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 1,
@@ -1869,6 +2360,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 3,
@@ -1941,6 +2437,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 1,
@@ -2004,6 +2505,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 1,
@@ -2057,6 +2563,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 2,
@@ -2122,6 +2633,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 2,
@@ -2194,6 +2710,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 1,
@@ -2242,6 +2763,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 3,
@@ -2253,6 +2779,7 @@ var computer = {
             "Grade": 2,
             "Weight": 101,
             "EndureTemplateID": 400,
+            "EndureExtra": 100,
             "Tutorial": {
                 "CH": "- 浊水幻灵常态经过15s后会进入狂暴，狂暴持续20~30s，结束后返回常态，以此循环。<br>- 狂暴期间无法冻结。<br>- 常态下冻结超过8s，则强制解除冻结，并立刻狂暴。",
                 "EN": "- Water Phantasms will enter Rage after spending 15s in normal mode. Rage lasts 20~30s.<br>- When Rage ends, returns back to normal and starts the cycle again.<br>- Cannot be Frozen in Rage mode.<br>- If Frozen for more than 8s in normal mode, removes Frozen and enters Rage immediately."
@@ -2294,6 +2821,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 4,
@@ -2305,6 +2837,54 @@ var computer = {
             "Grade": 3,
             "Weight": 101,
             "EndureTemplateID": 400,
+            "EndureExtra": 100,
+            "Tutorial": {
+                "CH": "- 地方传奇幻灵：永久狂暴，永久免疫冻结。",
+                "EN": "- Local Legend Phantasm: Always in Rage Mode, always immune to Frozen."
+            }
+        },
+        "5102": {
+            "KingdomID": 10,
+            "ClassID": 11006,
+            "Name": {
+                "CH": "历经百战的浊水粉碎幻灵",
+                "EN": "Local Legend: Tainted Water-Splitting Phantasm"
+            },
+            "Title": [
+                {
+                    "CH": "地方传奇 · 浊水粉碎幻灵",
+                    "EN": "Local Legend: Tainted Water-Splitting Phantasm"
+                }
+            ],
+            "Desc": {
+                "CH": "",
+                "EN": ""
+            },
+            "Color": "Water",
+            "HP": 7.3,
+            "HPCurve": 2,
+            "ATK": 4.0,
+            "ATKCurve": 4,
+            "Immune": [
+                "Water"
+            ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
+            "Ball": {
+                "Type": 2,
+                "Point": 4,
+                "Drop": "1114"
+            },
+            "Icon": [
+                "UI_MonsterIcon_Necalevia_Normal"
+            ],
+            "Grade": 3,
+            "Weight": 101,
+            "EndureTemplateID": 400,
+            "EndureExtra": 100,
             "Tutorial": {
                 "CH": "- 地方传奇幻灵：永久狂暴，永久免疫冻结。",
                 "EN": "- Local Legend Phantasm: Always in Rage Mode, always immune to Frozen."
@@ -2335,6 +2915,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 3,
@@ -2346,6 +2931,7 @@ var computer = {
             "Grade": 2,
             "Weight": 101,
             "EndureTemplateID": 400,
+            "EndureExtra": 100,
             "Tutorial": {
                 "CH": "- 浊水幻灵常态经过15s后会进入狂暴，狂暴持续20~30s，结束后返回常态，以此循环。<br>- 狂暴期间无法冻结。<br>- 常态下冻结超过8s，则强制解除冻结，并立刻狂暴。",
                 "EN": "- Water Phantasms will enter Rage after spending 15s in normal mode. Rage lasts 20~30s.<br>- When Rage ends, returns back to normal and starts the cycle again.<br>- Cannot be Frozen in Rage mode.<br>- If Frozen for more than 8s in normal mode, removes Frozen and enters Rage immediately."
@@ -2387,6 +2973,11 @@ var computer = {
             "Immune": [
                 "Water"
             ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 2,
                 "Point": 4,
@@ -2398,6 +2989,54 @@ var computer = {
             "Grade": 3,
             "Weight": 101,
             "EndureTemplateID": 400,
+            "EndureExtra": 100,
+            "Tutorial": {
+                "CH": "- 地方传奇幻灵：永久狂暴，永久免疫冻结。",
+                "EN": "- Local Legend Phantasm: Always in Rage Mode, always immune to Frozen."
+            }
+        },
+        "5112": {
+            "KingdomID": 10,
+            "ClassID": 11006,
+            "Name": {
+                "CH": "历经百战的浊水喷吐幻灵",
+                "EN": "Local Legend: Tainted Water-Spouting Phantasm"
+            },
+            "Title": [
+                {
+                    "CH": "地方传奇 · 浊水喷吐幻灵",
+                    "EN": "Local Legend: Tainted Water-Spouting Phantasm"
+                }
+            ],
+            "Desc": {
+                "CH": "",
+                "EN": ""
+            },
+            "Color": "Water",
+            "HP": 6.52,
+            "HPCurve": 2,
+            "ATK": 4.8,
+            "ATKCurve": 4,
+            "Immune": [
+                "Water"
+            ],
+            "Element": {
+                "Type": "Water",
+                "Value": 4,
+                "Immutable": true
+            },
+            "Ball": {
+                "Type": 2,
+                "Point": 4,
+                "Drop": "1114"
+            },
+            "Icon": [
+                "UI_MonsterIcon_Necalevia_Big"
+            ],
+            "Grade": 3,
+            "Weight": 101,
+            "EndureTemplateID": 400,
+            "EndureExtra": 100,
             "Tutorial": {
                 "CH": "- 地方传奇幻灵：永久狂暴，永久免疫冻结。",
                 "EN": "- Local Legend Phantasm: Always in Rage Mode, always immune to Frozen."
@@ -3133,6 +3772,11 @@ var computer = {
             "Immune": [
                 "Elec"
             ],
+            "Element": {
+                "Type": "Elec",
+                "Value": 4,
+                "Immutable": true
+            },
             "Ball": {
                 "Type": 3,
                 "Point": 4,
@@ -3398,7 +4042,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "提瓦特荒野中游荡的原始住民。\n手持简陋弩机的丘丘人射手。丘丘人实际上并不具备制造弩的工艺水平。因此，一般认为，在丘丘人背后，存在着操控丘丘人，并为它们提供设备物资的组织。而与丘丘人走得很近的深渊法师尤为可疑。",
-                "EN": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious."
+                "EN": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl Shooters who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious."
             },
             "HP": 0.8,
             "HPCurve": 1,
@@ -3649,7 +4293,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "提瓦特荒野中游荡的原始住民。\n手持简陋弩机的射手，箭头以电气水晶的碎片磨削而成，以便命中时造成电击。据说射术百里挑一的丘丘人射手可以一次发射五枚箭矢，非常厉害。",
-                "EN": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once — a most impressive feat indeed."
+                "EN": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThese archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that Hilichurl Shooters of exceptional skill can fire five crossbow bolts at once — a most impressive feat indeed."
             },
             "Color": "Elec",
             "HP": 0.8,
@@ -7505,7 +8149,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "主要出现在厄里那斯的奇异生命体。\n在美露莘的认知里，隙境原体是基本上无害的生物，甚至有美露莘认为它十分可爱。\n美露莘的视觉感知与人有很大的区别。",
-                "EN": "A strange life form that mostly appears near Elynas.\nMelusines perceive Breacher Primuses as harmless creatures, and many even find them completely adorable.\nThe visual perception of Melusines is very different from humans."
+                "EN": "A strange life form that mostly appears in Elynas.\nMelusines perceive Breacher Primuses as harmless creatures, and many even find them completely adorable.\nThe visual perception of Melusines is very different from humans."
             },
             "Color": "Rock",
             "HP": 3.6,
@@ -7557,7 +8201,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "主要出现在厄里那斯的奇异生命体。\n在遇到荒性或芒性能量似乎会受到很强的刺激，因此尽管并不具有很强的攻击性与侵略性，这种手段似乎能够有效驱除隙境原体。",
-                "EN": "A strange life form that mostly appears near Elynas.\nReceives a powerful shock from encountering ousia or pneuma energy, and thus Breacher Primuses can be driven away using this relatively nonaggressive and noninvasive means."
+                "EN": "A strange life form that mostly appears in Elynas.\nReceives a powerful shock from encountering ousia or pneuma energy, and thus Breacher Primuses can be driven away using this relatively nonaggressive and noninvasive means."
             },
             "Color": "Rock",
             "HP": 1.2,
@@ -7609,7 +8253,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "主要出现在厄里那斯的奇异生命体。\n隙境原体在基本的生物特征上超出了已知的范畴：不属于动物、植物、蕈类与元素类。须弥的学者因此关于它到底是什么的争论从未正式结束，直到它一同被禁止作为学术研究课题立项，因为就目前人类的知识体系而言，这个问题与「语言的定义与本质」一样，无法得出有意义的确切结论。",
-                "EN": "A strange life form that mostly appears near Elynas.\nThe nature of a Breacher Primus defies known categories: Not animals, plants, Shroom-Kin, nor Elementals. The debate among scholars of Sumeru never formally reached a consensus on just what it is, until it was finally banned as a research topic. The reason is that based on the current system of knowledge, this problem is like \"the definitions presribed by language and the true nature of things,\" and it is impossible to have a meaningful, final answer."
+                "EN": "A strange life form that mostly appears in Elynas.\nThe nature of a Breacher Primus defies known categories: Not animals, plants, Shroom-Kin, nor Elementals. The debate among scholars of Sumeru never formally reached a consensus on just what it is, until it was finally banned as a research topic. The reason is that based on the current system of knowledge, this problem is like \"the definitions presribed by language and the true nature of things,\" and it is impossible to have a meaningful, final answer."
             },
             "Color": "Grass",
             "HP": 4.2,
@@ -7661,7 +8305,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "主要出现在厄里那斯的奇异生命体。\n在枫丹，最早观测到隙境原体是在灾难过后不久。当时同时留下了隙境原体攻击人与保护人的记录。",
-                "EN": "A strange life form that mostly appears near Elynas.\nThe earliest recorded observations of a Breacher Primus appear shortly after the cataclysm. Records from the time show instances of Breacher Primuses both attacking and protecting humans."
+                "EN": "A strange life form that mostly appears in Elynas.\nIn Fontaine, the earliest recorded observations of a Breacher Primus appear shortly after the cataclysm. Records from the time show instances of Breacher Primuses both attacking and protecting humans."
             },
             "Color": "Grass",
             "HP": 1.5,
@@ -8244,6 +8888,152 @@ var computer = {
                     ]
                 }
             ]
+        },
+        "30601": {
+            "KingdomID": 3,
+            "ClassID": 10306,
+            "Name": {
+                "CH": "愚人众 · 霜役人",
+                "EN": "Frost Operative"
+            },
+            "Title": [
+                {
+                    "CH": "役人 · 霜剑律从",
+                    "EN": "Rimesword Servant"
+                }
+            ],
+            "Desc": {
+                "CH": "愚人众当中精锐的特务。\n自幼就被选中的人，经长久年月的教化与训练，在无数次的汰换后才能成为所谓的「役人」。是愚人众的阵列中最优秀的士兵，有着出色的身手与不渝的忠诚心。",
+                "EN": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty."
+            },
+            "UseCustomColorName": true,
+            "Color": "Ice",
+            "HP": 4,
+            "HPCurve": 2,
+            "ATK": 4.8,
+            "ATKCurve": 4,
+            "RESBase": {
+                "Phys": -0.2,
+                "Ice": 0.5
+            },
+            "Ball": {
+                "Type": 4,
+                "Point": 4,
+                "Drop": "1112"
+            },
+            "Icon": [
+                "UI_MonsterIcon_Fatuus_Escadron_Ice"
+            ],
+            "Grade": 2,
+            "Weight": 85,
+            "EndureTemplateID": 100,
+            "Tutorial": {
+                "CH": "- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行斩杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 斩杀攻击命中角色后，役人会<b>恢复10%生命值</b>。斩杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 斩杀攻击的追加攻击命中「生命之契」角色时，会<b>造成原本250%的伤害</b>。",
+                "EN": "- Every 20s, will perform Execution: <b>Consume 5% HP</b> to unleash Killing Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Killing Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When follow-up Killing Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>."
+            },
+            "Drop": [
+                {
+                    "Type": 32,
+                    "Amount": [
+                        0,
+                        5.2526,
+                        1.4006,
+                        0.3502
+                    ]
+                }
+            ]
+        },
+        "30602": {
+            "KingdomID": 3,
+            "ClassID": 10306,
+            "Name": {
+                "CH": "愚人众 · 风役人",
+                "EN": "Wind Operative"
+            },
+            "Title": [
+                {
+                    "CH": "役人 · 幽风铃兰",
+                    "EN": "Gale-Lily Servant"
+                }
+            ],
+            "Desc": {
+                "CH": "愚人众当中精锐的特务。\n役人在愚人众中并没有常规的军种编制。依据命令与任务的内容，她们既可以与士兵同进退，也能独自或者与埋在各地的「钉子」一同，进行谍报、反侦察、护卫、抹杀等工作。为了那些更为特殊的任务，役人往往也需要掌握多种多样的技能乃至才艺。",
+                "EN": "An elite agent among the Fatui.\n\"Operatives\" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the \"tacks\" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, \"Operatives\" also need to master all kinds of other skills and even various arts and talents."
+            },
+            "UseCustomColorName": true,
+            "Color": "Wind",
+            "HP": 3.5,
+            "HPCurve": 2,
+            "ATK": 6,
+            "ATKCurve": 4,
+            "RESBase": {
+                "Phys": -0.2,
+                "Wind": 0.5
+            },
+            "Ball": {
+                "Type": 6,
+                "Point": 4,
+                "Drop": "1112"
+            },
+            "Icon": [
+                "UI_MonsterIcon_Fatuus_Escadron_Wind"
+            ],
+            "Grade": 2,
+            "Weight": 85,
+            "EndureTemplateID": 100,
+            "Tutorial": {
+                "CH": "- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行斩杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 斩杀攻击命中角色后，役人会<b>恢复10%生命值</b>。斩杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 斩杀攻击的追加攻击命中「生命之契」角色时，会<b>造成原本250%的伤害</b>。",
+                "EN": "- Every 20s, will perform Execution: <b>Consume 5% HP</b> to unleash Killing Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Killing Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When follow-up Killing Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>."
+            },
+            "Drop": [
+                {
+                    "Type": 32,
+                    "Amount": [
+                        0,
+                        5.2526,
+                        1.4006,
+                        0.3502
+                    ]
+                }
+            ]
+        },
+        "30603": {
+            "KingdomID": 3,
+            "ClassID": 10306,
+            "Name": {
+                "CH": "以索忒",
+                "EN": "Yseut"
+            },
+            "Title": [
+                {
+                    "CH": "地方传奇 · 愚人众 · 霜役人",
+                    "EN": "Local Legend: Frost Operative"
+                }
+            ],
+            "Color": "Ice",
+            "HP": 33,
+            "HPCurve": 2,
+            "ATK": 9,
+            "ATKCurve": 4,
+            "RESBase": {
+                "Phys": -0.2,
+                "Wind": 0.5
+            },
+            "Ball": {
+                "Type": 4,
+                "Point": 4,
+                "Drop": "1114"
+            },
+            "Icon": [
+                "UI_MonsterIcon_Fatuus_Escadron_Ice"
+            ],
+            "Grade": 3,
+            "Weight": 85,
+            "EndureTemplateID": 100,
+            "Tutorial": {
+                "CH": "- 具有90%冻结抵抗。<br>- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行斩杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 斩杀攻击命中角色后，役人会<b>恢复10%生命值</b>。斩杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 斩杀攻击的追加攻击命中「生命之契」角色时，会<b>造成原本250%的伤害</b>。",
+                "EN": "- Has 90% resistance to Freeze.<br>- Every 20s, will perform Execution: <b>Consume 5% HP</b> to unleash Killing Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Killing Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When follow-up Killing Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>."
+            }
         },
         "40101": {
             "KingdomID": 4,
@@ -9914,8 +10704,8 @@ var computer = {
             "Weight": 150,
             "EndureTemplateID": 210,
             "Tutorial": {
-                "CH": "- 荒性增幅机关，可以使其他机关的全部抗性提升20%，并恢复弱化的机关。<br>- 使用1次芒性攻击，可以使其弱化5s。",
-                "EN": "- Ousia enhancement mek. Increases nearby meks' all-type RES by 20% and recovers nearby weakened meks.<br>- Attacking it with Pneuma 1 time will weaken it for 5s."
+                "CH": "- 荒性增幅机关，可以使其他机关的攻击力提升20%，并恢复弱化的机关。<br>- 使用1次芒性攻击，可以使其弱化5s。",
+                "EN": "- Ousia enhancement mek. Increases nearby meks' ATK by 20% and recovers nearby weakened meks.<br>- Attacking it with Pneuma 1 time will weaken it for 5s."
             },
             "Drop": [
                 {
@@ -9928,6 +10718,86 @@ var computer = {
                     ]
                 }
             ]
+        },
+        "40622": {
+            "KingdomID": 10,
+            "ClassID": 11005,
+            "Name": {
+                "CH": "自律超算型场力发生装置",
+                "EN": "Automated Supercomputing Field Generator"
+            },
+            "Title": [
+                {
+                    "CH": "地方传奇 · 机关 · 算力增幅器",
+                    "EN": "Local Legend: Arithmetic Enhancer Mek"
+                }
+            ],
+            "Color": "Rock",
+            "HP": 19,
+            "HPCurve": 2,
+            "ATK": 12,
+            "ATKCurve": 4,
+            "RESState": [
+                {
+                    "State": "Gravita_Power",
+                    "All": 2
+                }
+            ],
+            "Ball": {
+                "Type": 0,
+                "Point": 4,
+                "Drop": "1116"
+            },
+            "Icon": [
+                "UI_MonsterIcon_MachinaIustitia_Pylon"
+            ],
+            "Grade": 3,
+            "Weight": 150,
+            "EndureTemplateID": 210,
+            "Tutorial": {
+                "CH": "荒性增幅机关。初始<b><color style='color:#D4A000;'>具有20U岩元素护甲</color></b>，使其全部抗性提升200%。破除后，使用1次芒性攻击可造成湮灭，使其瘫痪5s。<br>- 荒性态免疫冻结和石化。湮灭后具有90%冻结抵抗。<br>- 湮灭后12s会恢复荒性。护甲破除后15s会重生护甲。",
+                "EN": "Ousia enhancement mek. Initially <b><color style='color:#D4A000;'>has 20GU Geo Armor</color></b>, granting 200% increase to all RES. After the armor is destroyed, using 1 Pneuma attack can cause annihilation and immobilize it for 5s.<br>- While in Ousia, immune to Freeze and Petrification. After Pneumosia annihilation, has 90% Freeze RES.<br>- Regains Ousia 12s after annihilation. Ragains armor 15s after destruction of armor."
+            }
+        },
+        "40632": {
+            "KingdomID": 10,
+            "ClassID": 11006,
+            "Name": {
+                "CH": "自律超算型场力发生装置",
+                "EN": "Automated Supercomputing Field Generator"
+            },
+            "Title": [
+                {
+                    "CH": "地方传奇 · 机关 · 算力增幅器",
+                    "EN": "Local Legend: Arithmetic Enhancer Mek"
+                }
+            ],
+            "Color": "Rock",
+            "HP": 6.52,
+            "HPCurve": 2,
+            "ATK": 4.8,
+            "ATKCurve": 4,
+            "RESState": [
+                {
+                    "State": "Gravita_Power",
+                    "All": 2
+                }
+            ],
+            "Ball": {
+                "Type": 2,
+                "Point": 4,
+                "Drop": "1114"
+            },
+            "Icon": [
+                "UI_MonsterIcon_MachinaIustitia_Pylon"
+            ],
+            "Grade": 3,
+            "Weight": 150,
+            "EndureTemplateID": 210,
+            "Tutorial": {
+                "CH": "荒性增幅机关。初始<b><color style='color:#D4A000;'>具有20U岩元素护甲</color></b>，使其全部抗性提升200%。破除后，使用1次芒性攻击可造成湮灭，使其瘫痪5s。<br>- 荒性态免疫冻结和石化。湮灭后具有90%冻结抵抗。<br>- 湮灭后12s会恢复荒性。护甲破除后15s会重生护甲。",
+                "EN": "Ousia enhancement mek. Initially <b><color style='color:#D4A000;'>has 20GU Geo Armor</color></b>, granting 200% increase to all RES. After the armor is destroyed, using 1 Pneuma attack can cause annihilation and immobilize it for 5s.<br>- While in Ousia, immune to Freeze and Petrification. After Pneumosia annihilation, has 90% Freeze RES.<br>- Regains Ousia 12s after annihilation. Ragains armor 15s after destruction of armor."
+            }
         },
         "40603": {
             "KingdomID": 4,
@@ -10044,6 +10914,49 @@ var computer = {
             "ATKCurve": 40,
             "Icon": [
                 "UI_MonsterIcon_MachinaIustitia_Nautilus"
+            ],
+            "Grade": 1,
+            "Weight": 150,
+            "EndureTemplateID": 150,
+            "Tutorial": {
+                "CH": "- 低级水下荒性机关。<br>- 使用1次芒性攻击，可以使其弱化50s。<br>- 弱化期间无法进行攻击。",
+                "EN": "- Small underwater Ousia mek.<br>- Attacking it with Pneuma 1 time will weaken it for 50s.<br>- While weakened, cannot perform any action."
+            },
+            "Drop": [
+                {
+                    "Type": 29,
+                    "Amount": [
+                        1.2606,
+                        0.3362,
+                        0.084,
+                        0
+                    ]
+                }
+            ]
+        },
+        "40606": {
+            "KingdomID": 4,
+            "ClassID": 104060,
+            "Name": {
+                "CH": "机关 · 深海攻击型 · 荒",
+                "EN": "Deepwater Assault Mek - Ousia"
+            },
+            "Title": [
+                {
+                    "CH": "机关 · 深海攻击型",
+                    "EN": "Deepwater Assault Mek"
+                }
+            ],
+            "Desc": {
+                "CH": "设计目的是进行水下攻击的发条机关。与「水下巡游型」机关不同的是，预期中它的敌人会更大、更凶暴。当然性能与造价的代价是，面对小体型的敌人时便无法完全发挥威力。\n过去在枫丹曾经发生了巨大魔兽入侵的悲剧，在陆上大湖受到景仰的白色铁甲舰队为了护国全军覆没。设计者希望如有此类事件再次发生，至少能在水中以强大火力出击的发条机关能先于将官与士兵成为第一道防线。",
+                "EN": "A clockwork meka designed to conducting underwater attacks. Unlike \"Underwater Patrol Mek\" models, it is expected to take on much larger and fiercer opponents. Of course, the price it pays for such capabilities and its cost of manufacture is that is unable to fully unleash its capabilities against smaller opponents.\nLong ago, Fontaine was once scarred by the tragic invasion of a massive monster. The revered White Armada that sailed upon the great terrestrial lake was completely destroyed in defense of the nation. The designer hoped that were such a thing to happen again, the clockwork meka would possess enough naval firepower to be the first line of defense, going before the soldiers and generals."
+            },
+            "HP": 2,
+            "HPCurve": 7,
+            "ATK": 60,
+            "ATKCurve": 40,
+            "Icon": [
+                "UI_MonsterIcon_MachinaIustitia_Frigate"
             ],
             "Grade": 1,
             "Weight": 150,
@@ -10590,6 +11503,49 @@ var computer = {
                 }
             ]
         },
+        "40656": {
+            "KingdomID": 4,
+            "ClassID": 104060,
+            "Name": {
+                "CH": "机关 · 深海攻击型 · 芒",
+                "EN": "Deepwater Assault Mek - Pneuma"
+            },
+            "Title": [
+                {
+                    "CH": "机关 · 深海攻击型",
+                    "EN": "Deepwater Assault Mek"
+                }
+            ],
+            "Desc": {
+                "CH": "设计目的是进行水下攻击的发条机关。与「水下巡游型」机关不同的是，预期中它的敌人会更大、更凶暴。当然性能与造价的代价是，面对小体型的敌人时便无法完全发挥威力。\n过去在枫丹曾经发生了巨大魔兽入侵的悲剧，在陆上大湖受到景仰的白色铁甲舰队为了护国全军覆没。设计者希望如有此类事件再次发生，至少能在水中以强大火力出击的发条机关能先于将官与士兵成为第一道防线。",
+                "EN": "A clockwork meka designed to conducting underwater attacks. Unlike \"Underwater Patrol Mek\" models, it is expected to take on much larger and fiercer opponents. Of course, the price it pays for such capabilities and its cost of manufacture is that is unable to fully unleash its capabilities against smaller opponents.\nLong ago, Fontaine was once scarred by the tragic invasion of a massive monster. The revered White Armada that sailed upon the great terrestrial lake was completely destroyed in defense of the nation. The designer hoped that were such a thing to happen again, the clockwork meka would possess enough naval firepower to be the first line of defense, going before the soldiers and generals."
+            },
+            "HP": 2,
+            "HPCurve": 7,
+            "ATK": 60,
+            "ATKCurve": 40,
+            "Icon": [
+                "UI_MonsterIcon_MachinaIustitia_Frigate"
+            ],
+            "Grade": 1,
+            "Weight": 150,
+            "EndureTemplateID": 150,
+            "Tutorial": {
+                "CH": "- 低级水下芒性机关。<br>- 使用1次荒性攻击，可以使其弱化50s。<br>- 弱化期间无法进行攻击。",
+                "EN": "- Small underwater Pneuma mek.<br>- Attacking it with Ousia 1 time will weaken it for 50s.<br>- While weakened, cannot perform any action."
+            },
+            "Drop": [
+                {
+                    "Type": 29,
+                    "Amount": [
+                        1.2606,
+                        0.3362,
+                        0.084,
+                        0
+                    ]
+                }
+            ]
+        },
         "40657": {
             "KingdomID": 4,
             "ClassID": 104065,
@@ -10899,7 +11855,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "由枫丹科学院研发的奇械舞者。\n在博絮埃最初的设想中，奇械舞者是超越机械复制时代的艺术品。但在博絮埃被迫离任后，该项目改由梅雅德接手。梅雅德对于奇械和舞者均有自己独到的见解，因此在迭代过程中，奇械舞者的各项功能在臻于完备的同时，也逐渐偏离了博絮埃的设计初衷。\n\n来自枫丹精密发条机关的华丽演出，这一幕的主角为发条机关贵族「科培琉司」。\n在演出的高潮阶段，科培琉司将停留在舞池的中央，露出能源特征为芒性的奇械发条，极大提升出力效率，为自己施加护罩，产生劫罚的三枚霜心。\n在这一阶段借由荒性的攻击，能有效破除护罩，并最终使其供能超载，推进演出流程。",
-                "EN": "A Clockwork Dancer developed by the Fontaine Research Institute.\nBossuet originally intended for Clockwork Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by Maillardet, who had his own unique understanding of what he wanted to achieve. As a result, while its features were perfected during the course of its development, the Clockwork Dancer gradually strayed from Bossuet's original vision.\n\nNext up is a fantastical performance to be delivered by the clockwork meka Coppelius. \nAt the climax of the performance, Coppelius will halt at the center of the dance floor and expose his spare clockwork component charged with Pneuma, thereby drastically increasing the efficiency of his exertions, granting him a shield, and generating three retributive Frosthearts. \nDuring this phase, using Ousia-imbued attacks will effectively break his shield, thus progressing the performance."
+                "EN": "Artificed Dancers developed by the Fontaine Research Institute.\nBossuet originally intended for Artificed Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by Maillardet, who had his own unique understanding of what he wanted to achieve. As a result, while their features were perfected during the course of its development, the Artificed Dancers gradually strayed from Bossuet's original vision.\n\nNext up is a fantastical performance to be delivered by the clockwork meka Coppelius. \nAt the climax of the performance, Coppelius will halt at the center of the dance floor and expose his spare clockwork component charged with Pneuma, thereby drastically increasing the efficiency of his exertions, granting him a shield, and generating three retributive Frosthearts. \nDuring this phase, using Ousia-imbued attacks will effectively break his shield, thus progressing the performance."
             },
             "Color": "Ice",
             "HP": 7.5,
@@ -10947,7 +11903,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "由枫丹科学院研发的奇械舞者。\n在博絮埃最初的设想中，奇械舞者是超越机械复制时代的艺术品。但在博絮埃被迫离任后，该项目改由梅雅德接手。梅雅德对于奇械和舞者均有自己独到的见解，因此在迭代过程中，奇械舞者的各项功能在臻于完备的同时，也逐渐偏离了博絮埃的设计初衷。\n\n来自枫丹精密发条机关的华丽演出，这一幕的主角为发条机关女郎「歌裴莉娅」。\n在演出的高潮阶段，歌裴莉娅将停留在舞池的中央，露出荒性的奇械发条，极大提升出力效率，召来葬送的无数旋风。\n在这一阶段借由芒性的攻击，能有效削弱其攻击能力，并最终使其供能超载，推进演出流程。",
-                "EN": "A Clockwork Dancer developed by the Fontaine Research Institute.\nBossuet originally intended for Clockwork Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by Maillardet, who had his own unique understanding of what he wanted to achieve. As a result, while its features were perfected during the course of its development, the Clockwork Dancer gradually strayed from Bossuet's original vision.\n\nNext up is a fantastical performance to be delivered by the clockwork meka Geppelia. \nAt the climax of the performance, Geppelia will halt at the center of the dance floor and expose her spare clockwork component charged with Ousia, thereby drastically increasing the efficiency of her exertions and summoning countless whirlwinds of dirge. \nDuring this phase, using Pneuma-imbued attacks will reduce her offensive capabilities and overload her, thus progressing the performance."
+                "EN": "Artificed Dancers developed by the Fontaine Research Institute.\nBossuet originally intended for Artificed Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by Maillardet, who had his own unique understanding of what he wanted to achieve. As a result, while their features were perfected during the course of its development, the Artificed Dancers gradually strayed from Bossuet's original vision.\n\nNext up is a fantastical performance to be delivered by the clockwork meka Geppelia. \nAt the climax of the performance, Geppelia will halt at the center of the dance floor and expose her spare clockwork component charged with Ousia, thereby drastically increasing the efficiency of her exertions and summoning countless whirlwinds of dirge. \nDuring this phase, using Pneuma-imbued attacks will reduce her offensive capabilities and overload her, thus progressing the performance."
             },
             "Color": "Wind",
             "HP": 7.5,
@@ -10982,6 +11938,48 @@ var computer = {
             "Tutorial": {
                 "CH": "- 歌裴莉娅是演出《冰风组曲 · 歌裴莉娅的葬送》的主角，演出会在30s后（或血量降至71%后）进入高潮。<br>- 演出进入高潮时，歌裴莉娅会移动到舞台中央，召来葬送的无数旋风，<b>使全部抗性提升25%</b>。<br>- <b>使用1次芒性攻击</b>可移除抗性提升效果，并减弱其攻势。<b>累计使用3次芒性攻击</b>可提前结束高潮。<br>- 若未提前结束，高潮会在3个乐段后自行结束，每个乐段时长12秒。结束后30s会再次进入高潮。",
                 "EN": "- Coppelia is the main character of the performance <i>Icewind Suite: Dirge of Coppelia</i>. The performance reaches it climax after 30s or after HP falls below 71%.<br>- At the climax of the performance, Coppelia will move to the center of the stage, summon countless Whirlwinds of Dirge and <b>increase all-type RES by 25%</b>. <br>- <b>Attacking her with Pnuema 1 time</b> will remove the RES increase and reduce her DMG. <b>Attacking her with Pnuema 3 times</b> will terminate the climax.<br>- If not terminated, the climax will finish after 3 sections. Each section lasts for 12s. The next climax starts 30s after the previous one finishes."
+            }
+        },
+        "40801": {
+            "KingdomID": 4,
+            "ClassID": 10408,
+            "Name": {
+                "CH": "实验性场力发生装置",
+                "EN": "Experimental Field Generator"
+            },
+            "Title": [
+                {
+                    "CH": "布雷阁原型机器",
+                    "EN": "Prototype Cal. Breguet"
+                }
+            ],
+            "Desc": {
+                "CH": "艾德温·伊斯丁豪斯生前设计的大型装置。依照原本的设计意图，拥有「抵消」重力的效果；依照原本的设计意图，这将是将枫丹建设成天空之都的第一步，从此以后再也没有人需要为曾经荡涤大地的浪潮而忧心，即使七国尽没深海，瑰丽的枫丹廷也将如天空岛那样在空中漂游。就连宇宙的秘密也将变得不那么遥不可及。\n装置核心的始基矿拥有「分离」或是「沉淀」的特性，能够将物质，或是某些物质以外的事物分离；传说这样的性质也能被反转，但枫丹科学院只醉心于它所能产生的物理效用。",
+                "EN": "A large device designed by the late Edwin Eastinghouse. It has the ability to \"counteract\" the effects of gravity. According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.\nThe Arkhium in the device's core has the characteristics of \"splitting\" or \"precipitation,\" and can take matter, or certain things outside of matter, and separate them. It is said that this process can be reversed, but the Fontaine Research Institute is infatuated only with the physical effects it can produce."
+            },
+            "Color": "Rock",
+            "HP": 7.85,
+            "HPCurve": 2,
+            "ATK": 9.0,
+            "ATKCurve": 4,
+            "RESBase": {
+                "Rock": 0.7
+            },
+            "RESState": [],
+            "Ball": {
+                "Type": 0,
+                "Point": 3,
+                "Drop": "333"
+            },
+            "Icon": [
+                "UI_MonsterIcon_MachinaIustitia_Gravitas"
+            ],
+            "Grade": 3,
+            "Weight": 300,
+            "EndureTemplateID": 4000,
+            "Tutorial": {
+                "CH": "- 在战斗中，会周期性启动<b>荒性激发态</b>，在周围创造反重力场，使角色跳跃高度大幅提升（参数和魈大招等同）。在此期间，会在地面展开猛烈的攻势。<br>- 利用反重力场可以跳跃至空中躲避其攻势。<b>累计使用3次芒性攻击</b>可使其强制退出荒性激发态。荒性激发态会在一分钟后自行消去，并会在30s后再次启动。<br>大世界版本会在生命中降至70%时强制启动激发态；深渊版本开局就会启动。",
+                "EN": "- In battle, it will periodically launch <b>Ousia Power</b>, creating anti-gravitational fields around it, greatly increasing characters' jump height (Equivalent to Xiao's Burst). While Powered, it will launch dangerous attacks on the ground.<br>- Use the anti-gravitational field to jump high into the air and avoid its attacks. <b>Using 3 Pneuma attacks</b> will terminate the Ousia Power. Ousia Power will fade after 1 minute, but will relaunch after 30s.<br>- The Overworld version will launch Power after its HP drops below 70%. The Abyss version will launch immediately after entering battle."
             }
         },
         "50102": {
@@ -16226,6 +17224,36 @@ var computer = {
             "EndureTemplateID": 210,
             "MultiPlayerID": 103
         },
+        "61624": {
+            "KingdomID": 10,
+            "ClassID": 11005,
+            "Name": {
+                "CH": "极彩的露珂菈",
+                "EN": "Luachra the Brilliant"
+            },
+            "Title": [
+                {
+                    "CH": "地方传奇 · 大天使海兔",
+                    "EN": "Local Legend: Cherubic Sea Hare"
+                }
+            ],
+            "Desc": {
+                "CH": "",
+                "EN": ""
+            },
+            "Color": "Ice",
+            "HP": 54,
+            "HPCurve": 7,
+            "ATK": 175,
+            "ATKCurve": 40,
+            "Icon": [
+                "UI_MonsterIcon_Aplysia_Mature"
+            ],
+            "Grade": 3,
+            "Weight": 300,
+            "EndureTemplateID": 210,
+            "MultiPlayerID": 103
+        },
         "61701": {
             "KingdomID": 6,
             "ClassID": 10617,
@@ -16241,7 +17269,7 @@ var computer = {
             ],
             "Desc": {
                 "CH": "矗立在原海异种顶端的两位霸主之一，曾经是海员之间的逸闻。\n不遇天敌，能够一直狩猎、进食的重甲蟹会随着成长，不断寻找适合的螺与贝壳，作为新的甲胄。但在最后它长得实在太大了。在第一次涨水期前，曾有巨大的重甲蟹袭击船只，并最终被尚未复职的海军司令贝瑟 · 埃尔顿击退的记录。\n设想这样的世界：将提瓦特所有的人都消除，无限成长下去的铁甲熔火帝皇终究会将沫芒宫穿在身上，作为最为华美的白石铠甲吧。当然在那样的世界自然不会有人半是敬畏，半是戏谑地将它称为「铁甲熔火帝皇」了。",
-                "EN": "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer, and the subject of many a tale among sailors.\nAn Armored Crab that avoids predation, and can keep hunting and eating, will continue to grow, continually seeking out suitable shells to become its new armor. But eventually, it became simply too gargantuan. Before the first flood period, a massive Armored Crab once attacked a ship, and was finally forced back into the depths by Basil Elton, who had not yet been reinstated as a naval commander.\nImagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone. Of course, in such a world, there naturally would be no-one to call it, half-jokingly and half in awe, the \"Emperor of Fire and Iron.\""
+                "EN": "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer, and the subject of many a tale among sailors.\nAn Armored Crab that avoids predation, and can keep hunting and eating, will continue to grow, continually seeking out suitable shells to become its new armor. But eventually, it became simply too gargantuan. Before the first flood period, a massive Armored Crab once attacked a ship, and was finally forced back into the depths by Basil Elton, who had not yet been reinstated as a naval commander.\nImagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone. Of course, in such a world, there naturally would be no one to call it, half-jokingly and half in awe, the \"Emperor of Fire and Iron.\""
             },
             "Color": "Fire",
             "HP": 6.0,
@@ -16278,6 +17306,61 @@ var computer = {
             "Tutorial": {
                 "CH": "- 初始，<b>身躯上方高处的熔火双角含有<color style='color:#FF0000;'>16U火元素</color></b>：熔火双角存在期间，本体全部抗性提升60%（深渊版本80%）并释放极为危险的攻击，产生造成大量持续伤害的熔岩地板。<br>- 熔火双角免疫扩散的附着。在部分技能期间，熔火双角会更贴近地面；抓住时机使用元素反应将其摧毁。<br>- 摧毁熔火双角后，会失去上述强化效果，但会在30s（深渊版本20s）后再次生成熔火双角。<br>- 深渊版本的攻击力额外提高33%，产生的熔岩地板数量大幅提升。",
                 "EN": "- Initially, <b>the molten horns located high up on its body contains <color style='color:#FF0000;'>16U Pyro</color></b>: The horn will increase its all RES by 60% (Abyss Version 80%), and it will unleash deadly attacks, creating Molten Areas that deal massive DoT.<br>- Molten horns are immune to Swirl's element application, and are only reachable when it unleashes certain attacks. Seize this opportunity and destroy it with reactions.<br>- After the horns are destroyed, it will lose all enhancements, but will regenerate its molten horns after 30s (Abyss Version 20s).<br>- Spiral Abyss Version will gain an extra 33% ATK boost, and will create even more Molten Areas."
+            }
+        },
+        "61801": {
+            "KingdomID": 6,
+            "ClassID": 10617,
+            "Name": {
+                "CH": "千年珍珠骏麟",
+                "EN": "Millennial Pearl Seahorse"
+            },
+            "Title": [
+                {
+                    "CH": "陆上大湖的无名之主",
+                    "EN": "Nameless Lord of the Great Lake"
+                }
+            ],
+            "Desc": {
+                "CH": "矗立在原海异种顶端的两位霸主之一。\n诗人与作者常因其独行而称之孤傲而高洁，但能成为这类描绘的对象归根到底是因为它身姿修长优美。也因此它为「骏麟」，而重甲蟹的王是「帝皇」。\n在枫丹的传奇逸话中，原海异种当中曾经爆发过无比酷烈的战争，只留下「千年珍珠骏麟」与「铁甲熔火帝皇」在大湖南北分庭抗礼。在《多尔库之歌》中，作者曾经描绘了战争的结局：被称为风暴王的巨大猎刀鳐在死前掀起了巨浪，导致了人们口中所谓的「第一次涨水期」…\n所有的这一切当然只不过是人不愿习惯于毫无幻想可言的现实生活而进行的浪漫想象。原海异种归根到底不过是水生动物罢了，既没有华丽或破败的王庭，也没有昂扬或恶毒的话语。",
+                "EN": "One of the two sovereigns standing at the apex of the Fontemer Aberrants.\nPoets and authors often proclaim it to be proud and noble due to its solitary tendencies, but the true reason behind such adulatory descriptions is its elegant and slender body. As such, it is a \"Pearl Seahorse,\" while the suzerain of the Armored Crabs is an \"Emperor.\"\nIn the legends and rumors of Fontaine, a brutal war was once waged among the Aberrants of the Fontemer, leaving only the \"Millienial Pearl Seahorse\" and \"Emperor of Fire and Iron\" splitting the great lake into two courts, one ruling over the north, the other the south. In the \"Song of Dobharcu,\" the writer describes the outcome of the war: the great Hunter's Ray known as the Stormlord stirred huge waves in its death throes, causing what is now known by the people as the \"first diluvian period\"...\nOf course, all of this is nothing more than the romantic imaginations of people who are unwilling to accept the bland realities of the world. For the Fontemer Aberrants are in fact just simple aquatic animals, and they have no grand courts nor fallen kingdoms, nor do they possess words meant to exalt or curse."
+            },
+            "Color": "Elec",
+            "HP": 5.5,
+            "HPCurve": 2,
+            "ATK": 8.0,
+            "ATKCurve": 4,
+            "RESBase": {
+                "Elec": 0.6
+            },
+            "RESState": [
+                {
+                    "State": "Alert",
+                    "All": 2
+                },
+                {
+                    "State": "FauneAbyssale_Pearl_Normal",
+                    "All": 0.6
+                },
+                {
+                    "State": "FauneAbyssale_Pearl_Abyss",
+                    "All": 0.8
+                }
+            ],
+            "Ball": {
+                "Type": 3,
+                "Point": 4,
+                "Drop": "3333"
+            },
+            "Icon": [
+                "UI_MonsterIcon_SeaHorse_Primo_Electric"
+            ],
+            "Grade": 3,
+            "Weight": 250,
+            "EndureTemplateID": 400,
+            "Tutorial": {
+                "CH": "- 初始，<b>头部下方的千年珍珠含有<color style='color:#7030A0;'>19U雷元素</color></b>：千年珍珠存在期间，本体全部抗性提升60%（深渊版本80%）并释放极为危险的攻击，产生造成大量持续伤害的溢雷地板。<br>- 千年珍珠的元素量降低至7U之后，千年珍珠骏麟将会导引「原海古雷」，呼来三枚雷殛的珊瑚珠。珊瑚珠含有0.4U雷元素。<br>- 在15s的役雷时间内，每破除一枚珊瑚珠，千年珍珠都会<b>流失三分之一总含量</b>。若未能破除全部的珊瑚珠，「原海古雷」则会如期降临，每个存活的珊瑚珠都将为千年珍珠将<b>恢复三分之一总含量+2U</b>。<br>- 摧毁千年珍珠后，会在30s（深渊版本20s）后再次生成千年珍珠。重生的千年珍珠元素量<b>降低至11.4U</b>。",
+                "EN": "- Initially, <b>the Millenial Pearl under its head contains<color style='color:#7030A0;'>19U Electro</color></b>: The Pearl will increase its all RES by 60% (Abyss Version 80%), and it will unleash deadly attacks, creating Electrified Areas that deal massive DoT.<br>- When the Pearl's Element drops below 7U, it will call for the Primordial Thunder, summoning three Hearts of Storm, which contain 0.4U Electro.<br>- During the 15s call, destroying each Heart will cause the Pearl to <b>lose a third of its durability</b>. If not all Hearts are destroyed in time, the Primordial Thunder descends, each remaining Heart <b>reviving a third of the Pearl's durability plus 2GU</b>.<br>- After the Pearl is destroyed, it will regenerate its Pearl after 30s (Abyss Version 20s). Regenerated Pearl's durability <b>decreases to 11.4GU</b>."
             }
         },
         "80203": {
@@ -18196,6 +19279,17 @@ var computer = {
                     "Monsters": [
                         30501
                     ]
+                },
+                {
+                    "ID": 10306,
+                    "Name": {
+                        "CH": "愚人众役者",
+                        "EN": "Seneschals"
+                    },
+                    "Monsters": [
+                        30601,
+                        30602
+                    ]
                 }
             ]
         },
@@ -18289,6 +19383,7 @@ var computer = {
                     "Monsters": [
                         40603,
                         40605,
+                        40606,
                         40611,
                         40601,
                         40602,
@@ -18305,6 +19400,7 @@ var computer = {
                     "Monsters": [
                         40653,
                         40655,
+                        40656,
                         40661,
                         40651,
                         40652,
@@ -18347,6 +19443,16 @@ var computer = {
                     "Monsters": [
                         40701,
                         40702
+                    ]
+                },
+                {
+                    "ID": 10408,
+                    "Name": {
+                        "CH": "力场机器",
+                        "EN": "Field Mek"
+                    },
+                    "Monsters": [
+                        40801
                     ]
                 }
             ]
@@ -18634,7 +19740,8 @@ var computer = {
                         "EN": "Emperor"
                     },
                     "Monsters": [
-                        61701
+                        61701,
+                        61801
                     ]
                 }
             ]
@@ -18642,156 +19749,62 @@ var computer = {
         {
             "ID": 99,
             "Name": {
-                "CH": "<color style='color:#FF0000;'>4.0 新增</color>",
-                "EN": "<color style='color:#FF0000;'>New in 4.0</color>"
+                "CH": "<color style='color:#FF0000;'>4.1 新增</color>",
+                "EN": "<color style='color:#FF0000;'>New in 4.1</color>"
             },
             "Classes": [
                 {
-                    "ID": 10805,
-                    "Name": {
-                        "CH": "枫丹",
-                        "EN": "Fontaine"
-                    },
-                    "Monsters": [
-                        61510,
-                        61520,
-                        61530,
-                        61540,
-                        61550,
-                        61560,
-                        61570
-                    ]
-                },
-                {
-                    "ID": 11005,
+                    "ID": 99997,
                     "Name": {
                         "CH": "地方传奇",
                         "EN": "Legends"
                     },
                     "Monsters": [
-                        5101,
-                        5111,
-                        61611,
-                        61621,
-                        61613,
-                        61623,
-                        61612,
-                        61622
+                        40622,
+                        30603,
+                        61624
                     ]
                 },
                 {
-                    "ID": 10008,
+                    "ID": 99998,
                     "Name": {
-                        "CH": "浊水幻灵",
-                        "EN": "Phantasm"
+                        "CH": "4.1机关",
+                        "EN": "4.1 Mek"
                     },
                     "Monsters": [
-                        510,
-                        511
+                        40606,
+                        40656
                     ]
                 },
                 {
-                    "ID": 10211,
+                    "ID": 10306,
                     "Name": {
-                        "CH": "隙境原体",
-                        "EN": "Breacher"
+                        "CH": "愚人众役者",
+                        "EN": "Seneschals"
                     },
                     "Monsters": [
-                        21102,
-                        21101,
-                        21104,
-                        21103
+                        30601,
+                        30602
                     ]
                 },
                 {
-                    "ID": 104060,
+                    "ID": 10408,
                     "Name": {
-                        "CH": "小机关 · 荒",
-                        "EN": "Small Meka"
+                        "CH": "力场机器",
+                        "EN": "Field Mek"
                     },
                     "Monsters": [
-                        40603,
-                        40605,
-                        40611,
-                        40601,
-                        40602,
-                        40604,
-                        40607
+                        40801
                     ]
                 },
                 {
-                    "ID": 104065,
-                    "Name": {
-                        "CH": "小机关 · 芒",
-                        "EN": "Small Meka"
-                    },
-                    "Monsters": [
-                        40653,
-                        40655,
-                        40661,
-                        40651,
-                        40652,
-                        40654,
-                        40657
-                    ]
-                },
-                {
-                    "ID": 104061,
-                    "Name": {
-                        "CH": "大机关 · 荒",
-                        "EN": "Big Meka"
-                    },
-                    "Monsters": [
-                        40609,
-                        40608,
-                        40610,
-                        40612
-                    ]
-                },
-                {
-                    "ID": 104066,
-                    "Name": {
-                        "CH": "大机关 · 芒",
-                        "EN": "Big Meka"
-                    },
-                    "Monsters": [
-                        40659,
-                        40658,
-                        40660,
-                        40662
-                    ]
-                },
-                {
-                    "ID": 10407,
-                    "Name": {
-                        "CH": "冰风组曲",
-                        "EN": "Icewind"
-                    },
-                    "Monsters": [
-                        40701,
-                        40702
-                    ]
-                },
-                {
-                    "ID": 10616,
-                    "Name": {
-                        "CH": "原海异种",
-                        "EN": "Aberrant"
-                    },
-                    "Monsters": [
-                        61601,
-                        61602,
-                        61603
-                    ]
-                },
-                {
-                    "ID": 10617,
+                    "ID": 99999,
                     "Name": {
                         "CH": "原海帝皇",
                         "EN": "Emperor"
                     },
                     "Monsters": [
-                        61701
+                        61801
                     ]
                 }
             ]
@@ -19013,8 +20026,11 @@ var computer = {
                         "EN": "Legends"
                     },
                     "Monsters": [
+                        40622,
+                        30603,
                         5101,
                         5111,
+                        61624,
                         61611,
                         61621,
                         61613,
@@ -19031,6 +20047,18 @@ var computer = {
                     },
                     "Monsters": [
                         70350450
+                    ]
+                },
+                {
+                    "ID": 11006,
+                    "Name": {
+                        "CH": "地方传奇",
+                        "EN": "Legends"
+                    },
+                    "Monsters": [
+                        5102,
+                        5112,
+                        40632
                     ]
                 }
             ]
@@ -19288,9 +20316,11 @@ var computer = {
                         "EN": "11-1-1"
                     },
                     "Monsters": [
-                        113,
-                        606,
-                        60102
+                        53101,
+                        52104,
+                        52105,
+                        52102,
+                        52103
                     ]
                 },
                 {
@@ -19300,9 +20330,8 @@ var computer = {
                         "EN": "11-1-2"
                     },
                     "Monsters": [
-                        109,
-                        604,
-                        60101
+                        10205,
+                        10208
                     ]
                 },
                 {
@@ -19312,9 +20341,10 @@ var computer = {
                         "EN": "11-2-1"
                     },
                     "Monsters": [
-                        10208,
-                        61601,
-                        61603
+                        604,
+                        605,
+                        606,
+                        607
                     ]
                 },
                 {
@@ -19324,11 +20354,9 @@ var computer = {
                         "EN": "11-2-2"
                     },
                     "Monsters": [
-                        10204,
-                        61602,
-                        60509,
-                        60510,
-                        60511
+                        40302,
+                        40101,
+                        40103
                     ]
                 },
                 {
@@ -19338,11 +20366,13 @@ var computer = {
                         "EN": "11-3-1"
                     },
                     "Monsters": [
-                        51001,
-                        51002,
-                        50801,
-                        50802,
-                        50803
+                        113,
+                        106,
+                        107,
+                        61601,
+                        61603,
+                        20101,
+                        21104
                     ]
                 },
                 {
@@ -19352,7 +20382,8 @@ var computer = {
                         "EN": "11-3-2"
                     },
                     "Monsters": [
-                        60503
+                        5102,
+                        5112
                     ]
                 },
                 {
@@ -19362,7 +20393,7 @@ var computer = {
                         "EN": "12-1-1"
                     },
                     "Monsters": [
-                        50901
+                        61801
                     ]
                 },
                 {
@@ -19372,11 +20403,11 @@ var computer = {
                         "EN": "12-1-2"
                     },
                     "Monsters": [
-                        510,
-                        511,
-                        30401,
-                        40659,
-                        40662
+                        20101,
+                        20402,
+                        20502,
+                        20401,
+                        20501
                     ]
                 },
                 {
@@ -19386,7 +20417,9 @@ var computer = {
                         "EN": "12-2-1"
                     },
                     "Monsters": [
-                        61701
+                        60509,
+                        40662,
+                        40659
                     ]
                 },
                 {
@@ -19396,10 +20429,7 @@ var computer = {
                         "EN": "12-2-2"
                     },
                     "Monsters": [
-                        54103,
-                        53103,
-                        21101,
-                        21103
+                        40702
                     ]
                 },
                 {
@@ -19409,10 +20439,8 @@ var computer = {
                         "EN": "12-3-1"
                     },
                     "Monsters": [
-                        53101,
-                        30106,
-                        40610,
-                        40609
+                        30501,
+                        30602
                     ]
                 },
                 {
@@ -19422,7 +20450,7 @@ var computer = {
                         "EN": "12-3-2"
                     },
                     "Monsters": [
-                        40701
+                        40801
                     ]
                 }
             ]
@@ -22030,6 +23058,64 @@ var computer = {
             "40": 236.18603515625
         }
     },
+    "ElemNameConfig": {
+        "Fire": {
+            "Color": "Fire",
+            "Text": {
+                "CH": "火",
+                "EN": "Pyro"
+            }
+        },
+        "Water": {
+            "Color": "Water",
+            "Text": {
+                "CH": "水",
+                "EN": "Hydro"
+            }
+        },
+        "Elec": {
+            "Color": "Elec",
+            "Text": {
+                "CH": "雷",
+                "EN": "Electro"
+            }
+        },
+        "Ice": {
+            "Color": "Ice",
+            "Text": {
+                "CH": "冰",
+                "EN": "Cryo"
+            }
+        },
+        "Frozen": {
+            "Color": "Ice",
+            "Text": {
+                "CH": "冻",
+                "EN": "Freeze"
+            }
+        },
+        "Grass": {
+            "Color": "Grass",
+            "Text": {
+                "CH": "草",
+                "EN": "Dendro"
+            }
+        },
+        "Wind": {
+            "Color": "Wind",
+            "Text": {
+                "CH": "风",
+                "EN": "Anemo"
+            }
+        },
+        "Rock": {
+            "Color": "Rock",
+            "Text": {
+                "CH": "岩",
+                "EN": "Geo"
+            }
+        }
+    },
     "TextColorConfig": {
         "Fire": "#FF0000",
         "Water": "#0070C0",
@@ -22131,6 +23217,14 @@ var computer = {
         "60504": {
             "CH": "<color style='color:#7030A0;'>(雷)</color><color style='color:#D4A000;'>古岩龙蜥</color>",
             "EN": "<color style='color:#7030A0;'>Electro</color> <color style='color:#D4A000;'>Primo Geovishap</color>"
+        },
+        "30601": {
+            "CH": "<color style='color:#00B0F0;'>愚人众 · 霜剑律从</color>",
+            "EN": "<color style='color:#00B0F0;'>Seneschal of Frost</color>"
+        },
+        "30602": {
+            "CH": "<color style='color:#00B050;'>愚人众 · 幽风铃兰</color>",
+            "EN": "<color style='color:#00B050;'>Seneschal of Wind</color>"
         }
     },
     "MultiPlayerConfig": {
@@ -22417,66 +23511,66 @@ var computer = {
     },
     "RESTypeConfig": [
         {
+            "_id": "Phys",
+            "Text": {
+                "CH": "物：",
+                "EN": "Physical: "
+            }
+        },
+        {
             "_id": "Fire",
             "Color": "Fire",
             "Text": {
-                "CH": "火抗：",
-                "EN": "Pyro RES: "
+                "CH": "火：",
+                "EN": "Pyro: "
             }
         },
         {
             "_id": "Water",
             "Color": "Water",
             "Text": {
-                "CH": "水抗：",
-                "EN": "Hydro RES: "
+                "CH": "水：",
+                "EN": "Hydro: "
             }
         },
         {
             "_id": "Elec",
             "Color": "Elec",
             "Text": {
-                "CH": "雷抗：",
-                "EN": "Electro RES: "
+                "CH": "雷：",
+                "EN": "Electro: "
             }
         },
         {
             "_id": "Ice",
             "Color": "Ice",
             "Text": {
-                "CH": "冰抗：",
-                "EN": "Cryo RES: "
+                "CH": "冰：",
+                "EN": "Cryo: "
             }
         },
         {
             "_id": "Grass",
             "Color": "Grass",
             "Text": {
-                "CH": "草抗：",
-                "EN": "Dendro RES: "
+                "CH": "草：",
+                "EN": "Dendro: "
             }
         },
         {
             "_id": "Wind",
             "Color": "Wind",
             "Text": {
-                "CH": "风抗：",
-                "EN": "Anemo RES: "
+                "CH": "风：",
+                "EN": "Anemo: "
             }
         },
         {
             "_id": "Rock",
             "Color": "Rock",
             "Text": {
-                "CH": "岩抗：",
-                "EN": "Geo RES: "
-            }
-        },
-        {
-            "_id": "Phys",
-            "Text": {
-                "CH": "物抗：",
-                "EN": "Physical RES: "
+                "CH": "岩：",
+                "EN": "Geo: "
             }
         }
     ],
@@ -22575,15 +23669,27 @@ var computer = {
         },
         "FauneAbyssale_Horn_Normal": {
             "CH": "熔火双角增幅（大世界）",
-            "EN": "Molten Horn Enhance (Overworld)"
+            "EN": "Molten Horn (Overworld)"
         },
         "FauneAbyssale_Horn_Abyss": {
             "CH": "熔火双角增幅（深境螺旋）",
-            "EN": "Molten Horn Enhance (Spiral Abyss)"
+            "EN": "Molten Horn (Spiral Abyss)"
+        },
+        "FauneAbyssale_Pearl_Normal": {
+            "CH": "千年珍珠增幅（大世界）",
+            "EN": "Millenial Pearl (Overworld)"
+        },
+        "FauneAbyssale_Pearl_Abyss": {
+            "CH": "千年珍珠增幅（深境螺旋）",
+            "EN": "Millenial Pearl (Spiral Abyss)"
         },
         "Coppelia_Route": {
             "CH": "演出高潮 · 未削弱",
             "EN": "Climax - Before Weakened"
+        },
+        "Gravita_Power": {
+            "CH": "荒性激发态",
+            "EN": "Ousia Power"
         }
     },
     "BallTypeDescConfig": {
@@ -22818,6 +23924,10 @@ var computer = {
         "31": {
             "CH": "隙境之核",
             "EN": "Breacher Core"
+        },
+        "32": {
+            "CH": "役人怀表",
+            "EN": "Pocket Watch"
         }
     },
     "SpiralAbyssWaveDescConfig": {
@@ -23133,6 +24243,14 @@ var computer = {
                 }
             }
         },
+        "510": {
+            "Show": {
+                "Text": {
+                    "CH": "<color style='color:#808080;'><b>> 地方传奇</b></color>",
+                    "EN": "<color style='color:#808080;'><b>> The Local Legend</b></color>"
+                }
+            }
+        },
         "701": {
             "Show": {
                 "Text": {
@@ -23189,11 +24307,27 @@ var computer = {
                 }
             }
         },
+        "40632": {
+            "Show": {
+                "Text": {
+                    "CH": "<color style='color:#808080;'><b>> 地方传奇 · 算力增幅器 · 荒</b></color>",
+                    "EN": "<color style='color:#808080;'><b>> Local Legend: Arithmetic Enhancer - Ousia</b></color>"
+                }
+            }
+        },
         "40701": {
             "Show": {
                 "Text": {
                     "CH": "<color style='color:#808080;'><b>> 奇械舞者 · 冰风组曲</b></color>",
                     "EN": "<color style='color:#808080;'><b>> Clockwork Dancer - Icewind Suite</b></color>"
+                }
+            }
+        },
+        "40801": {
+            "Show": {
+                "Text": {
+                    "CH": "<color style='color:#808080;'><b>> 布雷阁原型机器</b></color>",
+                    "EN": "<color style='color:#808080;'><b>> Prototype Cal. Breguet</b></color>"
                 }
             }
         },
@@ -23274,6 +24408,14 @@ var computer = {
                 "Text": {
                     "CH": "<color style='color:#808080;'><b>> 山峦之下鼓动的热潮</b></color>",
                     "EN": "<color style='color:#808080;'><b>> Searing Tide Pulsing Beneath the Mountains</b></color>"
+                }
+            }
+        },
+        "61801": {
+            "Show": {
+                "Text": {
+                    "CH": "<color style='color:#808080;'><b>> 陆上大湖的无名之主</b></color>",
+                    "EN": "<color style='color:#808080;'><b>> Nameless Lord of the Great Lake</b></color>"
                 }
             }
         }
@@ -23617,6 +24759,19 @@ var computer = {
                 "EN": "Tainted Hydro Phantasm attacks less frequently during Rage State. <br>(Why tho... Maybe they accidently got a sign wrong)"
             }
         },
+        "5384": {
+            "Show": {
+                "Color": "Grey",
+                "Text": {
+                    "CH": " (深渊特化)",
+                    "EN": " (Abyss Version)"
+                }
+            },
+            "Hover": {
+                "CH": "入站后立刻启动荒性激发，产生反重力场。",
+                "EN": "Immediately launches Ousia Power after entering battle, creating anti-gravitational fields."
+            }
+        },
         "6101": {
             "Show": {
                 "Color": "Ice",
@@ -23821,8 +24976,21 @@ var computer = {
                 }
             },
             "Hover": {
-                "CH": "- 攻击力提升33%。<br>- 增幅期间全部抗性提升80%。<br>- 增幅状态之间的间隔由30s缩短至20s。<br>- 技能会产生更多造成持续伤害的熔岩地板。",
-                "EN": "- ATK increased by 33%. <br>- All RES increased by 80% while Enhanced.<br>- Interval between Enhancements decreased from 30s to 20s.<br>- Attack create more Molten Floors that deals DoT."
+                "CH": "- 攻击力提升33%。<br>- 增幅期间全部抗性提升80%而不是60%。<br>- 增幅状态之间的间隔由30s缩短至20s。<br>- 技能会产生更多造成持续伤害的熔岩地板。",
+                "EN": "- ATK increased by 33%. <br>- All RES increased by 80% while Enhanced, instead of 60%.<br>- Interval between Enhancements decreased from 30s to 20s.<br>- Attack create more Molten Floors that deals DoT."
+            }
+        },
+        "61801": {
+            "Show": {
+                "Color": "Grey",
+                "Text": {
+                    "CH": " (深渊特化)",
+                    "EN": " (Abyss Version)"
+                }
+            },
+            "Hover": {
+                "CH": "- 增幅期间全部抗性提升80%而不是60%。<br>- 增幅状态之间的间隔由30s缩短至20s。",
+                "EN": "- All RES increased by 80% while Enhanced, instead of 60%.<br>- Interval between Enhancements decreased from 30s to 20s."
             }
         }
     },
@@ -31831,7 +32999,7 @@ var computer = {
                             "Monsters": [
                                 {
                                     "ID": 30201,
-                                    "Num": 1,
+                                    "Num": 3,
                                     "Affix": [
                                         5001
                                     ]
@@ -37356,8 +38524,8 @@ var computer = {
                                     "Affix": [
                                         5221
                                     ],
-                                    "HPOverride": 1.6,
-                                    "Mark": true
+                                    "Mark": true,
+                                    "HPOverride": 1.6
                                 }
                             ]
                         },
@@ -43893,7 +45061,7 @@ var computer = {
         "59": {
             "Disorder": {
                 "CH": "队伍中所有角色获得60%火元素伤害加成。<br>队伍中所有角色获得60%水元素伤害加成。",
-                "EN": "All party members receive a 60% Pyro DMG Bonus.<br>All party members gain a 60% Hydro DMG Bonus."
+                "EN": "All party members receive a 60% Pyro DMG Bonus.<br>All party members recieve a 60% Hydro DMG Bonus."
             },
             "ShowVers": [
                 1
@@ -43956,8 +45124,8 @@ var computer = {
                         {
                             "WaveDesc": 999,
                             "ExtraDesc": {
-                                "CH": "<b>使第一波维持5个，杀一个出一个</b>",
-                                "EN": "<b>Supplement WAVE 1, keeping 5 monsters on field</b>"
+                                "CH": "<b>使第一波维持5个，按顺序杀一个出一个</b>",
+                                "EN": "<b>Supplement WAVE 1, keeping 5 monsters on field in this order</b>"
                             },
                             "Monsters": [
                                 {
@@ -44033,8 +45201,8 @@ var computer = {
                         {
                             "WaveDesc": 999,
                             "ExtraDesc": {
-                                "CH": "<b>使第一波维持5个，杀一个出一个</b>",
-                                "EN": "<b>Supplement WAVE 1, keeping 5 monsters on field</b>"
+                                "CH": "<b>使第一波维持5个，按顺序杀一个出一个</b>",
+                                "EN": "<b>Supplement WAVE 1, keeping 5 monsters on field in this order</b>"
                             },
                             "Monsters": [
                                 {
@@ -44598,11 +45766,359 @@ var computer = {
                 }
             ]
         },
-        "1001": {
+        "61": {
             "Disorder": {
-                "CH": "test",
-                "EN": "test"
+                "CH": "队伍中所有角色获得60%冰元素伤害加成。<br>队伍中所有角色获得60%水元素伤害加成。",
+                "EN": "All party members receive a 60% Cryo DMG Bonus.<br>All party members receive a 60% Hydro DMG Bonus."
             },
+            "ShowVers": [
+                1
+            ],
+            "Chambers": [
+                {
+                    "Name": "11-1",
+                    "Level": 88,
+                    "GoalType": 1,
+                    "GoalParam": 0,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            31
+                        ]
+                    },
+                    "Upper": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 52103,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 52104,
+                                    "Num": 2,
+                                    "Mark": true
+                                },
+                                {
+                                    "ID": 52105,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 52102,
+                                    "Num": 2,
+                                    "Mark": true
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 999,
+                            "ExtraDesc": {
+                                "CH": "<b>使第一波维持6个，按顺序杀一个出一个</b>",
+                                "EN": "<b>Supplement WAVE 1, keeping 6 monsters on field in this order</b>"
+                            },
+                            "Monsters": [
+                                {
+                                    "ID": 53101,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 52102,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 52104,
+                                    "Num": 2,
+                                    "Mark": true
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 10205,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 10208,
+                                    "Num": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "11-2",
+                    "Level": 90,
+                    "GoalType": 0,
+                    "GoalParam": 1,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            34
+                        ]
+                    },
+                    "Upper": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 605,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 606,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 607,
+                                    "Num": 2
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 999,
+                            "ExtraDesc": {
+                                "CH": "<b>使第一波维持6个，按顺序杀一个出一个</b>",
+                                "EN": "<b>Supplement WAVE 1, keeping 6 monsters on field in this order</b>"
+                            },
+                            "Monsters": [
+                                {
+                                    "ID": 604,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 604,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 606,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 604,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 605,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 604,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 604,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 605,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 606,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 604,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 606,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 605,
+                                    "Num": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 40101,
+                                    "Num": 1
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 40103,
+                                    "Num": 1
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 3,
+                            "Monsters": [
+                                {
+                                    "ID": 40302,
+                                    "Num": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "11-3",
+                    "Level": 92,
+                    "GoalType": 0,
+                    "GoalParam": 3,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            19
+                        ]
+                    },
+                    "Upper": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 113,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 106,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 107,
+                                    "Num": 2
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 61603,
+                                    "Num": 1,
+                                    "Affix": [
+                                        1052
+                                    ]
+                                },
+                                {
+                                    "ID": 61601,
+                                    "Num": 2,
+                                    "Affix": [
+                                        1052
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 3,
+                            "Monsters": [
+                                {
+                                    "ID": 20101,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5001
+                                    ]
+                                },
+                                {
+                                    "ID": 21104,
+                                    "Num": 2,
+                                    "Affix": [
+                                        4190
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 5102,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 5112,
+                                    "Num": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "62": {
+            "Disorder": {
+                "CH": "仅在此层，地脉的涌流平缓通顺。",
+                "EN": "For this floor only, the ley line flow will be normal."
+            },
+            "ShowVers": [
+                1,
+                3
+            ],
             "Chambers": [
                 {
                     "Name": "12-1",
@@ -44635,8 +46151,80 @@ var computer = {
                             34
                         ]
                     },
-                    "Upper": [],
-                    "Lower": []
+                    "Upper": [
+                        {
+                            "WaveDesc": 61801,
+                            "Monsters": [
+                                {
+                                    "ID": 61801,
+                                    "Num": 1,
+                                    "Affix": [
+                                        61801
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 20501,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20401,
+                                    "Num": 5
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 999,
+                            "ExtraDesc": {
+                                "CH": "<b>使第一波维持6个，按顺序杀一个出一个</b>",
+                                "EN": "<b>Supplement WAVE 1, keeping 6 monsters on field in this order</b>"
+                            },
+                            "Monsters": [
+                                {
+                                    "ID": 20402,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20402,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20502,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20402,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20402,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20402,
+                                    "Num": 1
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 20101,
+                                    "Num": 3,
+                                    "Affix": [
+                                        5002
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "Name": "12-2",
@@ -44669,8 +46257,44 @@ var computer = {
                             34
                         ]
                     },
-                    "Upper": [],
-                    "Lower": []
+                    "Upper": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 60509,
+                                    "Num": 2
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 40662,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 40659,
+                                    "Num": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 40701,
+                            "Monsters": [
+                                {
+                                    "ID": 40702,
+                                    "Num": 1,
+                                    "Affix": [
+                                        40701
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "Name": "12-3",
@@ -44706,19 +46330,50 @@ var computer = {
                             "WaveDesc": 1,
                             "Monsters": [
                                 {
-                                    "ID": 5111,
+                                    "ID": 30501,
                                     "Num": 1
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 30602,
+                                    "Num": 2
                                 }
                             ]
                         }
                     ],
                     "Lower": [
                         {
-                            "WaveDesc": 1,
+                            "WaveDesc": 40801,
+                            "Vers": [
+                                1
+                            ],
                             "Monsters": [
                                 {
-                                    "ID": 5101,
-                                    "Num": 1
+                                    "ID": 40801,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5384
+                                    ],
+                                    "HPOverride": 6.7
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 40801,
+                            "Vers": [
+                                3
+                            ],
+                            "Monsters": [
+                                {
+                                    "ID": 40801,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5384
+                                    ]
                                 }
                             ]
                         }
@@ -44726,17 +46381,20 @@ var computer = {
                 }
             ]
         },
-        "1002": {
+        "1001": {
             "Disorder": {
-                "CH": "test",
-                "EN": "test"
+                "CH": "队伍中所有角色的生命值上限提升40%。<br>角色释放元素战技时，消耗3%生命值。<br>角色释放元素爆发时，恢复8%生命值。",
+                "EN": "All party members' Max HP is increased by 40%.<br>When a character uses their Elemental Skill, they consume 3% HP.<br>When a character uses their Elemental Burst, they regenerate 8% HP."
             },
+            "ShowVers": [
+                7
+            ],
             "Chambers": [
                 {
-                    "Name": "12-1",
-                    "Level": 95,
-                    "GoalType": 0,
-                    "GoalParam": 3,
+                    "Name": "11-1",
+                    "Level": 88,
+                    "GoalType": 1,
+                    "GoalParam": 0,
                     "Buff": {
                         "Buff1": [
                             1,
@@ -44765,13 +46423,205 @@ var computer = {
                     },
                     "Upper": [
                         {
-                            "WaveDesc": 40501,
+                            "WaveDesc": 1,
+                            "ExtraDesc": {
+                                "CH": "<b>* 星号表示会攻击秘境镇石</b>",
+                                "EN": "<b>* Asterisk monsters will attack the Defend Target</b>"
+                            },
                             "Monsters": [
                                 {
-                                    "ID": 40501,
+                                    "ID": 40612,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 40610,
                                     "Num": 1,
                                     "Affix": [
-                                        5222
+                                        6106
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "ExtraDesc": {
+                                "CH": "<b>* 星号表示会攻击秘境镇石</b>",
+                                "EN": "<b>* Asterisk monsters will attack the Defend Target</b>"
+                            },
+                            "Monsters": [
+                                {
+                                    "ID": 40612,
+                                    "Num": 1,
+                                    "Affix": [
+                                        6101
+                                    ],
+                                    "Mark": true
+                                },
+                                {
+                                    "ID": 40610,
+                                    "Num": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 1,
+                            "ExtraDesc": {
+                                "CH": "<b>* 星号表示会攻击秘境镇石</b>",
+                                "EN": "<b>* Asterisk monsters will attack the Defend Target</b>"
+                            },
+                            "Monsters": [
+                                {
+                                    "ID": 20302,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 50104,
+                                    "Num": 2,
+                                    "Mark": true
+                                },
+                                {
+                                    "ID": 50106,
+                                    "Num": 2,
+                                    "Mark": true
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "ExtraDesc": {
+                                "CH": "<b>* 星号表示会攻击秘境镇石</b>",
+                                "EN": "<b>* Asterisk monsters will attack the Defend Target</b>"
+                            },
+                            "Monsters": [
+                                {
+                                    "ID": 20302,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 50104,
+                                    "Num": 2,
+                                    "Mark": true
+                                },
+                                {
+                                    "ID": 50106,
+                                    "Num": 2,
+                                    "Mark": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "11-2",
+                    "Level": 90,
+                    "GoalType": 0,
+                    "GoalParam": 1,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            34
+                        ]
+                    },
+                    "Upper": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 20101,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5002,
+                                        6105
+                                    ]
+                                },
+                                {
+                                    "ID": 20102,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5001
+                                    ]
+                                },
+                                {
+                                    "ID": 20104,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5001
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 999,
+                            "ExtraDesc": {
+                                "CH": "<b>使第一波维持3个，按顺序杀一个出一个</b>",
+                                "EN": "<b>Supplement WAVE 1, keeping 3 monsters on field in this order</b>"
+                            },
+                            "Monsters": [
+                                {
+                                    "ID": 20102,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5001
+                                    ]
+                                },
+                                {
+                                    "ID": 20101,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5002,
+                                        6105
+                                    ]
+                                },
+                                {
+                                    "ID": 20102,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5001
+                                    ]
+                                },
+                                {
+                                    "ID": 20101,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5002,
+                                        6105
+                                    ]
+                                },
+                                {
+                                    "ID": 20104,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5001
+                                    ]
+                                },
+                                {
+                                    "ID": 20101,
+                                    "Num": 1,
+                                    "Affix": [
+                                        5002,
+                                        6105
                                     ]
                                 }
                             ]
@@ -44782,15 +46632,19 @@ var computer = {
                             "WaveDesc": 1,
                             "Monsters": [
                                 {
-                                    "ID": 50801,
+                                    "ID": 40657,
                                     "Num": 1
                                 },
                                 {
-                                    "ID": 50802,
+                                    "ID": 40654,
                                     "Num": 1
                                 },
                                 {
-                                    "ID": 50803,
+                                    "ID": 40652,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 40651,
                                     "Num": 1
                                 }
                             ]
@@ -44799,31 +46653,229 @@ var computer = {
                             "WaveDesc": 2,
                             "Monsters": [
                                 {
-                                    "ID": 60509,
+                                    "ID": 40662,
                                     "Num": 1
                                 },
                                 {
-                                    "ID": 60510,
+                                    "ID": 40660,
                                     "Num": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "11-3",
+                    "Level": 92,
+                    "GoalType": 0,
+                    "GoalParam": 3,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            19
+                        ]
+                    },
+                    "Upper": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 30501,
+                                    "Num": 1,
+                                    "Affix": [
+                                        6106
+                                    ]
                                 },
                                 {
-                                    "ID": 60511,
-                                    "Num": 1
+                                    "ID": 30301,
+                                    "Num": 2,
+                                    "Affix": [
+                                        5001
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "WaveDesc": 3,
+                            "WaveDesc": 2,
                             "Monsters": [
                                 {
-                                    "ID": 20101,
+                                    "ID": 30601,
                                     "Num": 1,
                                     "Affix": [
-                                        6105
+                                        6101
                                     ]
                                 },
                                 {
-                                    "ID": 60506,
+                                    "ID": 30602,
+                                    "Num": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 53101,
+                                    "Num": 1,
+                                    "Affix": [
+                                        1026
+                                    ]
+                                },
+                                {
+                                    "ID": 53102,
+                                    "Num": 2
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 20301,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 21104,
+                                    "Num": 2,
+                                    "Affix": [
+                                        4190
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "1002": {
+            "Disorder": {
+                "CH": "仅在此层，地脉的涌流平缓通顺。",
+                "EN": "For this floor only, the ley line flow will be normal."
+            },
+            "ShowVers": [
+                7
+            ],
+            "Chambers": [
+                {
+                    "Name": "12-1",
+                    "Level": 95,
+                    "GoalType": 0,
+                    "GoalParam": 3,
+                    "Gadgets": [
+                        502,
+                        554
+                    ],
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            34
+                        ]
+                    },
+                    "Upper": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 61202,
+                                    "Num": 2,
+                                    "Affix": [
+                                        1029
+                                    ]
+                                },
+                                {
+                                    "ID": 60901,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 60905,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 60602,
+                                    "Num": 3
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 20201,
+                                    "Num": 2
+                                }
+                            ]
+                        }
+                    ],
+                    "Lower": [
+                        {
+                            "WaveDesc": 1,
+                            "Monsters": [
+                                {
+                                    "ID": 61203,
+                                    "Num": 2,
+                                    "Affix": [
+                                        1026
+                                    ]
+                                },
+                                {
+                                    "ID": 60905,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 60901,
+                                    "Num": 2
+                                },
+                                {
+                                    "ID": 60603,
+                                    "Num": 3
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 20202,
                                     "Num": 2
                                 }
                             ]
@@ -44866,11 +46918,11 @@ var computer = {
                             "WaveDesc": 1,
                             "Monsters": [
                                 {
-                                    "ID": 40301,
+                                    "ID": 40612,
                                     "Num": 1
                                 },
                                 {
-                                    "ID": 40102,
+                                    "ID": 40610,
                                     "Num": 2
                                 }
                             ]
@@ -44886,7 +46938,7 @@ var computer = {
                                     ]
                                 },
                                 {
-                                    "ID": 40612,
+                                    "ID": 30601,
                                     "Num": 2
                                 }
                             ]
@@ -44894,16 +46946,36 @@ var computer = {
                     ],
                     "Lower": [
                         {
-                            "WaveDesc": 20601,
+                            "WaveDesc": 1,
                             "Monsters": [
                                 {
-                                    "ID": 20601,
-                                    "Num": 1,
-                                    "Affix": [
-                                        5157
-                                    ],
-                                    "HPOverride": 4.8,
-                                    "HPDown": true
+                                    "ID": 40659,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 40662,
+                                    "Num": 2
+                                }
+                            ]
+                        },
+                        {
+                            "WaveDesc": 2,
+                            "Monsters": [
+                                {
+                                    "ID": 20801,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20702,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20701,
+                                    "Num": 1
+                                },
+                                {
+                                    "ID": 20703,
+                                    "Num": 1
                                 }
                             ]
                         }
@@ -44940,43 +47012,13 @@ var computer = {
                     },
                     "Upper": [
                         {
-                            "WaveDesc": 1,
+                            "WaveDesc": 40632,
                             "Monsters": [
                                 {
-                                    "ID": 21101,
+                                    "ID": 40632,
                                     "Num": 1,
                                     "Affix": [
-                                        4190
-                                    ]
-                                },
-                                {
-                                    "ID": 10205,
-                                    "Num": 1
-                                }
-                            ]
-                        },
-                        {
-                            "WaveDesc": 2,
-                            "Monsters": [
-                                {
-                                    "ID": 21103,
-                                    "Num": 1,
-                                    "Affix": [
-                                        4190
-                                    ]
-                                },
-                                {
-                                    "ID": 20104,
-                                    "Num": 2,
-                                    "Affix": [
-                                        5001
-                                    ]
-                                },
-                                {
-                                    "ID": 10302,
-                                    "Num": 1,
-                                    "Affix": [
-                                        5004
+                                        1
                                     ]
                                 }
                             ]
@@ -44987,20 +47029,19 @@ var computer = {
                             "WaveDesc": 1,
                             "Monsters": [
                                 {
-                                    "ID": 61201,
-                                    "Num": 1
+                                    "ID": 21101,
+                                    "Num": 1,
+                                    "Affix": [
+                                        4190
+                                    ]
                                 },
                                 {
-                                    "ID": 61203,
-                                    "Num": 1
-                                },
-                                {
-                                    "ID": 61202,
-                                    "Num": 1
-                                },
-                                {
-                                    "ID": 61204,
-                                    "Num": 1
+                                    "ID": 21103,
+                                    "Num": 1,
+                                    "Affix": [
+                                        4190,
+                                        4066
+                                    ]
                                 }
                             ]
                         },
@@ -45008,67 +47049,7 @@ var computer = {
                             "WaveDesc": 2,
                             "Monsters": [
                                 {
-                                    "ID": 40401,
-                                    "Num": 1,
-                                    "Affix": [
-                                        5221
-                                    ]
-                                },
-                                {
-                                    "ID": 40402,
-                                    "Num": 1,
-                                    "Affix": [
-                                        5221
-                                    ]
-                                },
-                                {
-                                    "ID": 40403,
-                                    "Num": 1,
-                                    "Affix": [
-                                        5221
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "WaveDesc": 3,
-                            "Monsters": [
-                                {
-                                    "ID": 61601,
-                                    "Num": 1,
-                                    "Affix": [
-                                        1052
-                                    ]
-                                },
-                                {
-                                    "ID": 61602,
-                                    "Num": 1,
-                                    "Affix": [
-                                        1052
-                                    ]
-                                },
-                                {
-                                    "ID": 61603,
-                                    "Num": 1,
-                                    "Affix": [
-                                        1052
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "WaveDesc": 4,
-                            "Monsters": [
-                                {
-                                    "ID": 20502,
-                                    "Num": 1
-                                },
-                                {
-                                    "ID": 20402,
-                                    "Num": 2
-                                },
-                                {
-                                    "ID": 40662,
+                                    "ID": 61002,
                                     "Num": 2
                                 }
                             ]
@@ -46093,14 +48074,44 @@ var computer = {
                 "EN": "When a character recovers or loses HP, that character gains <color style='color:#0000FF;'>40% increased Elemental and Physical DMG</color> for 3s."
             }
         },
+        "71": {
+            "Name": {
+                "CH": "劲切之月",
+                "EN": "Cleaving Moon"
+            },
+            "Desc": {
+                "CH": "角色的当前生命值提升或降低时，<color style='color:#0000FF;'>普通攻击与重击造成的伤害提升16%</color>，该效果持续6秒，每0.5秒至多触发一次，至多叠加3层。",
+                "EN": "When the character's HP increases or decreases, their <color style='color:#0000FF;'>Normal Attacks and Plunging Attacks DMG will be increased by 16%</color> for 6s. This effect can be triggered once every 0.5s. Max 3 stacks."
+            }
+        },
+        "72": {
+            "Name": {
+                "CH": "分进之月",
+                "EN": "Converging Moon"
+            },
+            "Desc": {
+                "CH": "角色的重击命中敌人后，依据重击的元素伤害或物理伤害类型，角色获得<color style='color:#0000FF;'>20%对应元素伤害或物理伤害加成</color>，该效果持续5秒，每0.5秒至多触发一次，至多叠加3层。由不同元素伤害或物理伤害类型的重击产生的加成效果分别独立存在，独立计时。",
+                "EN": "After the character's Charged Attack hits an opponent, the character will receive <color style='color:#0000FF;'>a 20% Elemental or Physical DMG increase</color>, according to their own Elemental type, for 5s. This effect can be triggered once every 0.5s. Max 3 stacks. Charged Attack DMG increase from different Elemental types or Physical DMG are counted independently."
+            }
+        },
+        "73": {
+            "Name": {
+                "CH": "并力之月",
+                "EN": "Coalescing Moon"
+            },
+            "Desc": {
+                "CH": "当前场上角色的普通攻击或重击命中敌人后，该角色<color style='color:#0000FF;'>普通攻击与重击的暴击率提升6%</color>。该效果持续5秒，每0.1秒至多触发一次，至多叠加5层，每层独立计时。角色退场后，将清除该效果。",
+                "EN": "After the active character's Normal or Charging Attack hits an opponent, that character's <color style='color:#0000FF;'>Normal and Plunging Attacks CRIT Rate is increased by 6%</color> for 5s. This effect can be triggered once every 0.1s. Max 5 stacks. Each stack's duration is counted independently. This effect will be cleared if the character leaves the field."
+            }
+        },
         "1001": {
             "Name": {
                 "CH": "寒露之月",
                 "EN": "Precipitant Moon"
             },
             "Desc": {
-                "CH": "当前场上角色的生命值恢复时，队伍中所有角色<color style='color:#0000FF;'>造成的伤害提升10%</color>。该效果持续6秒，每0.3秒至多触发一次，至多叠加6层。",
-                "EN": "After the active character restores HP, all party members' <color style='color:#0000FF;'>DMG dealt will be increased by 10%</color> for 6s. This effect can be triggered once every 0.3s. Max 6 stacks."
+                "CH": "当前场上角色的生命值恢复或降低时，该角色<color style='color:#0000FF;'>造成的伤害提升20%</color>，队伍中其他角色<color style='color:#0000FF;'>生命值上限提升15%</color>。该效果持续6秒，每0.3秒至多触发一次，至多叠加5层。角色退场时将移除所有效果。",
+                "EN": "After the active character HP increases or decreases, this character's <color style='color:#0000FF;'>DMG dealt increases by 20%</color> for 6s, other party members' <color style='color:#0000FF;'>Max HP increases by 15%</color> for 6s. This effect can be triggered once every 0.3s. Max 5 stacks. When a character leaves the field, all effects will be removed."
             }
         },
         "1002": {
@@ -46109,8 +48120,8 @@ var computer = {
                 "EN": "Frostbitten Moon"
             },
             "Desc": {
-                "CH": "当前场上角色受到敌人攻击时，队伍中所有角色<color style='color:#0000FF;'>造成的伤害提升15%</color>。该效果持续8秒，每0.3秒至多触发一次，至多叠加4层。",
-                "EN": "After the active character is hit by an opponent, all party members' <color style='color:#0000FF;'>DMG dealt will be increased by 15%</color> for 8s. This effect can be triggered once every 0.3s. Max 4 stacks."
+                "CH": "角色触发元素反应时，<color style='color:#0000FF;'>元素战技造成的伤害提升50%</color>，持续1秒。角色释放元素战技时，队伍中其他角色<color style='color:#0000FF;'>消耗3%生命值</color>。",
+                "EN": "After a character triggers an Elemental Reaction, this character's <color style='color:#0000FF;'>Elemental Skill DMG increases by 50%</color> for 1s. When a character uses Elemental Skill, all other party members consume 3% Max HP."
             }
         },
         "1003": {
@@ -47195,224 +49206,162 @@ var computer = {
                 "4.0-A",
                 "4.0-B"
             ]
+        },
+        {
+            "Name": "4.1",
+            "OpenTime": "2023/10/01 - 2023/11/15",
+            "Phases": [
+                75,
+                76,
+                77
+            ],
+            "Blessings": [
+                71,
+                72,
+                73
+            ],
+            "Floors": [
+                57,
+                58,
+                61,
+                62
+            ],
+            "Download": [
+                "4.1"
+            ]
+        },
+        {
+            "Name": "test",
+            "OpenTime": "2023/11/16 - 2023/12/31",
+            "Phases": [
+                78,
+                79,
+                80
+            ],
+            "Blessings": [
+                1001,
+                1002,
+                1003
+            ],
+            "Floors": [
+                57,
+                58,
+                1001,
+                1002
+            ]
         }
     ],
     "SpiralAbyssDPSData": [
         {
             "Title": {
-                "CH": "历代12层总血量",
-                "EN": "Floor 12 Total HP"
-            },
-            "SubTitle": {
-                "CH": "第12层全部怪物血量总和",
-                "EN": "Sum of the HP of every enemy in Floor 12"
-            },
-            "Color": "#9853CB",
-            "Data": [
-                {
-                    "Ver": "1.0 1.1",
-                    "DPS": 8717739
-                },
-                {
-                    "Ver": "1.2",
-                    "DPS": 7671305
-                },
-                {
-                    "Ver": "1.3 1.4",
-                    "DPS": 7000611
-                },
-                {
-                    "Ver": "1.5",
-                    "DPS": 7778026
-                },
-                {
-                    "Ver": "1.6",
-                    "DPS": 7228175
-                },
-                {
-                    "Ver": "2.0",
-                    "DPS": 10519323
-                },
-                {
-                    "Ver": "2.1",
-                    "DPS": 10939778
-                },
-                {
-                    "Ver": "2.2",
-                    "DPS": 12252059
-                },
-                {
-                    "Ver": "2.3",
-                    "DPS": 14965230
-                },
-                {
-                    "Ver": "2.4",
-                    "DPS": 11687572
-                },
-                {
-                    "Ver": "2.5",
-                    "DPS": 11765197
-                },
-                {
-                    "Ver": "2.6",
-                    "DPS": 8821199
-                },
-                {
-                    "Ver": "2.7",
-                    "DPS": 10584562
-                },
-                {
-                    "Ver": "2.8",
-                    "DPS": 10631777
-                },
-                {
-                    "Ver": "3.0",
-                    "DPS": 13217158
-                },
-                {
-                    "Ver": "3.1",
-                    "DPS": 13968969
-                },
-                {
-                    "Ver": "3.2",
-                    "DPS": 19087014
-                },
-                {
-                    "Ver": "3.3",
-                    "DPS": 15713211
-                },
-                {
-                    "Ver": "3.4",
-                    "DPS": 17365747
-                },
-                {
-                    "Ver": "3.5",
-                    "DPS": 14403941
-                },
-                {
-                    "Ver": "3.6",
-                    "DPS": 20336105
-                },
-                {
-                    "Ver": "3.7",
-                    "DPS": 14048735
-                },
-                {
-                    "Ver": "3.8",
-                    "DPS": 20818268
-                },
-                {
-                    "Ver": "4.0",
-                    "DPS": 14777998
-                }
-            ]
-        },
-        {
-            "Title": {
-                "CH": "历代12-1输出压力",
-                "EN": "Chamber 12-1 Damage Pressure"
+                "CH": "历代12-3输出压力",
+                "EN": "Chamber 12-3 Damage Pressure"
             },
             "SubTitle": {
                 "CH": "通关至少需要打这么多伤害",
                 "EN": "You have to deal at least this much damage to pass"
             },
-            "Color": "#00B050",
+            "Color": "#00B0F0",
             "Data": [
                 {
                     "Ver": "1.0 1.1",
-                    "DPS": 901837
+                    "DPS": 1470605
                 },
                 {
                     "Ver": "1.2",
-                    "DPS": 1179326
+                    "DPS": 1470605
                 },
                 {
                     "Ver": "1.3 1.4",
-                    "DPS": 1109954
+                    "DPS": 1470605
                 },
                 {
                     "Ver": "1.5",
-                    "DPS": 1109954
+                    "DPS": 1084571
                 },
                 {
                     "Ver": "1.6",
-                    "DPS": 1109954
+                    "DPS": 1250014
                 },
                 {
                     "Ver": "2.0",
-                    "DPS": 1800578
+                    "DPS": 2359527
                 },
                 {
                     "Ver": "2.1",
-                    "DPS": 1425496
+                    "DPS": 3277741
                 },
                 {
                     "Ver": "2.2",
-                    "DPS": 1683957
+                    "DPS": 2665471
                 },
                 {
                     "Ver": "2.3",
-                    "DPS": 2135146
+                    "DPS": 3166821
                 },
                 {
                     "Ver": "2.4",
-                    "DPS": 2874415
+                    "DPS": 3308861
                 },
                 {
                     "Ver": "2.5",
-                    "DPS": 2430433
+                    "DPS": 1746991
                 },
                 {
                     "Ver": "2.6",
-                    "DPS": 1479883
+                    "DPS": 1250014
                 },
                 {
                     "Ver": "2.7",
-                    "DPS": 2081163
+                    "DPS": 3188951
                 },
                 {
                     "Ver": "2.8",
-                    "DPS": 1604752
+                    "DPS": 2606621
                 },
                 {
                     "Ver": "3.0",
-                    "DPS": 2180576
+                    "DPS": 3438521
                 },
                 {
                     "Ver": "3.1",
-                    "DPS": 1680860
+                    "DPS": 2773001
                 },
                 {
                     "Ver": "3.2",
-                    "DPS": 2930148
+                    "DPS": 3660361
                 },
                 {
                     "Ver": "3.3",
-                    "DPS": 3134578
+                    "DPS": 3577171
                 },
                 {
                     "Ver": "3.4",
-                    "DPS": 3146278
+                    "DPS": 3466251
                 },
                 {
                     "Ver": "3.5",
-                    "DPS": 1955536
+                    "DPS": 3411706
                 },
                 {
                     "Ver": "3.6",
-                    "DPS": 2930149
+                    "DPS": 3689006
                 },
                 {
                     "Ver": "3.7",
-                    "DPS": 1771245
+                    "DPS": 3327601
                 },
                 {
                     "Ver": "3.8",
-                    "DPS": 2804925
+                    "DPS": 3050301
                 },
                 {
                     "Ver": "4.0",
-                    "DPS": 2750302
+                    "DPS": 3493981
+                },
+                {
+                    "Ver": "4.1",
+                    "DPS": 3979256
                 }
             ]
         },
@@ -47522,115 +49471,236 @@ var computer = {
                 {
                     "Ver": "4.0",
                     "DPS": 3064285
+                },
+                {
+                    "Ver": "4.1",
+                    "DPS": 3347538
                 }
             ]
         },
         {
             "Title": {
-                "CH": "历代12-3输出压力",
-                "EN": "Chamber 12-3 Damage Pressure"
+                "CH": "历代12-1输出压力",
+                "EN": "Chamber 12-1 Damage Pressure"
             },
             "SubTitle": {
                 "CH": "通关至少需要打这么多伤害",
                 "EN": "You have to deal at least this much damage to pass"
             },
-            "Color": "#00B0F0",
+            "Color": "#00B050",
             "Data": [
                 {
                     "Ver": "1.0 1.1",
-                    "DPS": 1470605
+                    "DPS": 901837
                 },
                 {
                     "Ver": "1.2",
-                    "DPS": 1470605
+                    "DPS": 1179326
                 },
                 {
                     "Ver": "1.3 1.4",
-                    "DPS": 1470605
+                    "DPS": 1109954
                 },
                 {
                     "Ver": "1.5",
-                    "DPS": 1084571
+                    "DPS": 1109954
                 },
                 {
                     "Ver": "1.6",
-                    "DPS": 1250014
+                    "DPS": 1109954
                 },
                 {
                     "Ver": "2.0",
-                    "DPS": 2359527
+                    "DPS": 1800578
                 },
                 {
                     "Ver": "2.1",
-                    "DPS": 3277741
+                    "DPS": 1425496
                 },
                 {
                     "Ver": "2.2",
-                    "DPS": 2665471
+                    "DPS": 1683957
                 },
                 {
                     "Ver": "2.3",
-                    "DPS": 3166821
+                    "DPS": 2135146
                 },
                 {
                     "Ver": "2.4",
-                    "DPS": 3308861
+                    "DPS": 2874415
                 },
                 {
                     "Ver": "2.5",
-                    "DPS": 1746991
+                    "DPS": 2430433
                 },
                 {
                     "Ver": "2.6",
-                    "DPS": 1250014
+                    "DPS": 1479883
                 },
                 {
                     "Ver": "2.7",
-                    "DPS": 3188951
+                    "DPS": 2081163
                 },
                 {
                     "Ver": "2.8",
-                    "DPS": 2606621
+                    "DPS": 1604752
                 },
                 {
                     "Ver": "3.0",
-                    "DPS": 3438521
+                    "DPS": 2180576
                 },
                 {
                     "Ver": "3.1",
-                    "DPS": 2773001
+                    "DPS": 1680860
                 },
                 {
                     "Ver": "3.2",
-                    "DPS": 3660361
+                    "DPS": 2930148
                 },
                 {
                     "Ver": "3.3",
-                    "DPS": 3577171
+                    "DPS": 3134578
                 },
                 {
                     "Ver": "3.4",
-                    "DPS": 3466251
+                    "DPS": 3146278
                 },
                 {
                     "Ver": "3.5",
-                    "DPS": 3411706
+                    "DPS": 1955536
                 },
                 {
                     "Ver": "3.6",
-                    "DPS": 3689006
+                    "DPS": 2930149
                 },
                 {
                     "Ver": "3.7",
-                    "DPS": 3327601
+                    "DPS": 1771245
                 },
                 {
                     "Ver": "3.8",
-                    "DPS": 3050301
+                    "DPS": 2804925
                 },
                 {
                     "Ver": "4.0",
-                    "DPS": 3493981
+                    "DPS": 2750302
+                },
+                {
+                    "Ver": "4.1",
+                    "DPS": 2978036
+                }
+            ]
+        },
+        {
+            "Title": {
+                "CH": "历代12层总血量",
+                "EN": "Floor 12 Total HP"
+            },
+            "SubTitle": {
+                "CH": "第12层全部怪物血量总和",
+                "EN": "Sum of the HP of every enemy in Floor 12"
+            },
+            "Color": "#9853CB",
+            "Data": [
+                {
+                    "Ver": "1.0 1.1",
+                    "DPS": 8717739
+                },
+                {
+                    "Ver": "1.2",
+                    "DPS": 7671305
+                },
+                {
+                    "Ver": "1.3 1.4",
+                    "DPS": 7000611
+                },
+                {
+                    "Ver": "1.5",
+                    "DPS": 7778026
+                },
+                {
+                    "Ver": "1.6",
+                    "DPS": 7228175
+                },
+                {
+                    "Ver": "2.0",
+                    "DPS": 10519323
+                },
+                {
+                    "Ver": "2.1",
+                    "DPS": 10939778
+                },
+                {
+                    "Ver": "2.2",
+                    "DPS": 12252059
+                },
+                {
+                    "Ver": "2.3",
+                    "DPS": 14965230
+                },
+                {
+                    "Ver": "2.4",
+                    "DPS": 11687572
+                },
+                {
+                    "Ver": "2.5",
+                    "DPS": 11765197
+                },
+                {
+                    "Ver": "2.6",
+                    "DPS": 8821199
+                },
+                {
+                    "Ver": "2.7",
+                    "DPS": 10584562
+                },
+                {
+                    "Ver": "2.8",
+                    "DPS": 10631777
+                },
+                {
+                    "Ver": "3.0",
+                    "DPS": 13217158
+                },
+                {
+                    "Ver": "3.1",
+                    "DPS": 13968969
+                },
+                {
+                    "Ver": "3.2",
+                    "DPS": 19087014
+                },
+                {
+                    "Ver": "3.3",
+                    "DPS": 15713211
+                },
+                {
+                    "Ver": "3.4",
+                    "DPS": 17365747
+                },
+                {
+                    "Ver": "3.5",
+                    "DPS": 14403941
+                },
+                {
+                    "Ver": "3.6",
+                    "DPS": 20336105
+                },
+                {
+                    "Ver": "3.7",
+                    "DPS": 14048735
+                },
+                {
+                    "Ver": "3.8",
+                    "DPS": 20818268
+                },
+                {
+                    "Ver": "4.0",
+                    "DPS": 14777998
+                },
+                {
+                    "Ver": "4.1",
+                    "DPS": 14989705
                 }
             ]
         },
@@ -47740,6 +49810,10 @@ var computer = {
                 {
                     "Ver": "4.0",
                     "DPS": 2076313
+                },
+                {
+                    "Ver": "4.1",
+                    "DPS": 1712518
                 }
             ]
         }
