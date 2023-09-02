@@ -56,6 +56,7 @@ container {
 }
 
 .kingdom {
+    margin: 0 10%;
     margin-top: 20px;
     background-color: rgba(255, 255, 255,0.9);
     padding: 20px;
@@ -81,6 +82,7 @@ container {
 }
 
 .class_monster {
+    margin: 0 10%;
     background-color: rgba(255, 255, 255,0.9);
     padding: 20px;
 }
@@ -130,6 +132,7 @@ category monster img {
 }
 
 .com_result {
+    margin: 0 10%;
     background-color: rgba(255, 255, 255,0.9);
     text-align:center;
     padding:0 0 20px;
