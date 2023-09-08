@@ -99,7 +99,7 @@ $(function () {
                     span: sData.Name
                 }, {
                     em: sData.OpenTime
-                }, {
+                }/*, {
                     div: function (d) {
                         $(d.container).render({
                             data: Download,
@@ -121,7 +121,7 @@ $(function () {
                     when: function (d) {
                         return Download && Download.length
                     }
-                }]
+                }*/]
             }, {
                 section: function (d) {
                     $(d.container).render({
