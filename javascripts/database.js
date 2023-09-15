@@ -3,11 +3,12 @@ $(function () {
     $('.tls' + lang).css("color", "#df903b");
     var currentSpiralAbyss = computer.SpiralAbyssSchedule[0].Name;
     var non_break = 1;
-    var name;
+    var now;
     for (var i_ = 1; non_break && i_ <= computer.SpiralAbyssSchedule.length; i_++) {
-        name = computer.SpiralAbyssSchedule[computer.SpiralAbyssSchedule.length - i_].Name;
-        if (!name.includes("test")) {
-            currentSpiralAbyss = name;
+        now = computer.SpiralAbyssSchedule[computer.SpiralAbyssSchedule.length - i_];
+        if (!now.Name.includes("t")) {
+            currentSpiralAbyss = now.Name;
+            currentGeneration = now.Generation
             non_break = 0;
         }
     }
@@ -17,11 +18,32 @@ $(function () {
     }
     //var qwq = { 0: 0, 1: 6, 2: 5, 3: 4, 4: 3, 5: 2, 6: 1 }
     $('h3 .title').text(computer.MiscText.AbyssTitle[lang])
-    $('h3 .subtitle').html(computer.MiscText.Abyss_Subtitle[lang])
+    $('h3 .subtitle').html(computer.MiscText.Subtitle[lang])
+    $('h3 .links').html(computer.MiscText.Abyss_Links[lang])
     $('h3 .tlsub').html(computer.MiscText.Translate[lang])
     $('container').render({
         template: [{
             div: [{
+                section: function (d) {
+                    $(d.container).render({
+                        data: computer.SpiralAbyssGenerationConfig,
+                        template: {
+                            schedule: function (p) {
+                                return p.data.Name[lang]
+                            },
+                            a: {
+                                class: function (d) {
+                                    return d.data._id === currentGeneration ? 'activeg' : ''
+                                },
+                                'data-id': function (d) {
+                                    return d.data._id
+                                },
+                            }
+                        }
+                    })
+                },
+                class: 'generation'
+            }, {
                 section: function (d) {
                     $(d.container).render({
                         data: computer.SpiralAbyssSchedule,
@@ -29,10 +51,15 @@ $(function () {
                             schedule: '[[Name]]',
                             a: {
                                 class: function (d) {
-                                    return d.data.Name === currentSpiralAbyss ? 'active' : ''
+                                    gen = d.data.Generation
+                                    return d.data.Name === currentSpiralAbyss ? 'active' + ' gg g' + gen : 'gg g' + gen
                                 },
                                 'data-json': function (d) {
                                     return JSON.stringify(d.data)
+                                },
+                                style: function (d) {
+                                    var dsp = d.data.Generation == currentGeneration ? '' : 'none'
+                                    return 'display:' + dsp + ";"
                                 }
                             }
                         }
@@ -47,7 +74,7 @@ $(function () {
         }]
     })
 
-    $(document).on('click', 'schedule', function () {
+    $(document).on('click', '.schedule schedule', function () {
         var _this = $(this);
         if (_this.hasClass('active')) {
             return;
@@ -55,6 +82,20 @@ $(function () {
         _this.addClass('active').siblings('schedule').removeClass('active');
         renderResult()
     })
+
+    $(document).on('click', '.generation schedule', function () {
+        var _this = $(this);
+        if (_this.hasClass('activeg')) {
+            return;
+        }
+        _this.addClass('activeg').siblings('schedule').removeClass('activeg');
+        sVersion(_this.attr('data-id'))
+    })
+
+    function sVersion(generation) {
+        $('.gg').hide();
+        $('.g' + generation).show()
+    }
 
     function renderResult() {
         var sData = JSON.parse($('schedule.active').attr('data-json'));
@@ -120,6 +161,11 @@ $(function () {
                     },
                     when: function (d) {
                         return Download && Download.length
+                    },
+                    style: {
+                        'display': 'flex',
+                        'flex-wrap': 'wrap',
+                        'justify-content': 'space-evenly'
                     }
                 }*/]
             }, {
@@ -201,7 +247,6 @@ $(function () {
                             }
                         })
                     }
-
                 },
                 class: 'p_h'
             }, {
@@ -216,7 +261,7 @@ $(function () {
                             }, {
                                 ul: {
                                     li: [{
-                                        h6: `[[ShockWaveDesc/${lang}]]`
+                                        p: `[[ShockWaveDesc/${lang}]]`
                                     }, {
                                         ul: {
                                             li: {
@@ -454,10 +499,23 @@ $(function () {
                                                                                     color: function (d) {
                                                                                         return computer.TextColorConfig[d.data.Color] || '';
                                                                                     }
-                                                                                }
+                                                                                },
+                                                                                class: 'monster-name'
                                                                             }, {
                                                                                 span: ' x' + num
                                                                             },
+                                                                            {
+                                                                                em: ' *',
+                                                                                style: {
+                                                                                    "font-style": "normal",
+                                                                                    "font-weight": "600",
+                                                                                    "color": "#000"
+                                                                                },
+                                                                                when: function () {
+                                                                                    return mask;
+                                                                                },
+                                                                                class: 'monster-name-ast'
+                                                                            }
                                                                             ],
                                                                             attr: { target: '_blank', title: '点击前往详情' }
                                                                         }, {
@@ -481,7 +539,7 @@ $(function () {
                                                                                                         width: '50%',
                                                                                                         height: '400px',
                                                                                                         template: {
-                                                                                                            div: "<span style='font-size:13px;color:#FFCC44;'>" + computer.MiscText.Abyss_Show[lang] + "</span><br><br>" + hover
+                                                                                                            div: "<p style='font-size:13px;color:#FFCC44;text-align:center;padding-bottom:12px'>" + computer.MiscText.Abyss_Show[lang] + "</p>" + hover
                                                                                                         },
                                                                                                         class: 'need_header'
                                                                                                     })
@@ -533,6 +591,11 @@ $(function () {
                                                                                 return num.toFixed(0);
                                                                             }
                                                                         }],
+                                                                        style: {
+                                                                            display: 'flex',
+                                                                            'align-items': 'center',
+                                                                            'margin-left': '5px',
+                                                                        }
                                                                     }]
                                                                 })
                                                             }
@@ -695,12 +758,25 @@ $(function () {
                                                                                     color: function (d) {
                                                                                         return computer.TextColorConfig[d.data.Color] || '';
                                                                                     }
-                                                                                }
+                                                                                },
+                                                                                class: 'monster-name'
                                                                             }, {
                                                                                 span: ' x' + num,
                                                                                 whne: function () {
                                                                                     return num
                                                                                 }
+                                                                            },
+                                                                            {
+                                                                                em: ' *',
+                                                                                style: {
+                                                                                    "font-style": "normal",
+                                                                                    "font-weight": "600",
+                                                                                    "color": "#000"
+                                                                                },
+                                                                                when: function () {
+                                                                                    return mask;
+                                                                                },
+                                                                                class: 'monster-name-ast'
                                                                             }],
                                                                             attr: { target: '_blank', title: '点击前往详情' }
                                                                         }, {
@@ -723,7 +799,7 @@ $(function () {
                                                                                                     width: '50%',
                                                                                                     height: '400px',
                                                                                                     template: {
-                                                                                                        div: "<span style='font-size:13px;color:#FFCC44;'>" + computer.MiscText.Abyss_Show[lang] + "</span><br><br>" + hover
+                                                                                                        div: "<p style='font-size:13px;color:#FFCC44;text-align:center;padding-bottom:12px'>" + computer.MiscText.Abyss_Show[lang] + "</p>" + hover
                                                                                                     },
                                                                                                     class: 'need_header'
                                                                                                 })
@@ -775,7 +851,12 @@ $(function () {
                                                                                 var num = a * hp * hpc;
                                                                                 return num.toFixed(0);
                                                                             }
-                                                                        }]
+                                                                        }],
+                                                                        style: {
+                                                                            display: 'flex',
+                                                                            'align-items': 'center',
+                                                                            'margin-left': '5px',
+                                                                        }
                                                                     }]
                                                                 })
                                                             }

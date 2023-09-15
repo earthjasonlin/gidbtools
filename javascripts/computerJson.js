@@ -1,17 +1,21 @@
 //Auto Generated
 var computer = {
     "MiscText": {
-        "Computer_Subtitle": {
-            "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><color style='color:#ffffff;'>点击这里前往 </color><a href='/computer'><b>【怪物数据库】</b></a><a href='/abyss'><b>【深渊数据库】</b></a><a href='/char'><b>【角色数据库】</b></a></p>",
-            "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><color style='color:#ffffff;'>Click here for </color<a href='/computer'><b>[Enemy Database]</b></a><a href='/abyss'><b> [Abyss Database]</b></a><a href='/char'><b> [Character Database]</b></a></p>"
+        "Subtitle": {
+            "CH": "数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://www.reddit.com/user/homdgcat/'>(Reddit)</a>",
+            "EN": "Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://www.reddit.com/user/homdgcat/'>(Reddit)</a>"
         },
-        "Abyss_Subtitle": {
-            "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><color style='color:#ffffff;'>点击这里前往 </color><a href='/computer'><b>【怪物数据库】</b></a><a href='/abyss'><b>【深渊数据库】</b></a><a href='/char'><b>【角色数据库】</b></a></p>",
-            "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><color style='color:#ffffff;'>Click here for </color><a href='/computer'><b>[Enemy Database]</b></a><a href='/abyss'><b> [Abyss Database]</b></a><a href='/char'><b> [Character Database]</b></a></p>"
+        "Computer_Links": {
+            "CH": "<br><b>【怪物】<a href='/abyss'>【深渊】</a><a href='/char'>【角色】</b></a>",
+            "EN": "<br><b>Enemies / <a href='/abyss'>Abyss</a> / <a href='/char'>Characters</b></a>"
         },
-        "Avatar_Subtitle": {
-            "CH": "<p style='font-size:15px;line-height:28px;'>数据提供：<b>妮可少女</b> <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(推特)</a><br><color style='color:#ffffff;'>点击这里前往 </color><a href='/computer'><b>【怪物数据库】</b></a><a href='/abyss'><b>【深渊数据库】</b></a><a href='/char'><b>【角色数据库】</b></a></p>",
-            "EN": "<p style='font-size:15px;line-height:28px;'>Data by <b>HomDGCat</b>: <a href='https://space.bilibili.com/3537104994831140'>(bilibili)</a> <a href='https://nga.178.com/nuke.php?func=ucp&uid=63501525'>(NGA)</a> <a href='https://twitter.com/homdgcat'>(Twitter)</a><br><color style='color:#ffffff;'>Click here for </color><a href='/computer'><b>[Enemy Database]</b></a><a href='/abyss'><b> [Abyss Database]</b></a><a href='/char'><b> [Character Database]</b></a></p>"
+        "Abyss_Links": {
+            "CH": "<br><b><a href='/computer'>【怪物】</a>【深渊】<a href='/char'>【角色】</b></a>",
+            "EN": "<br><b><a href='/computer'>Enemies</a> / Abyss / <a href='/char'>Characters</b></a>"
+        },
+        "Avatar_Links": {
+            "CH": "<br><b><a href='/computer'>【怪物】</a><a href='/abyss'>【深渊】</a>【角色】</b>",
+            "EN": "<br><b><a href='/computer'>Enemies</a> / <a href='/abyss'>Abyss</a> / Characters</b>"
         },
         "Translate": {
             "CH": "<p style='font-size:17px;'><b><a href='javascript:void(0);' class='tls tlsCH'>中文</a>  <a href='javascript:void(0);' class='tls tlsEN'>English</a></b></p>",
@@ -19,19 +23,19 @@ var computer = {
         },
         "Abyss_Reminder": {
             "CH": "点击文字可查看详细解析<br><color style='color:#0066FF;'>玉衡杯深渊数据库 www.abyss.wiki</color>",
-            "EN": "Click on text for detailed info<br><color style='color:#0066FF;'>Yuheng Cup Abyss Database - www.abyss.wiki</color>"
+            "EN": "Click on text for detailed info<br><color style='color:#0066FF;'>HomDGCat Abyss Database - www.abyss.wiki</color>"
         },
         "Computer_Show": {
             "CH": "玉衡杯怪物数据库 www.mons.wiki",
-            "EN": "Yuheng Cup Enemy Database - www.mons.wiki"
+            "EN": "HomDGCat Enemy Database - www.mons.wiki"
         },
         "Abyss_Show": {
             "CH": "玉衡杯深渊数据库 www.abyss.wiki",
-            "EN": "Yuheng Cup Abyss Database www.abyss.wiki"
+            "EN": "HomDGCat Abyss Database www.abyss.wiki"
         },
         "ComputerTitle": {
-            "CH": "玉衡杯数据库 - 敌人",
-            "EN": "Yuheng Cup Database - Enemies"
+            "CH": "玉衡杯数据库",
+            "EN": "HomDGCat Database"
         },
         "Computer_Button_Calculate": {
             "CH": "计算",
@@ -115,11 +119,11 @@ var computer = {
         },
         "Computer_Result_Button_BallIntro2": {
             "CH": "产球能量简介 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Par & Energy Intro | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Par & Energy Intro | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_Result_Button_WeightEndureIntro2": {
             "CH": "韧性力学简介 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Weight & Poise Intro | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Weight & Poise Intro | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_Result_Window_BallIntro": {
             "CH": "无属白微粒：前台角色恢复<color style='color:#FF0000;'>2</color>元素能量\n有属性微粒：前台同属性角色恢复<color style='color:#FF0000;'>3</color>，不同属性恢复<color style='color:#FF0000;'>1</color>\n\n如果角色在后台，恢复的能量会打折扣：\n4人队后台恢复为原本的<color style='color:#FF0000;'>60%</color>\n3人队后台恢复为原本的<color style='color:#FF0000;'>70%</color>\n2人队后台恢复为原本的<color style='color:#FF0000;'>80%</color>",
@@ -151,23 +155,23 @@ var computer = {
         },
         "Computer_Result_Button_Tutorial2": {
             "CH": "机制解析 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Monster Mechanics | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Monster Mechanics | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_Result_Button_SkillDMG2": {
             "CH": "技能伤害 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Skill DMG | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Skill DMG | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_Result_Button_SkillData2": {
             "CH": "招式信息 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Skill Data | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Skill Data | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_Result_Button_Loot2": {
             "CH": "材料掉率 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Loot Drop Rate | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Loot Drop Rate | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_Result_Button_Element2": {
             "CH": "自带附着 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Innate Element | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Innate Element | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_Result_Element_Type": {
             "CH": "自带元素：",
@@ -203,7 +207,7 @@ var computer = {
         },
         "Computer_SkillDMG_Title": {
             "CH": "怪物伤害计算器 | <color style='color:#0066FF;'>玉衡杯怪物数据库 www.mons.wiki</color>",
-            "EN": "Monster DMG Calculator | <color style='color:#0066FF;'>Yuheng Cup Enemy Database - www.mons.wiki</color>"
+            "EN": "Monster DMG Calculator | <color style='color:#0066FF;'>HomDGCat Enemy Database - www.mons.wiki</color>"
         },
         "Computer_SkillDMG_Input_AvatarDEFPlaceholder": {
             "CH": "请输入整数",
@@ -222,8 +226,8 @@ var computer = {
             "EN": "Calculate DMG"
         },
         "AbyssTitle": {
-            "CH": "玉衡杯数据库 - 深境螺旋",
-            "EN": "Yuheng Cup Database - Spiral Abyss"
+            "CH": "玉衡杯数据库",
+            "EN": "HomDGCat Database"
         },
         "Abyss_Select": [
             {
@@ -268,8 +272,8 @@ var computer = {
             "EN": "Download Table"
         },
         "Avatar_Title": {
-            "CH": "玉衡杯数据库 - 角色",
-            "EN": "Yuheng Cup Database - Characters"
+            "CH": "玉衡杯数据库",
+            "EN": "HomDGCat Database"
         },
         "Avatar_Table_Header": [
             // {
@@ -327,7 +331,7 @@ var computer = {
         ],
         "Avatar_Table_Title_Extra": {
             "CH": " | <color style='color:#0066FF;'>玉衡杯角色数据库 www.char.wiki</color>",
-            "EN": " | <color style='color:#0066FF;'>Yuheng Cup Character Database - www.char.wiki</color>"
+            "EN": " | <color style='color:#0066FF;'>HomDGCat Character Database - www.char.wiki</color>"
         },
         "Avatar_Info_Select": [
             {
@@ -442,7 +446,7 @@ var computer = {
             }
         ],
         "Avatar_Data_Ball": {
-            "CH": "元素微粒产出",
+            "CH": "元素微粒",
             "EN": "Particle Generation"
         },
         "Avatar_Data_Endure": {
@@ -516,12 +520,12 @@ var computer = {
             "EN": "Chinese CV: "
         },
         "Avatar_BasicInfo_2_2": {
-            "CH": "英语CV：",
-            "EN": "English CV: "
-        },
-        "Avatar_BasicInfo_2_3": {
             "CH": "日语CV：",
             "EN": "Japanese CV: "
+        },
+        "Avatar_BasicInfo_2_3": {
+            "CH": "英语CV：",
+            "EN": "English CV: "
         },
         "Avatar_BasicInfo_2_4": {
             "CH": "韩语CV：",
@@ -569,10 +573,16 @@ var computer = {
                 "EN": "After Ascension"
             }
         ],
-        "Avatar_Battle_Stat": {
-            "CH": "技能数值",
-            "EN": "Skill Stats"
-        },
+        "Avatar_Battle_Stat": [
+            {
+                "CH": "显示数值",
+                "EN": "Show Stats"
+            },
+            {
+                "CH": "隐藏数值",
+                "EN": "Hide Stats"
+            }
+        ],
         "Avatar_ExtraParamName_Charge": {
             "CH": "可使用次数",
             "EN": "Charges"
@@ -2848,7 +2858,7 @@ var computer = {
             "ClassID": 11006,
             "Name": {
                 "CH": "历经百战的浊水粉碎幻灵",
-                "EN": "Local Legend: Tainted Water-Splitting Phantasm"
+                "EN": "Veteran Tainted Water-Splitting Phantasm"
             },
             "Title": [
                 {
@@ -3000,7 +3010,7 @@ var computer = {
             "ClassID": 11006,
             "Name": {
                 "CH": "历经百战的浊水喷吐幻灵",
-                "EN": "Local Legend: Tainted Water-Spouting Phantasm"
+                "EN": "Veteran Tainted Water-Spouting Phantasm"
             },
             "Title": [
                 {
@@ -8275,8 +8285,8 @@ var computer = {
             "Weight": 150,
             "EndureTemplateID": 150,
             "Tutorial": {
-                "CH": "- 以25~35s为间隔释放<b>终结技</b>：在6U草元素增幅的加持下，释放持续20s的狂蔓飞弹攻击。期间不可打断且免疫风力牵引。<br>- 破除其草元素增幅，或是使用<b>1次荒性或芒性</b>攻击，可以使其瘫痪15s。<br>- 元素增幅不会降低其受到的伤害。深渊特化版本入战立刻释放终结技。",
-                "EN": "- Every 25~35s, performs <b>Ultimate</b>: Under the Enhancement of 6U Dendro Element, unleash deadly Lushmissile attacks, lasting 20s.<br>- Breaking the Dendro Enhancement with reactions or attacking it <b>1 time with Pnuema or Ousia</b> will paralyze it for 15s.<br>- The Enhancement does not affect its DMG taken. Spiral Abyss Version uses Ultimate immediately after entering battle."
+                "CH": "- 以25~35s为间隔释放<b>终结技</b>：在4U草元素增幅的加持下，释放持续20s的狂蔓飞弹攻击。期间不可打断且免疫风力牵引。<br>- 破除其草元素增幅，或是使用<b>1次荒性或芒性</b>攻击，可以使其瘫痪15s。<br>- 元素增幅不会降低其受到的伤害。深渊特化版本入战立刻释放终结技。",
+                "EN": "- Every 25~35s, performs <b>Ultimate</b>: Under the Enhancement of 4U Dendro Element, unleash deadly Lushmissile attacks, lasting 20s.<br>- Breaking the Dendro Enhancement with reactions or attacking it <b>1 time with Pnuema or Ousia</b> will paralyze it for 15s.<br>- The Enhancement does not affect its DMG taken. Spiral Abyss Version uses Ultimate immediately after entering battle."
             },
             "Drop": [
                 {
@@ -8893,12 +8903,12 @@ var computer = {
             "KingdomID": 3,
             "ClassID": 10306,
             "Name": {
-                "CH": "愚人众 · 霜役人",
+                "CH": "愚人众 · 霜剑律从",
                 "EN": "Frost Operative"
             },
             "Title": [
                 {
-                    "CH": "役人 · 霜剑律从",
+                    "CH": "愚人众 · 霜役人",
                     "EN": "Rimesword Servant"
                 }
             ],
@@ -8906,7 +8916,6 @@ var computer = {
                 "CH": "愚人众当中精锐的特务。\n自幼就被选中的人，经长久年月的教化与训练，在无数次的汰换后才能成为所谓的「役人」。是愚人众的阵列中最优秀的士兵，有着出色的身手与不渝的忠诚心。",
                 "EN": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty."
             },
-            "UseCustomColorName": true,
             "Color": "Ice",
             "HP": 4,
             "HPCurve": 2,
@@ -8928,9 +8937,49 @@ var computer = {
             "Weight": 85,
             "EndureTemplateID": 100,
             "Tutorial": {
-                "CH": "- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行斩杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 斩杀攻击命中角色后，役人会<b>恢复10%生命值</b>。斩杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 斩杀攻击的追加攻击命中「生命之契」角色时，会<b>造成原本250%的伤害</b>。",
-                "EN": "- Every 20s, will perform Execution: <b>Consume 5% HP</b> to unleash Killing Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Killing Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When follow-up Killing Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>."
+                "CH": "- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行猎杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 猎杀攻击命中角色后，役人会<b>恢复10%生命值</b>。猎杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 猎杀命中具有「生命之契」的角色时，会<b>造成原本250%的伤害</b>。<br>生命之契量：16%攻击力，可叠加。生命值流失量：每秒0.4%+72，后台5%以下停止流失。",
+                "EN": "- Every 20s, will perform Hunt Down: <b>Consume 5% HP</b> to unleash Hunting Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Hunting Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When Hunting Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>.<br>Bond of Life amount: 16% ATK, stackable. HP Loss: 0.4%+72 every second, off-field stops at 5%."
             },
+            "SkillDMG": [
+                {
+                    "Name": {
+                        "CH": "猎杀（目标无生命之契）",
+                        "EN": "Hunt Down (Target no Bond of Life)"
+                    },
+                    "DMG": [
+                        1.92
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀追加攻击（目标无生命之契）",
+                        "EN": "Hunting Follow-Up (Target no Bond of Life)"
+                    },
+                    "DMG": [
+                        2.4,
+                        4.8
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀（目标有生命之契）",
+                        "EN": "Hunt Down (Target has Bond of Life)"
+                    },
+                    "DMG": [
+                        4.8
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀追加攻击（目标有生命之契）",
+                        "EN": "Hunting Follow-Up (Target has Bond of Life)"
+                    },
+                    "DMG": [
+                        6,
+                        12
+                    ]
+                }
+            ],
             "Drop": [
                 {
                     "Type": 32,
@@ -8947,12 +8996,12 @@ var computer = {
             "KingdomID": 3,
             "ClassID": 10306,
             "Name": {
-                "CH": "愚人众 · 风役人",
+                "CH": "愚人众 · 幽风铃兰",
                 "EN": "Wind Operative"
             },
             "Title": [
                 {
-                    "CH": "役人 · 幽风铃兰",
+                    "CH": "愚人众 · 风役人",
                     "EN": "Gale-Lily Servant"
                 }
             ],
@@ -8960,7 +9009,6 @@ var computer = {
                 "CH": "愚人众当中精锐的特务。\n役人在愚人众中并没有常规的军种编制。依据命令与任务的内容，她们既可以与士兵同进退，也能独自或者与埋在各地的「钉子」一同，进行谍报、反侦察、护卫、抹杀等工作。为了那些更为特殊的任务，役人往往也需要掌握多种多样的技能乃至才艺。",
                 "EN": "An elite agent among the Fatui.\n\"Operatives\" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the \"tacks\" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, \"Operatives\" also need to master all kinds of other skills and even various arts and talents."
             },
-            "UseCustomColorName": true,
             "Color": "Wind",
             "HP": 3.5,
             "HPCurve": 2,
@@ -8982,9 +9030,47 @@ var computer = {
             "Weight": 85,
             "EndureTemplateID": 100,
             "Tutorial": {
-                "CH": "- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行斩杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 斩杀攻击命中角色后，役人会<b>恢复10%生命值</b>。斩杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 斩杀攻击的追加攻击命中「生命之契」角色时，会<b>造成原本250%的伤害</b>。",
-                "EN": "- Every 20s, will perform Execution: <b>Consume 5% HP</b> to unleash Killing Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Killing Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When follow-up Killing Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>."
+                "CH": "- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行猎杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 猎杀攻击命中角色后，役人会<b>恢复10%生命值</b>。猎杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 猎杀命中具有「生命之契」的角色时，会<b>造成原本250%的伤害</b>。<br>生命之契量：16%攻击力，可叠加。生命值流失量：每秒0.4%+72，后台5%以下停止流失。",
+                "EN": "- Every 20s, will perform Hunt Down: <b>Consume 5% HP</b> to unleash Hunting Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Hunting Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When Hunting Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>.<br>Bond of Life amount: 16% ATK, stackable. HP Loss: 0.4%+72 every second, off-field stops at 5%."
             },
+            "SkillDMG": [
+                {
+                    "Name": {
+                        "CH": "猎杀（目标无生命之契）",
+                        "EN": "Hunt Down (Target no Bond of Life)"
+                    },
+                    "DMG": [
+                        5.4
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀追加攻击（目标无生命之契）",
+                        "EN": "Hunting Follow-Up (Target no Bond of Life)"
+                    },
+                    "DMG": [
+                        6
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀（目标有生命之契）",
+                        "EN": "Hunt Down (Target has Bond of Life)"
+                    },
+                    "DMG": [
+                        13.5
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀追加攻击（目标有生命之契）",
+                        "EN": "Hunting Follow-Up (Target has Bond of Life)"
+                    },
+                    "DMG": [
+                        15
+                    ]
+                }
+            ],
             "Drop": [
                 {
                     "Type": 32,
@@ -9017,7 +9103,7 @@ var computer = {
             "ATKCurve": 4,
             "RESBase": {
                 "Phys": -0.2,
-                "Wind": 0.5
+                "Ice": 0.5
             },
             "Ball": {
                 "Type": 4,
@@ -9031,9 +9117,49 @@ var computer = {
             "Weight": 85,
             "EndureTemplateID": 100,
             "Tutorial": {
-                "CH": "- 具有90%冻结抵抗。<br>- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行斩杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 斩杀攻击命中角色后，役人会<b>恢复10%生命值</b>。斩杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 斩杀攻击的追加攻击命中「生命之契」角色时，会<b>造成原本250%的伤害</b>。",
-                "EN": "- Has 90% resistance to Freeze.<br>- Every 20s, will perform Execution: <b>Consume 5% HP</b> to unleash Killing Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Killing Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When follow-up Killing Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>."
-            }
+                "CH": "- 具有90%冻结抵抗。<br>- 会以20s为周期进行「猎杀」：<b>消耗5%生命值</b>进行猎杀攻击。若自身生命值较低，生命值消耗量也会降低。<br>- 猎杀攻击命中角色后，役人会<b>恢复10%生命值</b>。猎杀攻击的每次伤害命中角色，都会施加一定量的「生命之契」，可叠加。<br>-「生命之契」会无视护盾使角色<b>持续流失生命值</b>，并抵消角色受到的治疗量，使其无法被治疗。要消除「生命之契」，累计治疗量必须达到施加的契约量。<br>- 猎杀命中具有「生命之契」的角色时，会<b>造成原本250%的伤害</b>。<br>生命之契量：16%攻击力，可叠加。生命值流失量：每秒0.4%+72，后台5%以下停止流失。",
+                "EN": "- Has 90% resistance to Freeze.<br>- Every 20s, will perform Hunt Down: <b>Consume 5% HP</b> to unleash Hunting Attacks. It its HP is low, the comsumed amount will decrease.<br>- When Hunting Attacks hit a character, it <b>regenerates 10% HP</b>, and inflicts Bond of Life on the character, stackable.<br>- Bond of Life causes the character to <b>lose HP over time</b> even under a shield, and absorbs incoming healing, making the character unable to be healed. To clear the Bond of Life, total healing received must reach the Bond's amount.<br>- When Hunting Attacks hit a character with Bond of Life, it <b>deals 250% of the original DMG</b>.<br>Bond of Life amount: 16% ATK, stackable. HP Loss: 0.4%+72 every second, off-field stops at 5%."
+            },
+            "SkillDMG": [
+                {
+                    "Name": {
+                        "CH": "猎杀（目标无生命之契）",
+                        "EN": "Hunt Down (Target no Bond of Life)"
+                    },
+                    "DMG": [
+                        3.6
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀追加攻击（目标无生命之契）",
+                        "EN": "Hunting Follow-Up (Target no Bond of Life)"
+                    },
+                    "DMG": [
+                        4.5,
+                        9
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀（目标有生命之契）",
+                        "EN": "Hunt Down (Target has Bond of Life)"
+                    },
+                    "DMG": [
+                        9
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "猎杀追加攻击（目标有生命之契）",
+                        "EN": "Hunting Follow-Up (Target has Bond of Life)"
+                    },
+                    "DMG": [
+                        11.25,
+                        22.5
+                    ]
+                }
+            ]
         },
         "40101": {
             "KingdomID": 4,
@@ -10739,7 +10865,7 @@ var computer = {
             "ATKCurve": 4,
             "RESState": [
                 {
-                    "State": "Gravita_Power",
+                    "State": "FauneAbyssale_Shield",
                     "All": 2
                 }
             ],
@@ -10755,9 +10881,31 @@ var computer = {
             "Weight": 150,
             "EndureTemplateID": 210,
             "Tutorial": {
-                "CH": "荒性增幅机关。初始<b><color style='color:#D4A000;'>具有20U岩元素护甲</color></b>，使其全部抗性提升200%。破除后，使用1次芒性攻击可造成湮灭，使其瘫痪5s。<br>- 荒性态免疫冻结和石化。湮灭后具有90%冻结抵抗。<br>- 湮灭后12s会恢复荒性。护甲破除后15s会重生护甲。",
-                "EN": "Ousia enhancement mek. Initially <b><color style='color:#D4A000;'>has 20GU Geo Armor</color></b>, granting 200% increase to all RES. After the armor is destroyed, using 1 Pneuma attack can cause annihilation and immobilize it for 5s.<br>- While in Ousia, immune to Freeze and Petrification. After Pneumosia annihilation, has 90% Freeze RES.<br>- Regains Ousia 12s after annihilation. Ragains armor 15s after destruction of armor."
-            }
+                "CH": "初始处于<b>荒性激发态</b>，<b><color style='color:#D4A000;'>具有20U岩元素护甲</color></b>，使其全部抗性提升200%。破除护甲后，使用1次芒性攻击可以强制退出荒性激发态，使其瘫痪5s。<br>- 荒性激发态免疫冻结和石化。湮灭后仍然具有90%冻结抵抗。<br>- 湮灭后12s会恢复荒性激发。护甲破除后15s会重生护甲。",
+                "EN": "Initially has <b>Ousia Power</b>, granting <b><color style='color:#D4A000;'>a 20GU Geo Armor</color></b> which increases all RES by 200%. After the armor is destroyed, using 1 Pneuma attack can cause annihilation: terminate Ousia Power and immobilize it for 5s. Cannot annihilate when armor is still on.<br>- While in Ousia Power, immune to Freeze and Petrification. After Pneumosia annihilation, still has 90% Freeze RES.<br>- Regains Ousia 12s after annihilation. Regains armor 15s after destruction of armor."
+            },
+            "SkillDMG": [
+                {
+                    "Name": {
+                        "CH": "（荒性激发）岩晶浪潮 / 闪避无效",
+                        "EN": "(Ousia Power) Crystal Waves *Undodgable"
+                    },
+                    "DMG": [
+                        12,
+                        12,
+                        12
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "（荒性激发）地面连续喷砂",
+                        "EN": "(Ousia Power) Continuous Ground Spurt"
+                    },
+                    "DMG": [
+                        10.8
+                    ]
+                }
+            ]
         },
         "40632": {
             "KingdomID": 10,
@@ -10779,7 +10927,7 @@ var computer = {
             "ATKCurve": 4,
             "RESState": [
                 {
-                    "State": "Gravita_Power",
+                    "State": "FauneAbyssale_Shield",
                     "All": 2
                 }
             ],
@@ -10795,9 +10943,31 @@ var computer = {
             "Weight": 150,
             "EndureTemplateID": 210,
             "Tutorial": {
-                "CH": "荒性增幅机关。初始<b><color style='color:#D4A000;'>具有20U岩元素护甲</color></b>，使其全部抗性提升200%。破除后，使用1次芒性攻击可造成湮灭，使其瘫痪5s。<br>- 荒性态免疫冻结和石化。湮灭后具有90%冻结抵抗。<br>- 湮灭后12s会恢复荒性。护甲破除后15s会重生护甲。",
-                "EN": "Ousia enhancement mek. Initially <b><color style='color:#D4A000;'>has 20GU Geo Armor</color></b>, granting 200% increase to all RES. After the armor is destroyed, using 1 Pneuma attack can cause annihilation and immobilize it for 5s.<br>- While in Ousia, immune to Freeze and Petrification. After Pneumosia annihilation, has 90% Freeze RES.<br>- Regains Ousia 12s after annihilation. Ragains armor 15s after destruction of armor."
-            }
+                "CH": "初始处于<b>荒性激发态</b>，<b><color style='color:#D4A000;'>具有20U岩元素护甲</color></b>，使其全部抗性提升200%。破除护甲后，使用1次芒性攻击可以强制退出荒性激发态，使其瘫痪5s。<br>- 荒性激发态免疫冻结和石化。湮灭后仍然具有90%冻结抵抗。<br>- 湮灭后12s会恢复荒性激发。护甲破除后15s会重生护甲。",
+                "EN": "Initially has <b>Ousia Power</b>, granting <b><color style='color:#D4A000;'>a 20GU Geo Armor</color></b> which increases all RES by 200%. After the armor is destroyed, using 1 Pneuma attack can cause annihilation: terminate Ousia Power and immobilize it for 5s. Cannot annihilate when armor is still on.<br>- While in Ousia Power, immune to Freeze and Petrification. After Pneumosia annihilation, still has 90% Freeze RES.<br>- Regains Ousia 12s after annihilation. Regains armor 15s after destruction of armor."
+            },
+            "SkillDMG": [
+                {
+                    "Name": {
+                        "CH": "（荒性激发）岩晶浪潮 / 闪避无效",
+                        "EN": "(Ousia Power) Crystal Waves *Undodgable"
+                    },
+                    "DMG": [
+                        4.8,
+                        4.8,
+                        4.8
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "（荒性激发）地面连续喷砂",
+                        "EN": "(Ousia Power) Continuous Ground Spurt"
+                    },
+                    "DMG": [
+                        3.84
+                    ]
+                }
+            ]
         },
         "40603": {
             "KingdomID": 4,
@@ -11980,7 +12150,37 @@ var computer = {
             "Tutorial": {
                 "CH": "- 在战斗中，会周期性启动<b>荒性激发态</b>，在周围创造反重力场，使角色跳跃高度大幅提升（参数和魈大招等同）。在此期间，会在地面展开猛烈的攻势。<br>- 利用反重力场可以跳跃至空中躲避其攻势。<b>累计使用3次芒性攻击</b>可使其强制退出荒性激发态。荒性激发态会在一分钟后自行消去，并会在30s后再次启动。<br>大世界版本会在生命中降至70%时强制启动激发态；深渊版本开局就会启动。",
                 "EN": "- In battle, it will periodically launch <b>Ousia Power</b>, creating anti-gravitational fields around it, greatly increasing characters' jump height (Equivalent to Xiao's Burst). While Powered, it will launch dangerous attacks on the ground.<br>- Use the anti-gravitational field to jump high into the air and avoid its attacks. <b>Using 3 Pneuma attacks</b> will terminate the Ousia Power. Ousia Power will fade after 1 minute, but will relaunch after 30s.<br>- The Overworld version will launch Power after its HP drops below 70%. The Abyss version will launch immediately after entering battle."
-            }
+            },
+            "SkillDMG": [
+                {
+                    "Name": {
+                        "CH": "（荒性激发）岩晶浪潮 / 闪避无效",
+                        "EN": "(Ousia Power) Crystal Waves *Undodgable"
+                    },
+                    "DMG": [
+                        9,
+                        4.5
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "（荒性激发）斫地凿心",
+                        "EN": "(Ousia Power) Groundbreaker *Undodgable"
+                    },
+                    "DMG": [
+                        9
+                    ]
+                },
+                {
+                    "Name": {
+                        "CH": "（荒性激发）地面连续喷砂",
+                        "EN": "(Ousia Power) Continuous Ground Spurt"
+                    },
+                    "DMG": [
+                        7.2
+                    ]
+                }
+            ]
         },
         "50102": {
             "KingdomID": 5,
@@ -17359,9 +17559,20 @@ var computer = {
             "Weight": 250,
             "EndureTemplateID": 400,
             "Tutorial": {
-                "CH": "- 初始，<b>头部下方的千年珍珠含有<color style='color:#7030A0;'>19U雷元素</color></b>：千年珍珠存在期间，本体全部抗性提升60%（深渊版本80%）并释放极为危险的攻击，产生造成大量持续伤害的溢雷地板。<br>- 千年珍珠的元素量降低至7U之后，千年珍珠骏麟将会导引「原海古雷」，呼来三枚雷殛的珊瑚珠。珊瑚珠含有0.4U雷元素。<br>- 在15s的役雷时间内，每破除一枚珊瑚珠，千年珍珠都会<b>流失三分之一总含量</b>。若未能破除全部的珊瑚珠，「原海古雷」则会如期降临，每个存活的珊瑚珠都将为千年珍珠将<b>恢复三分之一总含量+2U</b>。<br>- 摧毁千年珍珠后，会在30s（深渊版本20s）后再次生成千年珍珠。重生的千年珍珠元素量<b>降低至11.4U</b>。",
-                "EN": "- Initially, <b>the Millenial Pearl under its head contains<color style='color:#7030A0;'>19U Electro</color></b>: The Pearl will increase its all RES by 60% (Abyss Version 80%), and it will unleash deadly attacks, creating Electrified Areas that deal massive DoT.<br>- When the Pearl's Element drops below 7U, it will call for the Primordial Thunder, summoning three Hearts of Storm, which contain 0.4U Electro.<br>- During the 15s call, destroying each Heart will cause the Pearl to <b>lose a third of its durability</b>. If not all Hearts are destroyed in time, the Primordial Thunder descends, each remaining Heart <b>reviving a third of the Pearl's durability plus 2GU</b>.<br>- After the Pearl is destroyed, it will regenerate its Pearl after 30s (Abyss Version 20s). Regenerated Pearl's durability <b>decreases to 11.4GU</b>."
-            }
+                "CH": "- 初始，<b>头部下方的千年珍珠含有<color style='color:#7030A0;'>19U雷元素</color></b>：千年珍珠存在期间，本体全部抗性提升60%（深渊版本80%）并释放极为危险的攻击，产生造成大量持续伤害的溢雷地板。<br>- 千年珍珠的元素量降低至7U之后，千年珍珠骏麟将会导引「原海古雷」，呼来三枚雷殛的珊瑚珠。珊瑚珠含有0.4U雷元素。每破除一枚珊瑚珠，千年珍珠都会<b>流失三分之一总含量</b>。<br>- 在15s的役雷时间内，原海古雷将持续涤荡大地。若未能破除全部的珊瑚珠，每个存活的珊瑚珠都将为千年珍珠将<b>恢复三分之一总含量+2U</b>。<br>- 摧毁千年珍珠后，会在30s（深渊版本20s）后再次生成千年珍珠。重生的千年珍珠元素量<b>降低至11.4U</b>。",
+                "EN": "- Initially, <b>the Millenial Pearl under its head contains<color style='color:#7030A0;'>19U Electro</color></b>: The Pearl will increase its all RES by 60% (Abyss Version 80%), and it will unleash deadly attacks, creating Electrified Areas that deal massive DoT.<br>- When the Pearl's Element drops below 7U, it will call for the Fontemer Hoarthunder, summoning three Hearts of Storm, which contain 0.4U Electro. Destroying each Heart will cause the Pearl to <b>lose a third of its durability</b><br>- During the 15s call, the Fontemer Hoarthunder will continuously descend. If not all Hearts are destroyed in time, each remaining Heart <b>reviving a third of the Pearl's durability plus 2GU</b>.<br>- After the Pearl is destroyed, it will regenerate its Pearl after 30s (Abyss Version 20s). Regenerated Pearl's durability <b>decreases to 11.4GU</b>."
+            },
+            "SkillDMG": [
+                {
+                    "Name": {
+                        "CH": "原海古雷",
+                        "EN": "Fontemer Hoarthunder"
+                    },
+                    "DMG": [
+                        8
+                    ]
+                }
+            ]
         },
         "80203": {
             "KingdomID": 8,
@@ -19749,8 +19960,8 @@ var computer = {
         {
             "ID": 99,
             "Name": {
-                "CH": "<color style='color:#FF0000;'>4.1 新增</color>",
-                "EN": "<color style='color:#FF0000;'>New in 4.1</color>"
+                "CH": "<color style='color:#00AA00;'>4.1 新增</color>",
+                "EN": "<color style='color:#00AA00;'>New in 4.1</color>"
             },
             "Classes": [
                 {
@@ -23217,14 +23428,6 @@ var computer = {
         "60504": {
             "CH": "<color style='color:#7030A0;'>(雷)</color><color style='color:#D4A000;'>古岩龙蜥</color>",
             "EN": "<color style='color:#7030A0;'>Electro</color> <color style='color:#D4A000;'>Primo Geovishap</color>"
-        },
-        "30601": {
-            "CH": "<color style='color:#00B0F0;'>愚人众 · 霜剑律从</color>",
-            "EN": "<color style='color:#00B0F0;'>Seneschal of Frost</color>"
-        },
-        "30602": {
-            "CH": "<color style='color:#00B050;'>愚人众 · 幽风铃兰</color>",
-            "EN": "<color style='color:#00B050;'>Seneschal of Wind</color>"
         }
     },
     "MultiPlayerConfig": {
@@ -23696,56 +23899,56 @@ var computer = {
         "0": {
             "Text": {
                 "CH": "白微粒 ",
-                "EN": "White Par "
+                "EN": "White "
             }
         },
         "1": {
             "Color": "Fire",
             "Text": {
                 "CH": "火微粒 ",
-                "EN": "Pyro Par "
+                "EN": "Pyro "
             }
         },
         "2": {
             "Color": "Water",
             "Text": {
                 "CH": "水微粒 ",
-                "EN": "Hydro Par "
+                "EN": "Hydro "
             }
         },
         "3": {
             "Color": "Elec",
             "Text": {
                 "CH": "雷微粒 ",
-                "EN": "Electro Par "
+                "EN": "Electro "
             }
         },
         "4": {
             "Color": "Ice",
             "Text": {
                 "CH": "冰微粒 ",
-                "EN": "Cryo Par "
+                "EN": "Cryo "
             }
         },
         "5": {
             "Color": "Grass",
             "Text": {
                 "CH": "草微粒 ",
-                "EN": "Dendro Par "
+                "EN": "Dendro "
             }
         },
         "6": {
             "Color": "Wind",
             "Text": {
                 "CH": "风微粒 ",
-                "EN": "Anemo Par "
+                "EN": "Anemo "
             }
         },
         "7": {
             "Color": "Rock",
             "Text": {
                 "CH": "岩微粒 ",
-                "EN": "Geo Par "
+                "EN": "Geo "
             }
         }
     },
@@ -24755,8 +24958,8 @@ var computer = {
                 }
             },
             "Hover": {
-                "CH": "浊水幻灵在愤怒期间的攻击频率降低。<br>（为什么呢，是不是策划酱写反了）",
-                "EN": "Tainted Hydro Phantasm attacks less frequently during Rage State. <br>(Why tho... Maybe they accidently got a sign wrong)"
+                "CH": "地方传奇 · 浊水幻灵：攻击间隔由0.1s增加至2s。",
+                "EN": "Local Legend Tainted Hydro Phantasm: Atack interval increased from 0.1s to 2s."
             }
         },
         "5384": {
@@ -44506,7 +44709,8 @@ var computer = {
                 "EN": "After a character triggers a Vaporize reaction, the Vaporize reaction DMG for that character is increased by 50% for 5s."
             },
             "ShowVers": [
-                1
+                1,
+                0
             ],
             "Chambers": [
                 {
@@ -44812,7 +45016,10 @@ var computer = {
                                 },
                                 {
                                     "ID": 30201,
-                                    "Num": 2
+                                    "Num": 2,
+                                    "Affix": [
+                                        5001
+                                    ]
                                 }
                             ]
                         }
@@ -44826,7 +45033,8 @@ var computer = {
                 "EN": "Character deals 50% increased DMG to opponents affected by Hydro."
             },
             "ShowVers": [
-                1
+                1,
+                0
             ],
             "Chambers": [
                 {
@@ -45064,7 +45272,8 @@ var computer = {
                 "EN": "All party members receive a 60% Pyro DMG Bonus.<br>All party members recieve a 60% Hydro DMG Bonus."
             },
             "ShowVers": [
-                1
+                1,
+                0
             ],
             "Chambers": [
                 {
@@ -45437,7 +45646,8 @@ var computer = {
             },
             "ShowVers": [
                 1,
-                3
+                3,
+                0
             ],
             "Chambers": [
                 {
@@ -45504,7 +45714,10 @@ var computer = {
                             "Monsters": [
                                 {
                                     "ID": 30401,
-                                    "Num": 1
+                                    "Num": 1,
+                                    "Affix": [
+                                        5001
+                                    ]
                                 },
                                 {
                                     "ID": 40659,
@@ -45569,7 +45782,8 @@ var computer = {
                         {
                             "WaveDesc": 61701,
                             "Vers": [
-                                3
+                                3,
+                                0
                             ],
                             "Monsters": [
                                 {
@@ -45602,7 +45816,8 @@ var computer = {
                         {
                             "WaveDesc": 2,
                             "Vers": [
-                                3
+                                3,
+                                0
                             ],
                             "Monsters": [
                                 {
@@ -45694,7 +45909,8 @@ var computer = {
                         {
                             "WaveDesc": 1,
                             "Vers": [
-                                3
+                                3,
+                                0
                             ],
                             "Monsters": [
                                 {
@@ -45732,7 +45948,8 @@ var computer = {
                         {
                             "WaveDesc": 2,
                             "Vers": [
-                                3
+                                3,
+                                0
                             ],
                             "Monsters": [
                                 {
@@ -46098,11 +46315,17 @@ var computer = {
                             "Monsters": [
                                 {
                                     "ID": 5102,
-                                    "Num": 1
+                                    "Num": 1,
+                                    "Affix": [
+                                        5380
+                                    ]
                                 },
                                 {
                                     "ID": 5112,
-                                    "Num": 1
+                                    "Num": 1,
+                                    "Affix": [
+                                        5380
+                                    ]
                                 }
                             ]
                         }
@@ -46378,6 +46601,228 @@ var computer = {
                             ]
                         }
                     ]
+                }
+            ]
+        },
+        "63": {
+            "Disorder": {
+                "CH": "",
+                "EN": ""
+            },
+            "ShowVers": [
+                1
+            ],
+            "Chambers": [
+                {
+                    "Name": "11-1",
+                    "Level": 88,
+                    "GoalType": 1,
+                    "GoalParam": 0,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            31
+                        ]
+                    },
+                    "Upper": [],
+                    "Lower": []
+                },
+                {
+                    "Name": "11-2",
+                    "Level": 90,
+                    "GoalType": 0,
+                    "GoalParam": 1,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            34
+                        ]
+                    },
+                    "Upper": [],
+                    "Lower": []
+                },
+                {
+                    "Name": "11-3",
+                    "Level": 92,
+                    "GoalType": 0,
+                    "GoalParam": 3,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            19
+                        ]
+                    },
+                    "Upper": [],
+                    "Lower": []
+                }
+            ]
+        },
+        "64": {
+            "Disorder": {
+                "CH": "",
+                "EN": ""
+            },
+            "ShowVers": [
+                1
+            ],
+            "Chambers": [
+                {
+                    "Name": "12-1",
+                    "Level": 95,
+                    "GoalType": 0,
+                    "GoalParam": 3,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            34
+                        ]
+                    },
+                    "Upper": [],
+                    "Lower": []
+                },
+                {
+                    "Name": "12-2",
+                    "Level": 98,
+                    "GoalType": 0,
+                    "GoalParam": 3,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            7,
+                            22,
+                            34
+                        ]
+                    },
+                    "Upper": [],
+                    "Lower": []
+                },
+                {
+                    "Name": "12-3",
+                    "Level": 100,
+                    "GoalType": 0,
+                    "GoalParam": 3,
+                    "Buff": {
+                        "Buff1": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            20,
+                            21,
+                            23,
+                            24
+                        ],
+                        "Buff2": [
+                            15,
+                            25,
+                            26,
+                            28,
+                            29,
+                            30,
+                            35
+                        ],
+                        "Buff3": [
+                            19
+                        ]
+                    },
+                    "Upper": [],
+                    "Lower": []
                 }
             ]
         },
@@ -48091,7 +48536,7 @@ var computer = {
             },
             "Desc": {
                 "CH": "角色的重击命中敌人后，依据重击的元素伤害或物理伤害类型，角色获得<color style='color:#0000FF;'>20%对应元素伤害或物理伤害加成</color>，该效果持续5秒，每0.5秒至多触发一次，至多叠加3层。由不同元素伤害或物理伤害类型的重击产生的加成效果分别独立存在，独立计时。",
-                "EN": "After the character's Charged Attack hits an opponent, the character will receive <color style='color:#0000FF;'>a 20% Elemental or Physical DMG increase</color>, according to their own Elemental type, for 5s. This effect can be triggered once every 0.5s. Max 3 stacks. Charged Attack DMG increase from different Elemental types or Physical DMG are counted independently."
+                "EN": "After the character's Charged Attack hits an opponent, the character will receive <color style='color:#0000FF;'>a 20% Elemental or Physical DMG increase</color>, corresponding to the Elemental type of the Charged Attack, for 5s. This effect can be triggered once every 0.5s. Max 3 stacks. Charged Attack DMG increases from different Elemental types or Physical DMG are counted independently."
             }
         },
         "73": {
@@ -48102,6 +48547,36 @@ var computer = {
             "Desc": {
                 "CH": "当前场上角色的普通攻击或重击命中敌人后，该角色<color style='color:#0000FF;'>普通攻击与重击的暴击率提升6%</color>。该效果持续5秒，每0.1秒至多触发一次，至多叠加5层，每层独立计时。角色退场后，将清除该效果。",
                 "EN": "After the active character's Normal or Charging Attack hits an opponent, that character's <color style='color:#0000FF;'>Normal and Plunging Attacks CRIT Rate is increased by 6%</color> for 5s. This effect can be triggered once every 0.1s. Max 5 stacks. Each stack's duration is counted independently. This effect will be cleared if the character leaves the field."
+            }
+        },
+        "74": {
+            "Name": {
+                "CH": "",
+                "EN": " Moon"
+            },
+            "Desc": {
+                "CH": "",
+                "EN": ""
+            }
+        },
+        "75": {
+            "Name": {
+                "CH": "",
+                "EN": " Moon"
+            },
+            "Desc": {
+                "CH": "",
+                "EN": ""
+            }
+        },
+        "76": {
+            "Name": {
+                "CH": "",
+                "EN": " Moon"
+            },
+            "Desc": {
+                "CH": "",
+                "EN": ""
             }
         },
         "1001": {
@@ -48626,9 +49101,47 @@ var computer = {
             "EN": "2025/08 Waning"
         }
     },
+    "SpiralAbyssGenerationConfig": [
+        {
+            "_id": 1,
+            "Name": {
+                "CH": "原初",
+                "EN": "Primordial"
+            }
+        },
+        {
+            "_id": 2,
+            "Name": {
+                "CH": "稻妻",
+                "EN": "Inazuma"
+            }
+        },
+        {
+            "_id": 3,
+            "Name": {
+                "CH": "须弥",
+                "EN": "Sumeru"
+            }
+        },
+        {
+            "_id": 4,
+            "Name": {
+                "CH": "枫丹",
+                "EN": "Fontaine"
+            }
+        },
+        {
+            "_id": 99,
+            "Name": {
+                "CH": "测试",
+                "EN": "Test"
+            }
+        }
+    ],
     "SpiralAbyssSchedule": [
         {
             "Name": "1.0-1.1",
+            "Generation": 1,
             "OpenTime": "2020/09/01 - 2020/12/31",
             "Phases": [
                 1,
@@ -48663,6 +49176,7 @@ var computer = {
         },
         {
             "Name": "1.2",
+            "Generation": 1,
             "OpenTime": "2021/01/01 - 2021/02/15",
             "Phases": [
                 9,
@@ -48687,6 +49201,7 @@ var computer = {
         },
         {
             "Name": "1.3-1.4",
+            "Generation": 1,
             "OpenTime": "2021/02/16 - 2021/04/30",
             "Phases": [
                 12,
@@ -48715,6 +49230,7 @@ var computer = {
         },
         {
             "Name": "1.5",
+            "Generation": 1,
             "OpenTime": "2021/05/01 - 2021/06/15",
             "Phases": [
                 17,
@@ -48739,6 +49255,7 @@ var computer = {
         },
         {
             "Name": "1.6",
+            "Generation": 1,
             "OpenTime": "2021/06/16 - 2021/07/31",
             "Phases": [
                 20,
@@ -48763,6 +49280,7 @@ var computer = {
         },
         {
             "Name": "2.0",
+            "Generation": 2,
             "OpenTime": "2021/08/01 - 2021/09/15",
             "Phases": [
                 23,
@@ -48787,6 +49305,7 @@ var computer = {
         },
         {
             "Name": "2.1",
+            "Generation": 2,
             "OpenTime": "2021/09/16 - 2021/10/15",
             "Phases": [
                 26,
@@ -48809,6 +49328,7 @@ var computer = {
         },
         {
             "Name": "2.2",
+            "Generation": 2,
             "OpenTime": "2021/10/16 - 2021/11/30",
             "Phases": [
                 28,
@@ -48833,6 +49353,7 @@ var computer = {
         },
         {
             "Name": "2.3",
+            "Generation": 2,
             "OpenTime": "2021/12/01 - 2022/01/15",
             "Phases": [
                 31,
@@ -48857,6 +49378,7 @@ var computer = {
         },
         {
             "Name": "2.4",
+            "Generation": 2,
             "OpenTime": "2022/01/16 - 2022/02/28",
             "Phases": [
                 34,
@@ -48881,6 +49403,7 @@ var computer = {
         },
         {
             "Name": "2.5",
+            "Generation": 2,
             "OpenTime": "2022/03/01 - 2022/03/31",
             "Phases": [
                 37,
@@ -48903,6 +49426,7 @@ var computer = {
         },
         {
             "Name": "2.6",
+            "Generation": 2,
             "OpenTime": "2022/04/01 - 2022/05/31",
             "Phases": [
                 39,
@@ -48929,6 +49453,7 @@ var computer = {
         },
         {
             "Name": "2.7",
+            "Generation": 2,
             "OpenTime": "2022/06/01 - 2022/07/15",
             "Phases": [
                 43,
@@ -48953,6 +49478,7 @@ var computer = {
         },
         {
             "Name": "2.8",
+            "Generation": 2,
             "OpenTime": "2022/07/16 - 2022/08/31",
             "Phases": [
                 46,
@@ -48977,6 +49503,7 @@ var computer = {
         },
         {
             "Name": "3.0",
+            "Generation": 3,
             "OpenTime": "2022/09/01 - 2022/09/30",
             "Phases": [
                 49,
@@ -48999,6 +49526,7 @@ var computer = {
         },
         {
             "Name": "3.1",
+            "Generation": 3,
             "OpenTime": "2022/10/01 - 2022/11/15",
             "Phases": [
                 51,
@@ -49023,6 +49551,7 @@ var computer = {
         },
         {
             "Name": "3.2",
+            "Generation": 3,
             "OpenTime": "2022/11/16 - 2022/12/15",
             "Phases": [
                 54,
@@ -49045,6 +49574,7 @@ var computer = {
         },
         {
             "Name": "3.3",
+            "Generation": 3,
             "OpenTime": "2022/12/16 - 2023/01/31",
             "Phases": [
                 56,
@@ -49069,6 +49599,7 @@ var computer = {
         },
         {
             "Name": "3.4",
+            "Generation": 3,
             "OpenTime": "2023/02/01 - 2023/03/15",
             "Phases": [
                 59,
@@ -49093,6 +49624,7 @@ var computer = {
         },
         {
             "Name": "3.5",
+            "Generation": 3,
             "OpenTime": "2023/03/16 - 2023/04/15",
             "Phases": [
                 62,
@@ -49115,6 +49647,7 @@ var computer = {
         },
         {
             "Name": "3.6",
+            "Generation": 3,
             "OpenTime": "2023/04/16 - 2023/05/31",
             "Phases": [
                 64,
@@ -49139,6 +49672,7 @@ var computer = {
         },
         {
             "Name": "3.7",
+            "Generation": 3,
             "OpenTime": "2023/06/01 - 2023/07/15",
             "Phases": [
                 67,
@@ -49163,6 +49697,7 @@ var computer = {
         },
         {
             "Name": "3.8",
+            "Generation": 3,
             "OpenTime": "2023/07/16 - 2023/08/31",
             "Phases": [
                 70,
@@ -49187,6 +49722,7 @@ var computer = {
         },
         {
             "Name": "4.0",
+            "Generation": 4,
             "OpenTime": "2023/09/01 - 2023/09/30",
             "Phases": [
                 73,
@@ -49209,6 +49745,7 @@ var computer = {
         },
         {
             "Name": "4.1",
+            "Generation": 4,
             "OpenTime": "2023/10/01 - 2023/11/15",
             "Phases": [
                 75,
@@ -49231,7 +49768,29 @@ var computer = {
             ]
         },
         {
+            "Name": "4.2t",
+            "Generation": 4,
+            "OpenTime": "2023/11/16 - 2023/12/31",
+            "Phases": [
+                78,
+                79,
+                80
+            ],
+            "Blessings": [
+                74,
+                75,
+                76
+            ],
+            "Floors": [
+                57,
+                58,
+                63,
+                64
+            ]
+        },
+        {
             "Name": "test",
+            "Generation": 99,
             "OpenTime": "2023/11/16 - 2023/12/31",
             "Phases": [
                 78,
@@ -49254,340 +49813,114 @@ var computer = {
     "SpiralAbyssDPSData": [
         {
             "Title": {
-                "CH": "历代12-3输出压力",
-                "EN": "Chamber 12-3 Damage Pressure"
+                "CH": "历代11-3输出压力",
+                "EN": "Chamber 11-3 Damage Pressure"
             },
             "SubTitle": {
                 "CH": "通关至少需要打这么多伤害",
                 "EN": "You have to deal at least this much damage to pass"
             },
-            "Color": "#00B0F0",
+            "Color": "#FF8989",
             "Data": [
                 {
                     "Ver": "1.0 1.1",
-                    "DPS": 1470605
+                    "DPS": 818269
                 },
                 {
                     "Ver": "1.2",
-                    "DPS": 1470605
+                    "DPS": 920552
                 },
                 {
                     "Ver": "1.3 1.4",
-                    "DPS": 1470605
+                    "DPS": 920552
                 },
                 {
                     "Ver": "1.5",
-                    "DPS": 1084571
+                    "DPS": 583017
                 },
                 {
                     "Ver": "1.6",
-                    "DPS": 1250014
+                    "DPS": 685300
                 },
                 {
                     "Ver": "2.0",
-                    "DPS": 2359527
+                    "DPS": 715985
                 },
                 {
                     "Ver": "2.1",
-                    "DPS": 3277741
+                    "DPS": 1329687
                 },
                 {
                     "Ver": "2.2",
-                    "DPS": 2665471
+                    "DPS": 818269
                 },
                 {
                     "Ver": "2.3",
-                    "DPS": 3166821
+                    "DPS": 841995
                 },
                 {
                     "Ver": "2.4",
-                    "DPS": 3308861
+                    "DPS": 1594291
                 },
                 {
                     "Ver": "2.5",
-                    "DPS": 1746991
+                    "DPS": 885310
                 },
                 {
                     "Ver": "2.6",
-                    "DPS": 1250014
+                    "DPS": 1116626
                 },
                 {
                     "Ver": "2.7",
-                    "DPS": 3188951
+                    "DPS": 1528451
                 },
                 {
                     "Ver": "2.8",
-                    "DPS": 2606621
+                    "DPS": 1218288
                 },
                 {
                     "Ver": "3.0",
-                    "DPS": 3438521
+                    "DPS": 932560
                 },
                 {
                     "Ver": "3.1",
-                    "DPS": 2773001
+                    "DPS": 1785606
                 },
                 {
                     "Ver": "3.2",
-                    "DPS": 3660361
+                    "DPS": 869411
                 },
                 {
                     "Ver": "3.3",
-                    "DPS": 3577171
+                    "DPS": 1100061
                 },
                 {
                     "Ver": "3.4",
-                    "DPS": 3466251
+                    "DPS": 842906
                 },
                 {
                     "Ver": "3.5",
-                    "DPS": 3411706
+                    "DPS": 1576280
                 },
                 {
                     "Ver": "3.6",
-                    "DPS": 3689006
+                    "DPS": 1703201
                 },
                 {
                     "Ver": "3.7",
-                    "DPS": 3327601
+                    "DPS": 1613302
                 },
                 {
                     "Ver": "3.8",
-                    "DPS": 3050301
+                    "DPS": 1124453
                 },
                 {
                     "Ver": "4.0",
-                    "DPS": 3493981
+                    "DPS": 2076313
                 },
                 {
                     "Ver": "4.1",
-                    "DPS": 3979256
-                }
-            ]
-        },
-        {
-            "Title": {
-                "CH": "历代12-2输出压力",
-                "EN": "Chamber 12-2 Damage Pressure"
-            },
-            "SubTitle": {
-                "CH": "通关至少需要打这么多伤害",
-                "EN": "You have to deal at least this much damage to pass"
-            },
-            "Color": "#FFC000",
-            "Data": [
-                {
-                    "Ver": "1.0 1.1",
-                    "DPS": 996393
-                },
-                {
-                    "Ver": "1.2",
-                    "DPS": 996393
-                },
-                {
-                    "Ver": "1.3 1.4",
-                    "DPS": 766456
-                },
-                {
-                    "Ver": "1.5",
-                    "DPS": 720468
-                },
-                {
-                    "Ver": "1.6",
-                    "DPS": 1456266
-                },
-                {
-                    "Ver": "2.0",
-                    "DPS": 2452659
-                },
-                {
-                    "Ver": "2.1",
-                    "DPS": 2305421
-                },
-                {
-                    "Ver": "2.2",
-                    "DPS": 2688648
-                },
-                {
-                    "Ver": "2.3",
-                    "DPS": 1716861
-                },
-                {
-                    "Ver": "2.4",
-                    "DPS": 2789899
-                },
-                {
-                    "Ver": "2.5",
-                    "DPS": 1925824
-                },
-                {
-                    "Ver": "2.6",
-                    "DPS": 950405
-                },
-                {
-                    "Ver": "2.7",
-                    "DPS": 2452659
-                },
-                {
-                    "Ver": "2.8",
-                    "DPS": 1767086
-                },
-                {
-                    "Ver": "3.0",
-                    "DPS": 3071876
-                },
-                {
-                    "Ver": "3.1",
-                    "DPS": 2434172
-                },
-                {
-                    "Ver": "3.2",
-                    "DPS": 3053390
-                },
-                {
-                    "Ver": "3.3",
-                    "DPS": 2240276
-                },
-                {
-                    "Ver": "3.4",
-                    "DPS": 2745597
-                },
-                {
-                    "Ver": "3.5",
-                    "DPS": 3335432
-                },
-                {
-                    "Ver": "3.6",
-                    "DPS": 3399039
-                },
-                {
-                    "Ver": "3.7",
-                    "DPS": 3605041
-                },
-                {
-                    "Ver": "3.8",
-                    "DPS": 3553541
-                },
-                {
-                    "Ver": "4.0",
-                    "DPS": 3064285
-                },
-                {
-                    "Ver": "4.1",
-                    "DPS": 3347538
-                }
-            ]
-        },
-        {
-            "Title": {
-                "CH": "历代12-1输出压力",
-                "EN": "Chamber 12-1 Damage Pressure"
-            },
-            "SubTitle": {
-                "CH": "通关至少需要打这么多伤害",
-                "EN": "You have to deal at least this much damage to pass"
-            },
-            "Color": "#00B050",
-            "Data": [
-                {
-                    "Ver": "1.0 1.1",
-                    "DPS": 901837
-                },
-                {
-                    "Ver": "1.2",
-                    "DPS": 1179326
-                },
-                {
-                    "Ver": "1.3 1.4",
-                    "DPS": 1109954
-                },
-                {
-                    "Ver": "1.5",
-                    "DPS": 1109954
-                },
-                {
-                    "Ver": "1.6",
-                    "DPS": 1109954
-                },
-                {
-                    "Ver": "2.0",
-                    "DPS": 1800578
-                },
-                {
-                    "Ver": "2.1",
-                    "DPS": 1425496
-                },
-                {
-                    "Ver": "2.2",
-                    "DPS": 1683957
-                },
-                {
-                    "Ver": "2.3",
-                    "DPS": 2135146
-                },
-                {
-                    "Ver": "2.4",
-                    "DPS": 2874415
-                },
-                {
-                    "Ver": "2.5",
-                    "DPS": 2430433
-                },
-                {
-                    "Ver": "2.6",
-                    "DPS": 1479883
-                },
-                {
-                    "Ver": "2.7",
-                    "DPS": 2081163
-                },
-                {
-                    "Ver": "2.8",
-                    "DPS": 1604752
-                },
-                {
-                    "Ver": "3.0",
-                    "DPS": 2180576
-                },
-                {
-                    "Ver": "3.1",
-                    "DPS": 1680860
-                },
-                {
-                    "Ver": "3.2",
-                    "DPS": 2930148
-                },
-                {
-                    "Ver": "3.3",
-                    "DPS": 3134578
-                },
-                {
-                    "Ver": "3.4",
-                    "DPS": 3146278
-                },
-                {
-                    "Ver": "3.5",
-                    "DPS": 1955536
-                },
-                {
-                    "Ver": "3.6",
-                    "DPS": 2930149
-                },
-                {
-                    "Ver": "3.7",
-                    "DPS": 1771245
-                },
-                {
-                    "Ver": "3.8",
-                    "DPS": 2804925
-                },
-                {
-                    "Ver": "4.0",
-                    "DPS": 2750302
-                },
-                {
-                    "Ver": "4.1",
-                    "DPS": 2978036
+                    "DPS": 1712518
                 }
             ]
         },
@@ -49706,114 +50039,340 @@ var computer = {
         },
         {
             "Title": {
-                "CH": "历代11-3输出压力",
-                "EN": "Chamber 11-3 Damage Pressure"
+                "CH": "历代12-1输出压力",
+                "EN": "Chamber 12-1 Damage Pressure"
             },
             "SubTitle": {
                 "CH": "通关至少需要打这么多伤害",
                 "EN": "You have to deal at least this much damage to pass"
             },
-            "Color": "#FF8989",
+            "Color": "#00B050",
             "Data": [
                 {
                     "Ver": "1.0 1.1",
-                    "DPS": 818269
+                    "DPS": 901837
                 },
                 {
                     "Ver": "1.2",
-                    "DPS": 920552
+                    "DPS": 1179326
                 },
                 {
                     "Ver": "1.3 1.4",
-                    "DPS": 920552
+                    "DPS": 1109954
                 },
                 {
                     "Ver": "1.5",
-                    "DPS": 583017
+                    "DPS": 1109954
                 },
                 {
                     "Ver": "1.6",
-                    "DPS": 685300
+                    "DPS": 1109954
                 },
                 {
                     "Ver": "2.0",
-                    "DPS": 715985
+                    "DPS": 1800578
                 },
                 {
                     "Ver": "2.1",
-                    "DPS": 1329687
+                    "DPS": 1425496
                 },
                 {
                     "Ver": "2.2",
-                    "DPS": 818269
+                    "DPS": 1683957
                 },
                 {
                     "Ver": "2.3",
-                    "DPS": 841995
+                    "DPS": 2135146
                 },
                 {
                     "Ver": "2.4",
-                    "DPS": 1594291
+                    "DPS": 2874415
                 },
                 {
                     "Ver": "2.5",
-                    "DPS": 885310
+                    "DPS": 2430433
                 },
                 {
                     "Ver": "2.6",
-                    "DPS": 1116626
+                    "DPS": 1479883
                 },
                 {
                     "Ver": "2.7",
-                    "DPS": 1528451
+                    "DPS": 2081163
                 },
                 {
                     "Ver": "2.8",
-                    "DPS": 1218288
+                    "DPS": 1604752
                 },
                 {
                     "Ver": "3.0",
-                    "DPS": 932560
+                    "DPS": 2180576
                 },
                 {
                     "Ver": "3.1",
-                    "DPS": 1785606
+                    "DPS": 1680860
                 },
                 {
                     "Ver": "3.2",
-                    "DPS": 869411
+                    "DPS": 2930148
                 },
                 {
                     "Ver": "3.3",
-                    "DPS": 1100061
+                    "DPS": 3134578
                 },
                 {
                     "Ver": "3.4",
-                    "DPS": 842906
+                    "DPS": 3146278
                 },
                 {
                     "Ver": "3.5",
-                    "DPS": 1576280
+                    "DPS": 1955536
                 },
                 {
                     "Ver": "3.6",
-                    "DPS": 1703201
+                    "DPS": 2930149
                 },
                 {
                     "Ver": "3.7",
-                    "DPS": 1613302
+                    "DPS": 1771245
                 },
                 {
                     "Ver": "3.8",
-                    "DPS": 1124453
+                    "DPS": 2804925
                 },
                 {
                     "Ver": "4.0",
-                    "DPS": 2076313
+                    "DPS": 2750302
                 },
                 {
                     "Ver": "4.1",
-                    "DPS": 1712518
+                    "DPS": 2978036
+                }
+            ]
+        },
+        {
+            "Title": {
+                "CH": "历代12-2输出压力",
+                "EN": "Chamber 12-2 Damage Pressure"
+            },
+            "SubTitle": {
+                "CH": "通关至少需要打这么多伤害",
+                "EN": "You have to deal at least this much damage to pass"
+            },
+            "Color": "#FFC000",
+            "Data": [
+                {
+                    "Ver": "1.0 1.1",
+                    "DPS": 996393
+                },
+                {
+                    "Ver": "1.2",
+                    "DPS": 996393
+                },
+                {
+                    "Ver": "1.3 1.4",
+                    "DPS": 766456
+                },
+                {
+                    "Ver": "1.5",
+                    "DPS": 720468
+                },
+                {
+                    "Ver": "1.6",
+                    "DPS": 1456266
+                },
+                {
+                    "Ver": "2.0",
+                    "DPS": 2452659
+                },
+                {
+                    "Ver": "2.1",
+                    "DPS": 2305421
+                },
+                {
+                    "Ver": "2.2",
+                    "DPS": 2688648
+                },
+                {
+                    "Ver": "2.3",
+                    "DPS": 1716861
+                },
+                {
+                    "Ver": "2.4",
+                    "DPS": 2789899
+                },
+                {
+                    "Ver": "2.5",
+                    "DPS": 1925824
+                },
+                {
+                    "Ver": "2.6",
+                    "DPS": 950405
+                },
+                {
+                    "Ver": "2.7",
+                    "DPS": 2452659
+                },
+                {
+                    "Ver": "2.8",
+                    "DPS": 1767086
+                },
+                {
+                    "Ver": "3.0",
+                    "DPS": 3071876
+                },
+                {
+                    "Ver": "3.1",
+                    "DPS": 2434172
+                },
+                {
+                    "Ver": "3.2",
+                    "DPS": 3053390
+                },
+                {
+                    "Ver": "3.3",
+                    "DPS": 2240276
+                },
+                {
+                    "Ver": "3.4",
+                    "DPS": 2745597
+                },
+                {
+                    "Ver": "3.5",
+                    "DPS": 3335432
+                },
+                {
+                    "Ver": "3.6",
+                    "DPS": 3399039
+                },
+                {
+                    "Ver": "3.7",
+                    "DPS": 3605041
+                },
+                {
+                    "Ver": "3.8",
+                    "DPS": 3553541
+                },
+                {
+                    "Ver": "4.0",
+                    "DPS": 3064285
+                },
+                {
+                    "Ver": "4.1",
+                    "DPS": 3347538
+                }
+            ]
+        },
+        {
+            "Title": {
+                "CH": "历代12-3输出压力",
+                "EN": "Chamber 12-3 Damage Pressure"
+            },
+            "SubTitle": {
+                "CH": "通关至少需要打这么多伤害",
+                "EN": "You have to deal at least this much damage to pass"
+            },
+            "Color": "#00B0F0",
+            "Data": [
+                {
+                    "Ver": "1.0 1.1",
+                    "DPS": 1470605
+                },
+                {
+                    "Ver": "1.2",
+                    "DPS": 1470605
+                },
+                {
+                    "Ver": "1.3 1.4",
+                    "DPS": 1470605
+                },
+                {
+                    "Ver": "1.5",
+                    "DPS": 1084571
+                },
+                {
+                    "Ver": "1.6",
+                    "DPS": 1250014
+                },
+                {
+                    "Ver": "2.0",
+                    "DPS": 2359527
+                },
+                {
+                    "Ver": "2.1",
+                    "DPS": 3277741
+                },
+                {
+                    "Ver": "2.2",
+                    "DPS": 2665471
+                },
+                {
+                    "Ver": "2.3",
+                    "DPS": 3166821
+                },
+                {
+                    "Ver": "2.4",
+                    "DPS": 3308861
+                },
+                {
+                    "Ver": "2.5",
+                    "DPS": 1746991
+                },
+                {
+                    "Ver": "2.6",
+                    "DPS": 1250014
+                },
+                {
+                    "Ver": "2.7",
+                    "DPS": 3188951
+                },
+                {
+                    "Ver": "2.8",
+                    "DPS": 2606621
+                },
+                {
+                    "Ver": "3.0",
+                    "DPS": 3438521
+                },
+                {
+                    "Ver": "3.1",
+                    "DPS": 2773001
+                },
+                {
+                    "Ver": "3.2",
+                    "DPS": 3660361
+                },
+                {
+                    "Ver": "3.3",
+                    "DPS": 3577171
+                },
+                {
+                    "Ver": "3.4",
+                    "DPS": 3466251
+                },
+                {
+                    "Ver": "3.5",
+                    "DPS": 3411706
+                },
+                {
+                    "Ver": "3.6",
+                    "DPS": 3689006
+                },
+                {
+                    "Ver": "3.7",
+                    "DPS": 3327601
+                },
+                {
+                    "Ver": "3.8",
+                    "DPS": 3050301
+                },
+                {
+                    "Ver": "4.0",
+                    "DPS": 3493981
+                },
+                {
+                    "Ver": "4.1",
+                    "DPS": 3979256
                 }
             ]
         }

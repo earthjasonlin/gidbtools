@@ -5,22 +5,6 @@ $(function () {
     var is_calc = 1
     var current_name = ""
     var battle_show_stat = 1
-    battle_desc_css = [
-        {
-            'width': '95%'
-        },
-        {
-            'width': '58%'
-        }
-    ],
-    battle_stat_css = [
-        {
-            'display': 'none',
-        },
-        {
-            'display': 'inline-block',
-        }
-    ]
     colors = {
         "Fire": "#FF9999",
         "Water": "#80C0FF",
@@ -41,7 +25,8 @@ $(function () {
 
     $('.tls' + lang).css("color", "#df903b");
     $('h3 .title').text(computer.MiscText.Avatar_Title[lang])
-    $('h3 .subtitle').html(computer.MiscText.Avatar_Subtitle[lang])
+    $('h3 .subtitle').html(computer.MiscText.Subtitle[lang])
+    $('h3 .links').html(computer.MiscText.Avatar_Links[lang])
     $('h3 .tlsub').html(computer.MiscText.Translate[lang])
 
     $('.tlsub').ready(function () {
@@ -67,277 +52,288 @@ $(function () {
                     }
                 },
                 {
-                    table: [
-                        {
-                            thead: [
-                                {
-                                    tr: function (d) {
-                                        $(d.container).render({
-                                            data: computer.MiscText.Avatar_Table_Header,
-                                            template: {
-                                                th: `[[${lang}]]`
-                                            }
-                                        })
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            tbody: function (d) {
-                                $(d.container).render({
-                                    data: computer2.AvatarInfoConfig,
-                                    template: {
-                                        tr: [
-                                            // {
-                                            //     td: function (p) {
-                                            //         avname = p.data.Icon
-                                            //         $(p.container).render({
-                                            //             template: {
-                                            //                 img: 'images/Avatar/' + avname + '.png',
-                                            //                 style: {
-                                            //                     height: '100px',
-                                            //                     display: 'block',
-                                            //                     margin: 'auto'
-                                            //                 }
-                                            //             }
-                                            //         })
-                                            //     },
-                                            // },
-                                            {
-                                                td: `[[Name/${lang}]]`,
-                                                style: {
-                                                    'text-align': 'center'
+                    div: {
+                        table: [
+                            {
+                                thead: [
+                                    {
+                                        tr: function (d) {
+                                            $(d.container).render({
+                                                data: computer.MiscText.Avatar_Table_Header,
+                                                template: {
+                                                    th: `[[${lang}]]`
                                                 }
-                                            },
-                                            {
-                                                td: `[[Title/${lang}]]`,
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: `[[Grade]]`,
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: function (p) {
-                                                    if (!p.data.Version) {
-                                                        return "-"
-                                                    }
-                                                    return p.data.Version
-                                                },
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: function (p) {
-                                                    elem = computer.ElemNameConfig[p.data.Element]
-                                                    if (!elem) {
-                                                        return "<b>-</b>"
-                                                    }
-                                                    $(p.container).render({
-                                                        template: {
-                                                            span: elem.Text[lang],
-                                                            style: {
-                                                                color: computer.TextColorConfig[elem.Color],
-                                                                'font-weight': 'bold'
-                                                            }
-                                                        }
-                                                    })
-                                                },
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: function (p) {
-                                                    return computer2.AvatarWeaponConfig[p.data.Weapon][lang]
-                                                },
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: function (p) {
-                                                    return p.data.ShowStats.HP
-                                                },
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: function (p) {
-                                                    return p.data.ShowStats.ATK
-                                                },
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: function (p) {
-                                                    return p.data.ShowStats.DEF
-                                                },
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                            {
-                                                td: function (p) {
-                                                    promote_value = p.data.ShowStats.Custom
-                                                    if (!p.data.CustomPromote) {
-                                                        return "-"
-                                                    }
-                                                    promote_config = computer2.AvatarCustomPromoteConfig[p.data.CustomPromote]
-                                                    if (promote_config.ShowType === "p") {
-                                                        promote_value = (promote_value * 100).toFixed(1).toString() + "%"
-                                                    } else {
-                                                        promote_value = promote_value.toFixed(1).toString()
-                                                    }
-                                                    return promote_value + " " + promote_config.Text[lang]
-                                                },
-                                                style: {
-                                                    'padding': '15px'
-                                                }
-                                            },
-                                            // {
-                                            //     td: {
-                                            //         div : [
-                                            //             {
-                                            //                 a: function (p) {
-                                            //                     return '/computer?monster=' + p.data.CommonMat + '&interval=93'
-                                            //                 },
-                                            //                 t: {
-                                            //                     img: function (p) {
-                                            //                         var monster = computer.Monsters[p.data.CommonMat]
-                                            //                         if (!monster) {
-                                            //                             return '/images/monster/keq.png'
-                                            //                         }
-                                            //                         var choose_icon = monster.Icon[Math.floor(Math.random() * monster.Icon.length)]
-                                            //                         return '/images/monster/' + choose_icon + '.png'
-                                            //                     },
-                                            //                     style: {
-                                            //                         height: '45px'
-                                            //                     }
-                                            //                 },
-                                            //                 attr: { target: '_blank', title: lang == 'CH' ? '点击前往详情' : 'Click for more details' }
-                                            //             },
-                                            //             {
-                                            //                 a: function (p) {
-                                            //                     return '/computer?monster=' + p.data.BossMat + '&interval=93'
-                                            //                 },
-                                            //                 t: {
-                                            //                     img: function (p) {
-                                            //                         var monster = computer.Monsters[p.data.BossMat]
-                                            //                         if (!monster) {
-                                            //                             return '/images/monster/keq.png'
-                                            //                         }
-                                            //                         var choose_icon = monster.Icon[Math.floor(Math.random() * monster.Icon.length)]
-                                            //                         return '/images/monster/' + choose_icon + '.png'
-                                            //                     },
-                                            //                     style: {
-                                            //                         height: '45px'
-                                            //                     }
-                                            //                 },
-                                            //                 attr: { target: '_blank', title: lang == 'CH' ? '点击前往详情' : 'Click for more details' }
-                                            //             },
-                                            //             {
-                                            //                 a: function (p) {
-                                            //                     return '/computer?monster=' + p.data.WeeklyMat + '&interval=90'
-                                            //                 },
-                                            //                 t: {
-                                            //                     img: function (p) {
-                                            //                         var monster = computer.Monsters[p.data.WeeklyMat]
-                                            //                         if (!monster) {
-                                            //                             return '/images/monster/keq.png'
-                                            //                         }
-                                            //                         var choose_icon = monster.Icon[Math.floor(Math.random() * monster.Icon.length)]
-                                            //                         return '/images/monster/' + choose_icon + '.png'
-                                            //                     },
-                                            //                     style: {
-                                            //                         height: '45px'
-                                            //                     }
-                                            //                 },
-                                            //                 attr: { target: '_blank', title: lang == 'CH' ? '点击前往详情' : 'Click for more details' }
-                                            //             }
-                                            //         ],
-                                            //         style: {
-                                            //             'width': '100%',
-                                            //             'display': 'flex',
-                                            //             'justify-content': 'space-evenly'
-                                            //         }
-                                            //     }
-                                            // },
-                                            {
-                                                td: function (p) {
-                                                    return computer2.AvatarTalentConfig[p.data.TalentMat][lang]
-                                                },
-                                                style: {
-                                                    'text-align': 'center'
-                                                }
-                                            },
-                                        ],
-                                        click: function (p) {
-                                            battle_show_stat = 1
-                                            is_calc = 1
-                                            poplayer({
-                                                header: p.org_data.Name[lang] + computer.MiscText.Avatar_Table_Title_Extra[lang],
-                                                width: '90%',
-                                                data: p.org_data,
-                                                template: [
-                                                    {
-                                                        section: function (g) {
-                                                            current_name = g.data._name
-                                                            avatar_codename = g.data._name
-                                                            $(g.container).render({
-                                                                data: computer.MiscText.Avatar_Info_Select,
-                                                                template: {
-                                                                    span: `[[${lang}]]`,
-                                                                    a: { 'data-s': `[[${'EN'}]]` },
-                                                                    click: function (d) {
-                                                                        if ($(d.sender).hasClass('active')) {
-                                                                            return
-                                                                        }
-                                                                        var text = $(d.sender).attr('data-s');
-                                                                        if (text == "Basic Info") {
-                                                                            is_calc = 1
-                                                                        } else {
-                                                                            is_calc = 0
-                                                                        }
-                                                                        $(d.sender).addClass('active').siblings('span').removeClass('active');
-                                                                        renderInfo(avatar_codename, text)
-                                                                    }
-                                                                }
-                                                            })
-                                                            $(g.container).find('span').eq(0).addClass('active');
-                                                        },
-                                                        class: 'a_select'
-                                                    },
-                                                    {
-                                                        section: '',
-                                                        class: 'a_data',
-                                                        style: {
-                                                            'justify-content': 'space-evenly',
-                                                            'display': 'flex',
-                                                            'flex-wrap': 'wrap'
-                                                        }
-                                                    }
-                                                ]
-                                            });
-                                            renderInfo(p.org_data._name, "Basic Info")
-                                        },
-                                        style: {
-                                            'cursor': 'pointer'
+                                            })
                                         }
                                     }
-                                })
+                                ]
+                            },
+                            {
+                                tbody: function (d) {
+                                    $(d.container).render({
+                                        data: computer2.AvatarInfoConfig,
+                                        template: {
+                                            tr: [
+                                                // {
+                                                //     td: function (p) {
+                                                //         avname = p.data.Icon
+                                                //         $(p.container).render({
+                                                //             template: {
+                                                //                 img: 'images/Avatar/' + avname + '.png',
+                                                //                 style: {
+                                                //                     height: '100px',
+                                                //                     display: 'block',
+                                                //                     margin: 'auto'
+                                                //                 }
+                                                //             }
+                                                //         })
+                                                //     },
+                                                // },
+                                                {
+                                                    td: `[[Name/${lang}]]`,
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: `[[Title/${lang}]]`,
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: `[[Grade]]`,
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: function (p) {
+                                                        if (!p.data.Version) {
+                                                            return "-"
+                                                        }
+                                                        return p.data.Version
+                                                    },
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: function (p) {
+                                                        elem = computer.ElemNameConfig[p.data.Element]
+                                                        if (!elem) {
+                                                            return "<b>-</b>"
+                                                        }
+                                                        $(p.container).render({
+                                                            template: {
+                                                                span: elem.Text[lang],
+                                                                style: {
+                                                                    color: computer.TextColorConfig[elem.Color],
+                                                                    'font-weight': 'bold'
+                                                                }
+                                                            }
+                                                        })
+                                                    },
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: function (p) {
+                                                        return computer2.AvatarWeaponConfig[p.data.Weapon][lang]
+                                                    },
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: function (p) {
+                                                        return p.data.ShowStats.HP
+                                                    },
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: function (p) {
+                                                        return p.data.ShowStats.ATK
+                                                    },
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: function (p) {
+                                                        return p.data.ShowStats.DEF
+                                                    },
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                                {
+                                                    td: function (p) {
+                                                        promote_value = p.data.ShowStats.Custom
+                                                        if (!p.data.CustomPromote) {
+                                                            return "-"
+                                                        }
+                                                        promote_config = computer2.AvatarCustomPromoteConfig[p.data.CustomPromote]
+                                                        if (promote_config.ShowType === "p") {
+                                                            promote_value = (promote_value * 100).toFixed(1).toString() + "%"
+                                                        } else {
+                                                            promote_value = promote_value.toFixed(1).toString()
+                                                        }
+                                                        return promote_value + " " + promote_config.Text[lang]
+                                                    },
+                                                    style: {
+                                                        'padding': '15px'
+                                                    }
+                                                },
+                                                // {
+                                                //     td: {
+                                                //         div : [
+                                                //             {
+                                                //                 a: function (p) {
+                                                //                     return '/computer?monster=' + p.data.CommonMat + '&interval=93'
+                                                //                 },
+                                                //                 t: {
+                                                //                     img: function (p) {
+                                                //                         var monster = computer.Monsters[p.data.CommonMat]
+                                                //                         if (!monster) {
+                                                //                             return '/images/monster/keq.png'
+                                                //                         }
+                                                //                         var choose_icon = monster.Icon[Math.floor(Math.random() * monster.Icon.length)]
+                                                //                         return '/images/monster/' + choose_icon + '.png'
+                                                //                     },
+                                                //                     style: {
+                                                //                         height: '45px'
+                                                //                     }
+                                                //                 },
+                                                //                 attr: { target: '_blank', title: lang == 'CH' ? '点击前往详情' : 'Click for more details' }
+                                                //             },
+                                                //             {
+                                                //                 a: function (p) {
+                                                //                     return '/computer?monster=' + p.data.BossMat + '&interval=93'
+                                                //                 },
+                                                //                 t: {
+                                                //                     img: function (p) {
+                                                //                         var monster = computer.Monsters[p.data.BossMat]
+                                                //                         if (!monster) {
+                                                //                             return '/images/monster/keq.png'
+                                                //                         }
+                                                //                         var choose_icon = monster.Icon[Math.floor(Math.random() * monster.Icon.length)]
+                                                //                         return '/images/monster/' + choose_icon + '.png'
+                                                //                     },
+                                                //                     style: {
+                                                //                         height: '45px'
+                                                //                     }
+                                                //                 },
+                                                //                 attr: { target: '_blank', title: lang == 'CH' ? '点击前往详情' : 'Click for more details' }
+                                                //             },
+                                                //             {
+                                                //                 a: function (p) {
+                                                //                     return '/computer?monster=' + p.data.WeeklyMat + '&interval=90'
+                                                //                 },
+                                                //                 t: {
+                                                //                     img: function (p) {
+                                                //                         var monster = computer.Monsters[p.data.WeeklyMat]
+                                                //                         if (!monster) {
+                                                //                             return '/images/monster/keq.png'
+                                                //                         }
+                                                //                         var choose_icon = monster.Icon[Math.floor(Math.random() * monster.Icon.length)]
+                                                //                         return '/images/monster/' + choose_icon + '.png'
+                                                //                     },
+                                                //                     style: {
+                                                //                         height: '45px'
+                                                //                     }
+                                                //                 },
+                                                //                 attr: { target: '_blank', title: lang == 'CH' ? '点击前往详情' : 'Click for more details' }
+                                                //             }
+                                                //         ],
+                                                //         style: {
+                                                //             'width': '100%',
+                                                //             'display': 'flex',
+                                                //             'justify-content': 'space-evenly'
+                                                //         }
+                                                //     }
+                                                // },
+                                                {
+                                                    td: function (p) {
+                                                        return computer2.AvatarTalentConfig[p.data.TalentMat][lang]
+                                                    },
+                                                    style: {
+                                                        'text-align': 'center'
+                                                    }
+                                                },
+                                            ],
+                                            click: function (p) {
+                                                battle_show_stat = 1
+                                                is_calc = 1
+                                                poplayer({
+                                                    header: p.org_data.Name[lang] + computer.MiscText.Avatar_Table_Title_Extra[lang],
+                                                    width: '90%',
+                                                    data: p.org_data,
+                                                    template: [
+                                                        {
+                                                            section: function (g) {
+                                                                current_name = g.data._name
+                                                                avatar_codename = g.data._name
+                                                                $(g.container).render({
+                                                                    data: computer.MiscText.Avatar_Info_Select,
+                                                                    template: {
+                                                                        span: `[[${lang}]]`,
+                                                                        a: { 'data-s': `[[${'EN'}]]` },
+                                                                        click: function (d) {
+                                                                            if ($(d.sender).hasClass('active')) {
+                                                                                return
+                                                                            }
+                                                                            var text = $(d.sender).attr('data-s');
+                                                                            if (text == "Basic Info") {
+                                                                                is_calc = 1
+                                                                            } else {
+                                                                                is_calc = 0
+                                                                            }
+                                                                            $(d.sender).addClass('active').siblings('span').removeClass('active');
+                                                                            renderInfo(avatar_codename, text)
+                                                                        }
+                                                                    }
+                                                                })
+                                                                $(g.container).find('span').eq(0).addClass('active');
+                                                            },
+                                                            class: 'a_select'
+                                                        },
+                                                        {
+                                                            section: '',
+                                                            class: 'a_data',
+                                                            style: {
+                                                                'justify-content': 'space-evenly',
+                                                                'display': 'flex',
+                                                                'flex-wrap': 'wrap'
+                                                            }
+                                                        }
+                                                    ]
+                                                });
+                                                renderInfo(p.org_data._name, "Basic Info")
+                                            },
+                                            style: {
+                                                'cursor': 'pointer'
+                                            }
+                                        }
+                                    })
+                                }
                             }
-                        }
-                    ],
-                    width: '100%'
-                },
+                        ],
+                        style: {
+                            width: '100%',
+                            'transform': 'rotateX(180deg)',
+                        },
+                        class: 'main-table'
+                    },
+                    style: {
+                        width: '100%',
+                        'overflow-x': 'scroll',
+                        'transform': 'rotateX(180deg)',
+                    }
+                }
             ],
             class: 'content'
         },
@@ -348,8 +344,8 @@ $(function () {
         $('.a_data').show();
         $('.skill_lv_input').on('change', function () {
             var now_lv = $(this).val()
-            $('div').has(this).next().find('.lv').hide()
-            $('div').has(this).next().find('.lv' + now_lv).show()
+            $('div').has(this).next().next().find('.lv').hide()
+            $('div').has(this).next().next().find('.lv' + now_lv).show()
         });
     }
 
@@ -541,11 +537,19 @@ $(function () {
                     {
                         div: [
                             {
-                                div: {
-                                    p: function(k) {
-                                        return k.data.Name[lang]
-                                    }
-                                },
+                                div: [
+                                    {
+                                        span: function(k) {
+                                            return k.data.Name[lang]
+                                        },
+                                        style: {
+                                            'font-size': '20px',
+                                            'font-weight': 'bold',
+                                            'margin-left': '0px',
+                                            'margin-right': '5px',
+                                        }
+                                    },
+                                ],
                                 class: 'a_section_head'
                             },
                             {
@@ -565,21 +569,11 @@ $(function () {
                             },
                         ],
                         class: 'battle_desc',
-                        style: battle_desc_css[battle_show_stat]
                     },
                     {
                         div: [
                             {
                                 div: [
-                                    {
-                                        span: computer.MiscText.Avatar_Battle_Stat[lang],
-                                        style: {
-                                            'font-size': '20px',
-                                            'font-weight': 'bold',
-                                            'margin-left': '0px',
-                                            'margin-right': '5px',
-                                        }
-                                    },
                                     {
                                         input: 'lv',
                                         a: {
@@ -599,6 +593,13 @@ $(function () {
                                 class: 'a_section_head'
                             },
                             {
+                                div: "",
+                                style: {
+                                    'height': '1px',
+                                    'width': '100%'
+                                }
+                            },
+                            {
                                 div: [
                                     {
                                         div: [
@@ -606,6 +607,9 @@ $(function () {
                                                 span: function (s) {
                                                     return s.data.Desc[lang]
                                                 },
+                                                style: {
+                                                    width: 'max-content'
+                                                }
                                             },
                                             /*{
                                                 span: function (s) {
@@ -626,16 +630,16 @@ $(function () {
                                                             span: function (s) {
                                                                 return s.data.ParamLevelList[i][lang]
                                                             },
-                                                            style: {
-                                                                'text-align': 'right',
-                                                                'float': 'right'
-                                                            },
                                                             class: 'lv lv' + (i + 1).toString()
                                                         });
                                                     }
                                                     $(s.container).children().hide()
                                                     $(s.container).children('.lv' + active_lv).show()
-                                                }
+                                                },
+                                                style: {
+                                                    'text-align': 'right',
+                                                    width: 'max-content'
+                                                },
                                             }
                                         ],
                                         datapath: 'ParamDesc',
@@ -655,8 +659,8 @@ $(function () {
                                                 },
                                                 style: {
                                                     'text-align': 'right',
-                                                    'float': 'right',
                                                     'color': '#FFD780',
+                                                    'height': '30px'
                                                 }
                                             },
                                         ],
@@ -676,9 +680,10 @@ $(function () {
                                                 },
                                                 style: {
                                                     'text-align': 'right',
-                                                    'float': 'right',
                                                     'color': '#FFD780',
-                                                }
+                                                    'height': '30px'
+                                                },
+                                                class: 'paramstat'
                                             },
                                         ],
                                         class: 'param'
@@ -688,7 +693,6 @@ $(function () {
                             },
                         ],
                         class: 'battle_stat',
-                        style: battle_stat_css[battle_show_stat]
                     }
                 ]
             },
@@ -940,7 +944,8 @@ $(function () {
                                                 },
                                                 width: '40%',
                                                 style: {
-                                                    'text-align': 'right'
+                                                    'text-align': 'right',
+                                                    'padding-left': '10px'
                                                 }
                                             }
                                         ],
@@ -984,8 +989,11 @@ $(function () {
                                             },
                                         ],
                                         datapath: 'EndureList',
-                                        width: '100%',
-                                        height: '30px',
+                                        style: {
+                                            width: '100%',
+                                            height: '30px',
+                                            'padding-left': '10px'
+                                        },
                                         class: 'other_table'
                                     },
                                     width: '100%'
@@ -1015,7 +1023,10 @@ $(function () {
                                                     $(d.container).render({
                                                         data: computer.MiscText.Avatar_WindZone_Header,
                                                         template: {
-                                                            th: `[[${lang}]]`
+                                                            th: `[[${lang}]]`,
+                                                            style: {
+                                                                'padding': "7px"
+                                                            }
                                                         }
                                                     })
                                                 },
@@ -1242,10 +1253,11 @@ $(function () {
         }
     });
 
-    $('body').on('click', '.battle_desc', function () {
+    /*$('body').on('click', '.toggle_stat', function () {
         battle_show_stat = 1 - battle_show_stat
         $('.battle_desc').css(battle_desc_css[battle_show_stat])
         $('.battle_stat').css(battle_stat_css[battle_show_stat])
-    });
+        $('.toggle_stat').html(computer.MiscText.Avatar_Battle_Stat[battle_show_stat][lang])
+    });*/
 
 });

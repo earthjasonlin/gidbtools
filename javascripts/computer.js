@@ -5,7 +5,8 @@ $(function () {
     var last_legal_input = "12-3"
     var last_legal_input_2 = "12-3"
     $('h3 .title').text(computer.MiscText.ComputerTitle[lang])
-    $('h3 .subtitle').html(computer.MiscText.Computer_Subtitle[lang])
+    $('h3 .subtitle').html(computer.MiscText.Subtitle[lang])
+    $('h3 .links').html(computer.MiscText.Computer_Links[lang])
     $('h3 .tlsub').html(computer.MiscText.Translate[lang])
     $('.calculate').text(computer.MiscText.Computer_Button_Calculate[lang]);
     $('input[name="level"]').attr('placeholder', computer.MiscText.Computer_Input_OverworldPlaceholder[lang]);
@@ -108,10 +109,16 @@ $(function () {
                             }
                         }, {
                             span: $('select[name="multiplayer"] option:selected').text()
-                        }]
+                        }],
+                        style: {
+                            'display': 'flex',
+                            'flex-wrap': 'wrap',
+                            'justify-content': 'center',
+                            'font-size': '18px'
+                        }
                     }, {
                         div: [{
-                            span: [lang === 'EN' ? "HP：" : "生命值：", {
+                            span: ["HP ", {
                                 i: function (d) {
                                     var lv = selectVal === "深渊" ? computer.SpiralAbyssFloorEntryToLevelCoeffConfig[interval].Level : level;
                                     var hpc = selectVal === "深渊" && !d.data.NotAffectedBySpiralAbyss ? computer.SpiralAbyssFloorEntryToLevelCoeffConfig[interval].HPCoeff : 1;
@@ -124,7 +131,7 @@ $(function () {
                                 }
                             }]
                         }, {
-                            span: [lang === 'EN' ? "ATK：" : "攻击力：", {
+                            span: ["ATK ", {
                                 i: function (d) {
                                     var lv = selectVal === "深渊" ? computer.SpiralAbyssFloorEntryToLevelCoeffConfig[interval].Level : level;
                                     var a = computer.LevelCurves[lv][d.data.ATKCurve];
@@ -165,7 +172,6 @@ $(function () {
                                         style: {
                                             'white-space': 'pre-wrap',
                                             'padding': '10px',
-                                            'line-height': 2
                                         },
                                         class: 'ignore'
                                     }
@@ -399,7 +405,8 @@ $(function () {
                                 return d.data.Element
                             }
                         }
-                    ]
+                    ],
+                    class: 'buttons'
                 }],
                 class: 'result_head'
             }, {
@@ -435,8 +442,6 @@ $(function () {
                                 template: {
                                     tr: [{
                                         td: [function (d) {
-                                            return '<span class="res' + lang + '">' + d.data.Text[lang] + '</span>'
-                                        }, function (d) {
                                             var resbase = p.data.RESBase && p.data.RESBase[d.data._id] || 0.1;
                                             var immune = p.data.Immune ? p.data.Immune : []
                                             if (immune.includes(d.data._id)) {
@@ -444,7 +449,7 @@ $(function () {
                                             } else {
                                                 var ret = resbase * 100 + '%'
                                             }
-                                            return (lang == 'EN' ? '\t\t\t' : '') + ret
+                                            return ret
                                         }],
                                         style: {
                                             color: function (d) {
